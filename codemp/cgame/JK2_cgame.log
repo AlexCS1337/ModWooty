@@ -1,0 +1,145 @@
+﻿Build started 12/20/2009 11:03:42 PM.
+     1>Project "C:\projects\Jedi_Academy_SDK(MP)\codemp\cgame\JK2_cgame.vcxproj" on node 11 (build target(s)).
+     1>_PrepareForBuild:
+         Creating "Debug(SH)\JK2cgame.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.. /I./../game /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D MISSIONPACK /D CGAME /D _JK2 /D JK2AWARDS /D _VC80_UPGRADE=0x0710 /D _WINDLL /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\../Debug/JK2cgame/" /Fd".\../Debug/JK2cgame/vc100.pdb" /FR"Debug(SH)\\" /Gd /TC /analyze- /errorReport:prompt ..\game\bg_c_saber.c ..\game\bg_pmove.c
+         bg_c_saber.c
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\cgame\cg_local.h(2195): warning C4030: first formal parameter list longer than the second list
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\cgame\cg_local.h(2195): warning C4028: formal parameter 1 different from declaration
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\cgame\cg_local.h(2435): warning C4031: second formal parameter list longer than the first list
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\cgame\cg_local.h(2519): warning C4028: formal parameter 7 different from declaration
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\cgame\cg_local.h(2519): warning C4028: formal parameter 8 different from declaration
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\cgame\cg_local.h(2519): warning C4028: formal parameter 9 different from declaration
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\cgame\cg_local.h(2520): warning C4028: formal parameter 7 different from declaration
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\cgame\cg_local.h(2520): warning C4028: formal parameter 8 different from declaration
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\cgame\cg_local.h(2520): warning C4028: formal parameter 9 different from declaration
+         bg_pmove.c
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\game\bg_pmove.c(7871): warning C4101: 'smove' : unreferenced local variable
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(935,5): warning MSB8012: TargetPath(C:\projects\Jedi_Academy_SDK(MP)\codemp\cgame\Debug(SH)\JK2cgame.dll) does not match the Linker's OutputFile property value (C:\projects\Jedi_Academy_SDK(MP)\codemp\Debug\cgamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(937,5): warning MSB8012: TargetName(JK2cgame) does not match the Linker's OutputFile property value (cgamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Debug\cgamex86.dll" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\JK2_cgame.def" /MANIFEST /ManifestFile:"Debug(SH)\JK2cgame.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\../Debug/cgamex86.pdb" /MAP:".\../Debug/JK2cgame/cgamex86.map" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x30000000" /DYNAMICBASE:NO /IMPLIB:".\../Debug/cgamex86.lib" /MACHINE:X86 /DLL .\../Debug/JK2cgame/AnimalNPC.obj
+         .\../Debug/JK2cgame/bg_c_saber.obj
+         .\../Debug/JK2cgame/bg_g2_utils.obj
+         .\../Debug/JK2cgame/bg_misc.obj
+         .\../Debug/JK2cgame/bg_panimate.obj
+         .\../Debug/JK2cgame/bg_pmove.obj
+         .\../Debug/JK2cgame/bg_saberLoad.obj
+         .\../Debug/JK2cgame/bg_saga.obj
+         .\../Debug/JK2cgame/bg_slidemove.obj
+         .\../Debug/JK2cgame/bg_vehicleLoad.obj
+         .\../Debug/JK2cgame/bg_weapons.obj
+         .\../Debug/JK2cgame/cg_consolecmds.obj
+         .\../Debug/JK2cgame/cg_draw.obj
+         .\../Debug/JK2cgame/cg_drawtools.obj
+         .\../Debug/JK2cgame/cg_effects.obj
+         .\../Debug/JK2cgame/cg_ents.obj
+         .\../Debug/JK2cgame/cg_event.obj
+         .\../Debug/JK2cgame/cg_info.obj
+         .\../Debug/JK2cgame/cg_light.obj
+         .\../Debug/JK2cgame/cg_localents.obj
+         .\../Debug/JK2cgame/cg_main.obj
+         .\../Debug/JK2cgame/cg_marks.obj
+         .\../Debug/JK2cgame/cg_newDraw.obj
+         .\../Debug/JK2cgame/cg_players.obj
+         .\../Debug/JK2cgame/cg_playerstate.obj
+         .\../Debug/JK2cgame/cg_predict.obj
+         .\../Debug/JK2cgame/cg_saga.obj
+         .\../Debug/JK2cgame/cg_scoreboard.obj
+         .\../Debug/JK2cgame/cg_servercmds.obj
+         .\../Debug/JK2cgame/cg_snapshot.obj
+         .\../Debug/JK2cgame/cg_strap.obj
+         .\../Debug/JK2cgame/cg_syscalls.obj
+         .\../Debug/JK2cgame/cg_turret.obj
+         .\../Debug/JK2cgame/cg_view.obj
+         .\../Debug/JK2cgame/cg_weaponinit.obj
+         .\../Debug/JK2cgame/cg_weapons.obj
+         .\../Debug/JK2cgame/FighterNPC.obj
+         .\../Debug/JK2cgame/fx_blaster.obj
+         .\../Debug/JK2cgame/fx_bowcaster.obj
+         .\../Debug/JK2cgame/fx_bryarpistol.obj
+         .\../Debug/JK2cgame/fx_demp2.obj
+         .\../Debug/JK2cgame/fx_disruptor.obj
+         .\../Debug/JK2cgame/fx_flechette.obj
+         .\../Debug/JK2cgame/fx_force.obj
+         .\../Debug/JK2cgame/fx_heavyrepeater.obj
+         .\../Debug/JK2cgame/fx_rocketlauncher.obj
+         .\../Debug/JK2cgame/q_math.obj
+         .\../Debug/JK2cgame/q_shared.obj
+         .\../Debug/JK2cgame/SpeederNPC.obj
+         .\../Debug/JK2cgame/ui_shared.obj
+         .\../Debug/JK2cgame/WalkerNPC.obj
+         "Debug(SH)\JK2cgame.dll.embed.manifest.res" /MACHINE:I386 
+            Creating library .\../Debug/cgamex86.lib and object .\../Debug/cgamex86.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug(SH)\JK2cgame.dll.embed.manifest" /manifest "Debug(SH)\JK2cgame.dll.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug(SH)\JK2cgame.dll.embed.manifest.res" "Debug(SH)\JK2cgame_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Debug\cgamex86.dll" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\JK2_cgame.def" /MANIFEST /ManifestFile:"Debug(SH)\JK2cgame.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\../Debug/cgamex86.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x30000000" /DYNAMICBASE:NO /IMPLIB:".\../Debug/cgamex86.lib" /MACHINE:X86 /DLL .\../Debug/JK2cgame/AnimalNPC.obj
+         .\../Debug/JK2cgame/bg_c_saber.obj
+         .\../Debug/JK2cgame/bg_g2_utils.obj
+         .\../Debug/JK2cgame/bg_misc.obj
+         .\../Debug/JK2cgame/bg_panimate.obj
+         .\../Debug/JK2cgame/bg_pmove.obj
+         .\../Debug/JK2cgame/bg_saberLoad.obj
+         .\../Debug/JK2cgame/bg_saga.obj
+         .\../Debug/JK2cgame/bg_slidemove.obj
+         .\../Debug/JK2cgame/bg_vehicleLoad.obj
+         .\../Debug/JK2cgame/bg_weapons.obj
+         .\../Debug/JK2cgame/cg_consolecmds.obj
+         .\../Debug/JK2cgame/cg_draw.obj
+         .\../Debug/JK2cgame/cg_drawtools.obj
+         .\../Debug/JK2cgame/cg_effects.obj
+         .\../Debug/JK2cgame/cg_ents.obj
+         .\../Debug/JK2cgame/cg_event.obj
+         .\../Debug/JK2cgame/cg_info.obj
+         .\../Debug/JK2cgame/cg_light.obj
+         .\../Debug/JK2cgame/cg_localents.obj
+         .\../Debug/JK2cgame/cg_main.obj
+         .\../Debug/JK2cgame/cg_marks.obj
+         .\../Debug/JK2cgame/cg_newDraw.obj
+         .\../Debug/JK2cgame/cg_players.obj
+         .\../Debug/JK2cgame/cg_playerstate.obj
+         .\../Debug/JK2cgame/cg_predict.obj
+         .\../Debug/JK2cgame/cg_saga.obj
+         .\../Debug/JK2cgame/cg_scoreboard.obj
+         .\../Debug/JK2cgame/cg_servercmds.obj
+         .\../Debug/JK2cgame/cg_snapshot.obj
+         .\../Debug/JK2cgame/cg_strap.obj
+         .\../Debug/JK2cgame/cg_syscalls.obj
+         .\../Debug/JK2cgame/cg_turret.obj
+         .\../Debug/JK2cgame/cg_view.obj
+         .\../Debug/JK2cgame/cg_weaponinit.obj
+         .\../Debug/JK2cgame/cg_weapons.obj
+         .\../Debug/JK2cgame/FighterNPC.obj
+         .\../Debug/JK2cgame/fx_blaster.obj
+         .\../Debug/JK2cgame/fx_bowcaster.obj
+         .\../Debug/JK2cgame/fx_bryarpistol.obj
+         .\../Debug/JK2cgame/fx_demp2.obj
+         .\../Debug/JK2cgame/fx_disruptor.obj
+         .\../Debug/JK2cgame/fx_flechette.obj
+         .\../Debug/JK2cgame/fx_force.obj
+         .\../Debug/JK2cgame/fx_heavyrepeater.obj
+         .\../Debug/JK2cgame/fx_rocketlauncher.obj
+         .\../Debug/JK2cgame/q_math.obj
+         .\../Debug/JK2cgame/q_shared.obj
+         .\../Debug/JK2cgame/SpeederNPC.obj
+         .\../Debug/JK2cgame/ui_shared.obj
+         .\../Debug/JK2cgame/WalkerNPC.obj
+         "Debug(SH)\JK2cgame.dll.embed.manifest.res" /MACHINE:I386 
+            Creating library .\../Debug/cgamex86.lib and object .\../Debug/cgamex86.exp
+         JK2_cgame.vcxproj -> C:\projects\Jedi_Academy_SDK(MP)\codemp\cgame\Debug(SH)\JK2cgame.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug(SH)\JK2cgame.bsc" "Debug(SH)\AnimalNPC.sbr" "Debug(SH)\bg_c_saber.sbr" "Debug(SH)\bg_g2_utils.sbr" "Debug(SH)\bg_misc.sbr" "Debug(SH)\bg_panimate.sbr" "Debug(SH)\bg_pmove.sbr" "Debug(SH)\bg_saberLoad.sbr" "Debug(SH)\bg_saga.sbr" "Debug(SH)\bg_slidemove.sbr" "Debug(SH)\bg_vehicleLoad.sbr" "Debug(SH)\bg_weapons.sbr" "Debug(SH)\cg_consolecmds.sbr" "Debug(SH)\cg_draw.sbr" "Debug(SH)\cg_drawtools.sbr" "Debug(SH)\cg_effects.sbr" "Debug(SH)\cg_ents.sbr" "Debug(SH)\cg_event.sbr" "Debug(SH)\cg_info.sbr" "Debug(SH)\cg_light.sbr" "Debug(SH)\cg_localents.sbr" "Debug(SH)\cg_main.sbr" "Debug(SH)\cg_marks.sbr" "Debug(SH)\cg_newDraw.sbr" "Debug(SH)\cg_players.sbr" "Debug(SH)\cg_playerstate.sbr" "Debug(SH)\cg_predict.sbr" "Debug(SH)\cg_saga.sbr" "Debug(SH)\cg_scoreboard.sbr" "Debug(SH)\cg_servercmds.sbr" "Debug(SH)\cg_snapshot.sbr" "Debug(SH)\cg_strap.sbr" "Debug(SH)\cg_syscalls.sbr" "Debug(SH)\cg_turret.sbr" "Debug(SH)\cg_view.sbr" "Debug(SH)\cg_weaponinit.sbr" "Debug(SH)\cg_weapons.sbr" "Debug(SH)\FighterNPC.sbr" "Debug(SH)\fx_blaster.sbr" "Debug(SH)\fx_bowcaster.sbr" "Debug(SH)\fx_bryarpistol.sbr" "Debug(SH)\fx_demp2.sbr" "Debug(SH)\fx_disruptor.sbr" "Debug(SH)\fx_flechette.sbr" "Debug(SH)\fx_force.sbr" "Debug(SH)\fx_heavyrepeater.sbr" "Debug(SH)\fx_rocketlauncher.sbr" "Debug(SH)\q_math.sbr" "Debug(SH)\q_shared.sbr" "Debug(SH)\SpeederNPC.sbr" "Debug(SH)\ui_shared.sbr" "Debug(SH)\WalkerNPC.sbr"
+       _AfterBuild:
+         Deleting file "Debug(SH)\JK2cgame.unsuccessfulbuild".
+         Touching "Debug(SH)\JK2cgame.lastbuildstate".
+     1>Done Building Project "C:\projects\Jedi_Academy_SDK(MP)\codemp\cgame\JK2_cgame.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.85

@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JK2game", "game\JK2_game.vcxproj", "{5B587283-8429-4F8B-AECA-C09BF364B617}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "botlib", "botlib\botlib.vcxproj", "{07CCC82A-B905-4384-8AC5-E8A8E352B14C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ui", "ui\ui.vcxproj", "{2DDA2041-6A68-4754-B342-14039CC91695}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JK2cgame", "cgame\JK2_cgame.vcxproj", "{AAF43F69-3DF8-4549-BCE5-9E5E9A807FA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug(SH)|Win32 = Debug(SH)|Win32
+		Debug|Win32 = Debug|Win32
+		Final|Win32 = Final|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B587283-8429-4F8B-AECA-C09BF364B617}.Debug(SH)|Win32.ActiveCfg = Debug|Win32
+		{5B587283-8429-4F8B-AECA-C09BF364B617}.Debug(SH)|Win32.Build.0 = Debug|Win32
+		{5B587283-8429-4F8B-AECA-C09BF364B617}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5B587283-8429-4F8B-AECA-C09BF364B617}.Debug|Win32.Build.0 = Debug|Win32
+		{5B587283-8429-4F8B-AECA-C09BF364B617}.Final|Win32.ActiveCfg = Final|Win32
+		{5B587283-8429-4F8B-AECA-C09BF364B617}.Final|Win32.Build.0 = Final|Win32
+		{5B587283-8429-4F8B-AECA-C09BF364B617}.Release|Win32.ActiveCfg = Release|Win32
+		{5B587283-8429-4F8B-AECA-C09BF364B617}.Release|Win32.Build.0 = Release|Win32
+		{07CCC82A-B905-4384-8AC5-E8A8E352B14C}.Debug(SH)|Win32.ActiveCfg = Debug(SH)|Win32
+		{07CCC82A-B905-4384-8AC5-E8A8E352B14C}.Debug(SH)|Win32.Build.0 = Debug(SH)|Win32
+		{07CCC82A-B905-4384-8AC5-E8A8E352B14C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{07CCC82A-B905-4384-8AC5-E8A8E352B14C}.Final|Win32.ActiveCfg = Final|Win32
+		{07CCC82A-B905-4384-8AC5-E8A8E352B14C}.Final|Win32.Build.0 = Final|Win32
+		{07CCC82A-B905-4384-8AC5-E8A8E352B14C}.Release|Win32.ActiveCfg = Debug|Win32
+		{2DDA2041-6A68-4754-B342-14039CC91695}.Debug(SH)|Win32.ActiveCfg = Debug(SH)|Win32
+		{2DDA2041-6A68-4754-B342-14039CC91695}.Debug(SH)|Win32.Build.0 = Debug(SH)|Win32
+		{2DDA2041-6A68-4754-B342-14039CC91695}.Debug|Win32.ActiveCfg = Release|Win32
+		{2DDA2041-6A68-4754-B342-14039CC91695}.Final|Win32.ActiveCfg = Final|Win32
+		{2DDA2041-6A68-4754-B342-14039CC91695}.Release|Win32.ActiveCfg = Debug|Win32
+		{AAF43F69-3DF8-4549-BCE5-9E5E9A807FA4}.Debug(SH)|Win32.ActiveCfg = Debug(SH)|Win32
+		{AAF43F69-3DF8-4549-BCE5-9E5E9A807FA4}.Debug(SH)|Win32.Build.0 = Debug(SH)|Win32
+		{AAF43F69-3DF8-4549-BCE5-9E5E9A807FA4}.Debug|Win32.ActiveCfg = Release|Win32
+		{AAF43F69-3DF8-4549-BCE5-9E5E9A807FA4}.Final|Win32.ActiveCfg = Final|Win32
+		{AAF43F69-3DF8-4549-BCE5-9E5E9A807FA4}.Release|Win32.ActiveCfg = Release|Win32
+		{AAF43F69-3DF8-4549-BCE5-9E5E9A807FA4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DevPartner Solution Properties) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+EndGlobal

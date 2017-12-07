@@ -1,0 +1,401 @@
+﻿Build started 12/20/2009 11:03:42 PM.
+     1>Project "C:\projects\Jedi_Academy_SDK(MP)\codemp\game\JK2_game.vcxproj" on node 10 (build target(s)).
+     1>_PrepareForBuild:
+         Touching ".\../Debug/JK2game\JK2game.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\Include" /nologo /W3 /WX- /Ox /Oi /Ot /Oy- /GT /GL /D _DEBUG /D BUILDING_REF_GL /D Debug /D WIN32 /D _WINDOWS /D MISSIONPACK /D QAGAME /D _JK2 /D JK2AWARDS /D _VC80_UPGRADE=0x0710 /D _WINDLL /Gm- /MTd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /Fo".\../Debug/JK2game/" /Fd".\../Debug/JK2game/" /FR".\../Debug/JK2game\\" /Gd /TC /analyze- /errorReport:prompt AnimalNPC.c FighterNPC.c NPC.c NPC_AI_Atst.c NPC_AI_Default.c NPC_AI_Droid.c NPC_AI_GalakMech.c NPC_AI_Grenadier.c NPC_AI_Howler.c NPC_AI_ImperialProbe.c NPC_AI_Interrogator.c NPC_AI_Jedi.c NPC_AI_Mark1.c NPC_AI_Mark2.c NPC_AI_MineMonster.c NPC_AI_Rancor.c NPC_AI_Remote.c NPC_AI_Seeker.c NPC_AI_Sentry.c NPC_AI_Sniper.c NPC_AI_Stormtrooper.c NPC_AI_Utils.c NPC_AI_Wampa.c NPC_behavior.c NPC_combat.c NPC_goal.c NPC_misc.c NPC_move.c NPC_reactions.c NPC_senses.c NPC_sounds.c NPC_spawn.c NPC_stats.c NPC_utils.c SpeederNPC.c WalkerNPC.c ai_main.c ai_util.c ai_wpnav.c bg_g2_utils.c bg_misc.c bg_panimate.c bg_pmove.c bg_saber.c bg_slidemove.c g_ICARUScb.c g_active.c g_arenas.c g_bot.c g_client.c g_cmds.c g_combat.c g_exphysics.c g_items.c g_log.c g_main.c g_mem.c g_misc.c g_missile.c g_mover.c g_nav.c g_navnew.c g_object.c g_saga.c g_session.c g_spawn.c g_strap.c g_svcmds.c g_syscalls.c g_target.c g_team.c g_timer.c g_trigger.c g_turret.c g_turret_G2.c g_utils.c g_vehicleTurret.c g_vehicles.c g_weapon.c tri_coll_test.c w_force.c w_saber.c /D _CRT_SECURE_NO_DEPRECATE
+         /D _USE_32BIT_TIME_T /wd4996 /wd4005
+          
+         AnimalNPC.c
+         FighterNPC.c
+         NPC.c
+         NPC_AI_Atst.c
+         NPC_AI_Default.c
+         NPC_AI_Droid.c
+         NPC_AI_GalakMech.c
+         NPC_AI_Grenadier.c
+         NPC_AI_Howler.c
+         NPC_AI_ImperialProbe.c
+         NPC_AI_Interrogator.c
+         NPC_AI_Jedi.c
+     1>NPC_AI_Jedi.c(407): warning C4047: 'function' : 'int' differs in levels of indirection from 'char [11]'
+     1>NPC_AI_Jedi.c(407): warning C4024: 'G_PlayEffect' : different types for formal and actual parameter 1
+         NPC_AI_Mark1.c
+         NPC_AI_Mark2.c
+         NPC_AI_MineMonster.c
+         NPC_AI_Rancor.c
+         NPC_AI_Remote.c
+         NPC_AI_Seeker.c
+         NPC_AI_Sentry.c
+         NPC_AI_Sniper.c
+         Compiling...
+         NPC_AI_Stormtrooper.c
+         NPC_AI_Utils.c
+         NPC_AI_Wampa.c
+         NPC_behavior.c
+         NPC_combat.c
+         NPC_goal.c
+         NPC_misc.c
+         NPC_move.c
+         NPC_reactions.c
+         NPC_senses.c
+         NPC_sounds.c
+         NPC_spawn.c
+     1>NPC_spawn.c(1382): warning C4101: 'oppDir' : unreferenced local variable
+     1>NPC_spawn.c(4105): warning C4013: 'IsABot' undefined; assuming extern returning int
+     1>NPC_spawn.c(4507): warning C4013: 'WriteKeys' undefined; assuming extern returning int
+     1>NPC_spawn.c(4549): warning C4013: 'SetRPGStats' undefined; assuming extern returning int
+     1>NPC_spawn.c(4688): warning C4013: 'LoseKarma' undefined; assuming extern returning int
+         NPC_stats.c
+         NPC_utils.c
+         SpeederNPC.c
+         WalkerNPC.c
+         ai_main.c
+     1>ai_main.c(4987): warning C4047: '==' : 'int *' differs in levels of indirection from 'int'
+     1>ai_main.c(4989): warning C4013: 'TryGrapple' undefined; assuming extern returning int
+     1>ai_main.c(6428): warning C4013: 'NPC_Spawn_f' undefined; assuming extern returning int
+     1>ai_main.c(6444): warning C4013: 'WP_FireHadokenBlasterMissile' undefined; assuming extern returning int
+     1>ai_main.c(6444): warning C4047: '=' : 'gentity_t *' differs in levels of indirection from 'int'
+     1>ai_main.c(6431): warning C4101: 'missile' : unreferenced local variable
+     1>ai_main.c(7010): warning C4101: 'oppDir' : unreferenced local variable
+         ai_util.c
+     1>ai_util.c(340): warning C4101: 'i' : unreferenced local variable
+     1>ai_util.c(342): warning C4101: 'killpath' : unreferenced local variable
+     1>ai_util.c(343): warning C4101: 't' : unreferenced local variable
+     1>ai_util.c(340): warning C4101: 'j' : unreferenced local variable
+         ai_wpnav.c
+         bg_g2_utils.c
+         Compiling...
+         bg_misc.c
+         bg_panimate.c
+         bg_pmove.c
+     1>bg_pmove.c(4822): warning C4013: 'Jedi_Decloak' undefined; assuming extern returning int
+     1>bg_pmove.c(7871): warning C4101: 'smove' : unreferenced local variable
+         bg_saber.c
+         bg_slidemove.c
+     1>bg_slidemove.c(617): warning C4013: 'LoseKarma' undefined; assuming extern returning int
+     1>bg_slidemove.c(644): warning C4013: 'G_InstaGrabSomeMofos' undefined; assuming extern returning int
+     1>bg_slidemove.c(708): warning C4013: 'G_KickSomeMofos' undefined; assuming extern returning int
+     1>bg_slidemove.c(896): warning C4013: 'saberKnockOutOfHand' undefined; assuming extern returning int
+     1>bg_slidemove.c(1010): warning C4133: 'function' : incompatible types - from 'bgEntity_t *' to 'gentity_t *'
+         g_ICARUScb.c
+         g_active.c
+     1>g_active.c(767): warning C4013: 'IsABot' undefined; assuming extern returning int
+     1>g_active.c(2673): warning C4101: 'y' : unreferenced local variable
+     1>g_active.c(2673): warning C4101: 'x' : unreferenced local variable
+     1>g_active.c(3606): warning C4101: 'xpgain' : unreferenced local variable
+     1>g_active.c(3914): warning C4101: 'somefloat' : unreferenced local variable
+     1>g_active.c(3913): warning C4101: 'somevar' : unreferenced local variable
+     1>g_active.c(3971): warning C4101: 'percpct' : unreferenced local variable
+     1>g_active.c(3979): warning C4101: 'i' : unreferenced local variable
+     1>g_active.c(3976): warning C4101: 'valueint' : unreferenced local variable
+     1>g_active.c(3978): warning C4101: 'f' : unreferenced local variable
+     1>g_active.c(3970): warning C4101: 'percpoints' : unreferenced local variable
+     1>g_active.c(3980): warning C4101: 'len' : unreferenced local variable
+     1>g_active.c(3974): warning C4101: 'correctname' : unreferenced local variable
+     1>g_active.c(3975): warning C4101: 'val' : unreferenced local variable
+     1>g_active.c(3975): warning C4101: 'valuestr' : unreferenced local variable
+     1>g_active.c(3981): warning C4101: 'killpath' : unreferenced local variable
+     1>g_active.c(3970): warning C4101: 'birthcon' : unreferenced local variable
+     1>g_active.c(3981): warning C4101: 'cnf2' : unreferenced local variable
+     1>g_active.c(3982): warning C4101: 't' : unreferenced local variable
+     1>g_active.c(3974): warning C4101: 'dirkey' : unreferenced local variable
+     1>g_active.c(3970): warning C4101: 'birthdex' : unreferenced local variable
+     1>g_active.c(3970): warning C4101: 'birthstr' : unreferenced local variable
+     1>g_active.c(3979): warning C4101: 'j' : unreferenced local variable
+     1>g_active.c(4439): warning C4047: '>=' : 'int' differs in levels of indirection from 'char [2]'
+     1>g_active.c(4439): warning C4047: '<=' : 'int' differs in levels of indirection from 'char [2]'
+     1>g_active.c(4439): warning C4047: '>=' : 'int' differs in levels of indirection from 'char [2]'
+     1>g_active.c(4439): warning C4047: '<=' : 'int' differs in levels of indirection from 'char [2]'
+     1>g_active.c(4544): warning C4013: 'ReadKeys' undefined; assuming extern returning int
+     1>g_active.c(4557): warning C4013: 'WriteKeys' undefined; assuming extern returning int
+     1>g_active.c(4255): warning C4102: 'nomore2' : unreferenced label
+     1>g_active.c(4175): warning C4101: 'dexmodfix' : unreferenced local variable
+     1>g_active.c(4179): warning C4101: 'lastip' : unreferenced local variable
+     1>g_active.c(4181): warning C4101: 'valueint' : unreferenced local variable
+     1>g_active.c(4174): warning C4101: 'strmodcolor' : unreferenced local variable
+     1>g_active.c(4171): warning C4101: 'dexmod' : unreferenced local variable
+     1>g_active.c(4174): warning C4101: 'conmodcolor' : unreferenced local variable
+     1>g_active.c(4174): warning C4101: 'dexmodcolor' : unreferenced local variable
+     1>g_active.c(4175): warning C4101: 'conmodfix' : unreferenced local variable
+     1>g_active.c(4175): warning C4101: 'strmodfix' : unreferenced local variable
+     1>g_active.c(4186): warning C4101: 'killpath' : unreferenced local variable
+     1>g_active.c(4171): warning C4101: 'conmod' : unreferenced local variable
+     1>g_active.c(4171): warning C4101: 'strmod' : unreferenced local variable
+     1>g_active.c(4187): warning C4101: 't' : unreferenced local variable
+         g_arenas.c
+         g_bot.c
+         g_client.c
+     1>g_client.c(1360): warning C4013: 'SanitizeString2' undefined; assuming extern returning int
+     1>g_client.c(1979): warning C4013: 'IsABot' undefined; assuming extern returning int
+     1>g_client.c(2463): warning C4013: 'ShowRPGStats' undefined; assuming extern returning int
+     1>g_client.c(1917): warning C4101: 'ip' : unreferenced local variable
+     1>g_client.c(2510): warning C4101: 'i' : unreferenced local variable
+     1>g_client.c(2507): warning C4101: 'valueint' : unreferenced local variable
+     1>g_client.c(2501): warning C4101: 'value3' : unreferenced local variable
+     1>g_client.c(2509): warning C4101: 'f' : unreferenced local variable
+     1>g_client.c(2501): warning C4101: 'value1' : unreferenced local variable
+     1>g_client.c(2511): warning C4101: 'len' : unreferenced local variable
+     1>g_client.c(2501): warning C4101: 'value2' : unreferenced local variable
+     1>g_client.c(2505): warning C4101: 'correctname' : unreferenced local variable
+     1>g_client.c(2506): warning C4101: 'valuestr' : unreferenced local variable
+     1>g_client.c(2512): warning C4101: 'killpath' : unreferenced local variable
+     1>g_client.c(2503): warning C4101: 'birthcon' : unreferenced local variable
+     1>g_client.c(2495): warning C4101: 'ip' : unreferenced local variable
+     1>g_client.c(2512): warning C4101: 'cnf2' : unreferenced local variable
+     1>g_client.c(2502): warning C4101: 'userinfo2' : unreferenced local variable
+     1>g_client.c(2513): warning C4101: 't' : unreferenced local variable
+     1>g_client.c(2505): warning C4101: 'dirkey' : unreferenced local variable
+     1>g_client.c(2503): warning C4101: 'birthdex' : unreferenced local variable
+     1>g_client.c(2503): warning C4101: 'birthstr' : unreferenced local variable
+     1>g_client.c(2664): warning C4101: 'cnf' : unreferenced local variable
+     1>g_client.c(3077): warning C4101: 'stubName' : unreferenced local variable
+     1>g_client.c(3078): warning C4101: 'stubCapName' : unreferenced local variable
+     1>g_client.c(3076): warning C4101: 'limbName' : unreferenced local variable
+     1>g_client.c(4268): warning C4013: 'SetRPGStats' undefined; assuming extern returning int
+     1>g_client.c(4468): warning C4013: 'WP_ForcePowerStart' undefined; assuming extern returning int
+     1>g_client.c(4622): warning C4101: 'value' : unreferenced local variable
+     1>g_client.c(4623): warning C4101: 'valueint' : unreferenced local variable
+     1>g_client.c(4628): warning C4101: 'cnf' : unreferenced local variable
+     1>g_client.c(4622): warning C4101: 'valuestr' : unreferenced local variable
+     1>g_client.c(4628): warning C4101: 'killpath' : unreferenced local variable
+     1>g_client.c(4628): warning C4101: 'cnf2' : unreferenced local variable
+     1>g_client.c(4629): warning C4101: 't' : unreferenced local variable
+     1>g_client.c(4621): warning C4101: 'dirkey' : unreferenced local variable
+     1>g_client.c(4880): warning C4098: 'WriteKeys' : 'void' function returning a value
+     1>g_client.c(4700): warning C4101: 'value' : unreferenced local variable
+     1>g_client.c(4701): warning C4101: 'valueint' : unreferenced local variable
+     1>g_client.c(4707): warning C4101: 's' : unreferenced local variable
+     1>g_client.c(4705): warning C4101: 'len' : unreferenced local variable
+     1>g_client.c(4700): warning C4101: 'valuestr' : unreferenced local variable
+     1>g_client.c(4706): warning C4101: 'killpath' : unreferenced local variable
+     1>g_client.c(4706): warning C4101: 'cnf2' : unreferenced local variable
+     1>g_client.c(4707): warning C4101: 't' : unreferenced local variable
+         g_cmds.c
+     1>g_cmds.c(1451): warning C4013: 'WriteKeys' undefined; assuming extern returning int
+     1>g_cmds.c(1643): warning C4013: 'IsABot' undefined; assuming extern returning int
+     1>g_cmds.c(1653): warning C4090: 'function' : different 'const' qualifiers
+     1>g_cmds.c(1626): warning C4101: 'i' : unreferenced local variable
+     1>g_cmds.c(1625): warning C4101: 'f' : unreferenced local variable
+     1>g_cmds.c(1627): warning C4101: 'len' : unreferenced local variable
+     1>g_cmds.c(1628): warning C4101: 'cnf' : unreferenced local variable
+     1>g_cmds.c(1628): warning C4101: 'killpath' : unreferenced local variable
+     1>g_cmds.c(1628): warning C4101: 'cnf2' : unreferenced local variable
+     1>g_cmds.c(1629): warning C4101: 't' : unreferenced local variable
+     1>g_cmds.c(1787): warning C4098: 'Cmd_Say_f' : 'void' function returning a value
+     1>g_cmds.c(1802): warning C4098: 'Cmd_Say_f' : 'void' function returning a value
+     1>g_cmds.c(1778): warning C4101: 'i' : unreferenced local variable
+     1>g_cmds.c(1781): warning C4101: 't' : unreferenced local variable
+     1>g_cmds.c(2086): warning C4101: 'arenaInfo' : unreferenced local variable
+     1>g_cmds.c(3772): warning C4013: 'NPC_Spawn_f' undefined; assuming extern returning int
+     1>g_cmds.c(4141): warning C4013: 'ShowRPGStats' undefined; assuming extern returning int
+     1>g_cmds.c(4157): warning C4098: 'ClientCommand' : 'void' function returning a value
+     1>g_cmds.c(4172): warning C4098: 'ClientCommand' : 'void' function returning a value
+     1>g_cmds.c(5160): warning C4013: 'SetRPGStats' undefined; assuming extern returning int
+     1>g_cmds.c(5929): warning C4013: 'WP_FireHadokenBlasterMissile' undefined; assuming extern returning int
+     1>g_cmds.c(5929): warning C4047: '=' : 'gentity_t *' differs in levels of indirection from 'int'
+     1>g_cmds.c(6335): warning C4013: 'GetPrices' undefined; assuming extern returning int
+     1>g_cmds.c(6718): warning C4129: 'm' : unrecognized character escape sequence
+     1>g_cmds.c(7433): warning C4013: 'G_KickSomeMofos' undefined; assuming extern returning int
+     1>g_cmds.c(7555): warning C4013: 'LoseKarma' undefined; assuming extern returning int
+     1>g_cmds.c(4148): warning C4101: 'i' : unreferenced local variable
+     1>g_cmds.c(4151): warning C4101: 't' : unreferenced local variable
+     1>g_cmds.c(4970): warning C4101: 'rand2' : unreferenced local variable
+     1>g_cmds.c(4970): warning C4101: 'rand1' : unreferenced local variable
+     1>g_cmds.c(4970): warning C4101: 'rand0' : unreferenced local variable
+     1>g_cmds.c(5688): warning C4101: 'foo' : unreferenced local variable
+     1>g_cmds.c(5826): warning C4101: 'defaultDir' : unreferenced local variable
+     1>g_cmds.c(5825): warning C4101: 'effectPos' : unreferenced local variable
+     1>g_cmds.c(5912): warning C4101: 'missile' : unreferenced local variable
+         g_combat.c
+     1>g_combat.c(461): warning C4013: 'WriteKeys' undefined; assuming extern returning int
+     1>g_combat.c(2151): warning C4013: 'B_TempAlloc' undefined; assuming extern returning int
+     1>g_combat.c(2154): warning C4013: 'B_TempFree' undefined; assuming extern returning int
+     1>g_combat.c(2177): warning C4013: 'LoseKarma' undefined; assuming extern returning int
+     1>g_combat.c(2717): warning C4101: 'clientNum' : unreferenced local variable
+     1>g_combat.c(6192): warning C4013: 'PM_InKnockDown' undefined; assuming extern returning int
+         g_exphysics.c
+         g_items.c
+         g_log.c
+         g_main.c
+     1>g_main.c(1492): warning C4101: 'secs' : unreferenced local variable
+     1>g_main.c(1492): warning C4101: 'mins' : unreferenced local variable
+     1>g_main.c(1492): warning C4101: 'hours' : unreferenced local variable
+     1>g_main.c(2217): warning C4013: 'WriteKeys' undefined; assuming extern returning int
+     1>g_main.c(2195): warning C4101: 'userinfo' : unreferenced local variable
+     1>g_main.c(2246): warning C4101: 'len' : unreferenced local variable
+     1>g_main.c(2248): warning C4101: 'nei_num' : unreferenced local variable
+     1>g_main.c(2580): warning C4101: 'j' : unreferenced local variable
+     1>g_main.c(3078): warning C4013: 'B_TempAlloc' undefined; assuming extern returning int
+     1>g_main.c(3081): warning C4013: 'B_TempFree' undefined; assuming extern returning int
+     1>g_main.c(3070): warning C4101: 'thiswp' : unreferenced local variable
+     1>g_main.c(3073): warning C4101: 'nei_num' : unreferenced local variable
+     1>g_main.c(3505): warning C4087: 'ExitLevel' : declared with 'void' parameter list
+     1>g_main.c(4820): warning C4013: 'WriteStats' undefined; assuming extern returning int
+     1>g_main.c(4845): warning C4047: 'function' : 'const char *' differs in levels of indirection from 'char **'
+     1>g_main.c(4845): warning C4024: 'Q_stricmp' : different types for formal and actual parameter 1
+     1>g_main.c(4847): warning C4013: 'IsABot' undefined; assuming extern returning int
+     1>g_main.c(4848): warning C4013: 'G_Say' undefined; assuming extern returning int
+     1>g_main.c(4854): warning C4047: 'function' : 'char *' differs in levels of indirection from 'char **'
+     1>g_main.c(4854): warning C4024: 'strcpy' : different types for formal and actual parameter 1
+     1>g_main.c(4856): warning C4047: 'function' : 'const char *' differs in levels of indirection from 'char **'
+     1>g_main.c(4856): warning C4024: 'Q_stricmp' : different types for formal and actual parameter 1
+     1>g_main.c(4857): warning C4047: 'function' : 'char *' differs in levels of indirection from 'char **'
+     1>g_main.c(4857): warning C4024: 'strcpy' : different types for formal and actual parameter 1
+     1>g_main.c(4996): warning C4013: 'NPC_SpawnType' undefined; assuming extern returning int
+     1>g_main.c(4996): warning C4047: '=' : 'gentity_t *' differs in levels of indirection from 'int'
+     1>g_main.c(5011): warning C4047: '=' : 'gentity_t *' differs in levels of indirection from 'int'
+     1>g_main.c(5018): warning C4047: '=' : 'gentity_t *' differs in levels of indirection from 'int'
+     1>g_main.c(4796): warning C4101: 'killpath' : unreferenced local variable
+     1>g_main.c(4797): warning C4101: 't' : unreferenced local variable
+         g_mem.c
+         g_misc.c
+         g_missile.c
+     1>g_missile.c(363): warning C4013: 'LoseKarma' undefined; assuming extern returning int
+         g_mover.c
+         Compiling...
+         g_nav.c
+         g_navnew.c
+         g_object.c
+         g_saga.c
+         g_session.c
+     1>g_session.c(27): warning C4101: 'siegeClass' : unreferenced local variable
+     1>g_session.c(127): warning C4101: 'teamLeader' : unreferenced local variable
+         g_spawn.c
+     1>g_spawn.c(857): warning C4033: 'G_AddSpawnVarToken' must return a value
+         g_strap.c
+         g_svcmds.c
+         g_syscalls.c
+         g_target.c
+         g_team.c
+         g_timer.c
+         g_trigger.c
+         g_turret.c
+         g_turret_G2.c
+         g_utils.c
+         g_vehicleTurret.c
+         g_vehicles.c
+         g_weapon.c
+     1>g_weapon.c(403): warning C4113: 'void (__cdecl *)(gentity_t *)' differs in parameter lists from 'void (__cdecl *)(gentity_t *,gentity_t *,gentity_t *,int,int)'
+     1>g_weapon.c(505): warning C4113: 'void (__cdecl *)(gentity_t *)' differs in parameter lists from 'void (__cdecl *)(gentity_t *,gentity_t *,gentity_t *,int,int)'
+     1>g_weapon.c(946): warning C4013: 'LoseKarma' undefined; assuming extern returning int
+     1>g_weapon.c(3208): warning C4101: 'tent' : unreferenced local variable
+     1>g_weapon.c(3489): warning C4101: 'tent' : unreferenced local variable
+     1>g_weapon.c(3968): warning C4101: 'defaultDir' : unreferenced local variable
+     1>g_weapon.c(3967): warning C4101: 'effectPos' : unreferenced local variable
+         tri_coll_test.c
+         Compiling...
+         w_force.c
+         w_saber.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(935,5): warning MSB8012: TargetPath(C:\projects\Jedi_Academy_SDK(MP)\codemp\game\.\../Debug\JK2game.dll) does not match the Linker's OutputFile property value (C:\projects\Jedi_Academy_SDK(MP)\codemp\Debug\jampgamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(937,5): warning MSB8012: TargetName(JK2game) does not match the Linker's OutputFile property value (jampgamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Debug\jampgamex86.dll" /INCREMENTAL:NO /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\JK2_game.def" /MANIFEST /ManifestFile:".\../Debug/JK2game\JK2game.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\../Debug/jampgamex86.pdb" /MAP:"../Debug/jampgamex86.map" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x20000000" /DYNAMICBASE:NO /IMPLIB:".\../Debug/jampgamex86.lib" /MACHINE:X86 /DLL .\../Debug/JK2game/ai_main.obj
+         .\../Debug/JK2game/ai_util.obj
+         .\../Debug/JK2game/ai_wpnav.obj
+         .\../Debug/JK2game/AnimalNPC.obj
+         .\../Debug/JK2game/bg_g2_utils.obj
+         .\../Debug/JK2game/bg_lib.obj
+         .\../Debug/JK2game/bg_misc.obj
+         .\../Debug/JK2game/bg_panimate.obj
+         .\../Debug/JK2game/bg_pmove.obj
+         .\../Debug/JK2game/bg_saber.obj
+         .\../Debug/JK2game/bg_saberLoad.obj
+         .\../Debug/JK2game/bg_saga.obj
+         .\../Debug/JK2game/bg_slidemove.obj
+         .\../Debug/JK2game/bg_vehicleLoad.obj
+         .\../Debug/JK2game/bg_weapons.obj
+         .\../Debug/JK2game/FighterNPC.obj
+         .\../Debug/JK2game/g_active.obj
+         .\../Debug/JK2game/g_arenas.obj
+         .\../Debug/JK2game/g_bot.obj
+         .\../Debug/JK2game/g_client.obj
+         .\../Debug/JK2game/g_cmds.obj
+         .\../Debug/JK2game/g_combat.obj
+         .\../Debug/JK2game/g_exphysics.obj
+         .\../Debug/JK2game/g_ICARUScb.obj
+         .\../Debug/JK2game/g_items.obj
+         .\../Debug/JK2game/g_log.obj
+         .\../Debug/JK2game/g_main.obj
+         .\../Debug/JK2game/g_mem.obj
+         .\../Debug/JK2game/g_misc.obj
+         .\../Debug/JK2game/g_missile.obj
+         .\../Debug/JK2game/g_mover.obj
+         .\../Debug/JK2game/g_nav.obj
+         .\../Debug/JK2game/g_navnew.obj
+         .\../Debug/JK2game/g_object.obj
+         .\../Debug/JK2game/g_saga.obj
+         .\../Debug/JK2game/g_session.obj
+         .\../Debug/JK2game/g_spawn.obj
+         .\../Debug/JK2game/g_strap.obj
+         .\../Debug/JK2game/g_svcmds.obj
+         .\../Debug/JK2game/g_syscalls.obj
+         .\../Debug/JK2game/g_target.obj
+         .\../Debug/JK2game/g_team.obj
+         .\../Debug/JK2game/g_timer.obj
+         .\../Debug/JK2game/g_trigger.obj
+         .\../Debug/JK2game/g_turret.obj
+         .\../Debug/JK2game/g_turret_G2.obj
+         .\../Debug/JK2game/g_utils.obj
+         .\../Debug/JK2game/g_vehicles.obj
+         .\../Debug/JK2game/g_vehicleTurret.obj
+         .\../Debug/JK2game/g_weapon.obj
+         .\../Debug/JK2game/NPC.obj
+         .\../Debug/JK2game/NPC_AI_Atst.obj
+         .\../Debug/JK2game/NPC_AI_Default.obj
+         .\../Debug/JK2game/NPC_AI_Droid.obj
+         .\../Debug/JK2game/NPC_AI_GalakMech.obj
+         .\../Debug/JK2game/NPC_AI_Grenadier.obj
+         .\../Debug/JK2game/NPC_AI_Howler.obj
+         .\../Debug/JK2game/NPC_AI_ImperialProbe.obj
+         .\../Debug/JK2game/NPC_AI_Interrogator.obj
+         .\../Debug/JK2game/NPC_AI_Jedi.obj
+         .\../Debug/JK2game/NPC_AI_Mark1.obj
+         .\../Debug/JK2game/NPC_AI_Mark2.obj
+         .\../Debug/JK2game/NPC_AI_MineMonster.obj
+         .\../Debug/JK2game/NPC_AI_Rancor.obj
+         .\../Debug/JK2game/NPC_AI_Remote.obj
+         .\../Debug/JK2game/NPC_AI_Seeker.obj
+         .\../Debug/JK2game/NPC_AI_Sentry.obj
+         .\../Debug/JK2game/NPC_AI_Sniper.obj
+         .\../Debug/JK2game/NPC_AI_Stormtrooper.obj
+         .\../Debug/JK2game/NPC_AI_Utils.obj
+         .\../Debug/JK2game/NPC_AI_Wampa.obj
+         .\../Debug/JK2game/NPC_behavior.obj
+         .\../Debug/JK2game/NPC_combat.obj
+         .\../Debug/JK2game/NPC_goal.obj
+         .\../Debug/JK2game/NPC_misc.obj
+         .\../Debug/JK2game/NPC_move.obj
+         .\../Debug/JK2game/NPC_reactions.obj
+         .\../Debug/JK2game/NPC_senses.obj
+         .\../Debug/JK2game/NPC_sounds.obj
+         .\../Debug/JK2game/NPC_spawn.obj
+         .\../Debug/JK2game/NPC_stats.obj
+         .\../Debug/JK2game/NPC_utils.obj
+         .\../Debug/JK2game/q_math.obj
+         .\../Debug/JK2game/q_shared.obj
+         .\../Debug/JK2game/SpeederNPC.obj
+         .\../Debug/JK2game/tri_coll_test.obj
+         .\../Debug/JK2game/w_force.obj
+         .\../Debug/JK2game/w_saber.obj
+         .\../Debug/JK2game/WalkerNPC.obj /MACHINE:I386 
+         /IMPLIB:".\../Debug/jampgamex86.lib" winmm.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib 
+         ai_main.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+            Creating library .\../Debug/jampgamex86.lib and object .\../Debug/jampgamex86.exp
+         Generating code
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\game\g_spawn.c(867): warning C4715: 'G_AddSpawnVarToken' : not all control paths return a value
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\game\q_shared.c(1100): warning C4715: 'Info_ValueForKey' : not all control paths return a value
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\game\g_utils.c(148): warning C4715: 'G_SoundIndex' : not all control paths return a value
+     1>c:\projects\jedi_academy_sdk(mp)\codemp\game\g_utils.c(141): warning C4715: 'G_IconIndex' : not all control paths return a value
+         Finished generating code
+         JK2_game.vcxproj -> C:\projects\Jedi_Academy_SDK(MP)\codemp\game\.\../Debug\JK2game.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\projects\Jedi_Academy_SDK(MP)\codemp\game\.\../Debug\JK2game.dll;#2" /manifest .\../Debug/JK2game\JK2game.dll.intermediate.manifest
+         
+     1>mt.exe : general error c10100b1: Failed to load file "C:\projects\Jedi_Academy_SDK(MP)\codemp\game\.\../Debug\JK2game.dll". The system cannot find the file specified.
+         
+     1>Done Building Project "C:\projects\Jedi_Academy_SDK(MP)\codemp\game\JK2_game.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:17.75

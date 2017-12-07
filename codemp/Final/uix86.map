@@ -1,0 +1,1839 @@
+ uix86
+
+ Timestamp is 40116f3f (Fri Jan 23 14:00:15 2004)
+
+ Preferred load address is 40000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00043d81H .text                   CODE
+ 0002:00000000 000000e0H .idata$5                DATA
+ 0002:000000e0 00001260H .rdata                  DATA
+ 0002:00001340 00000008H .rdata$sxdata           DATA
+ 0002:00001348 00000004H .rtc$IAA                DATA
+ 0002:0000134c 00000004H .rtc$IZZ                DATA
+ 0002:00001350 00000004H .rtc$TAA                DATA
+ 0002:00001354 00000004H .rtc$TZZ                DATA
+ 0002:00001358 00000014H .idata$2                DATA
+ 0002:0000136c 00000014H .idata$3                DATA
+ 0002:00001380 000000e0H .idata$4                DATA
+ 0002:00001460 000003e4H .idata$6                DATA
+ 0002:00001850 00000056H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCAA               DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:0000000c 00000004H .CRT$XIA                DATA
+ 0003:00000010 00000010H .CRT$XIC                DATA
+ 0003:00000020 00000004H .CRT$XIZ                DATA
+ 0003:00000024 00000004H .CRT$XPA                DATA
+ 0003:00000028 00000004H .CRT$XPX                DATA
+ 0003:0000002c 00000004H .CRT$XPZ                DATA
+ 0003:00000030 00000004H .CRT$XTA                DATA
+ 0003:00000034 00000004H .CRT$XTZ                DATA
+ 0003:00000040 0001d380H .data                   DATA
+ 0003:0001d3c0 004d55c0H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 00000328H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000002       ___safe_se_handler_count   00000002     <absolute>
+ 0001:00000000       _BG_FileExists             40001000 f   bg_misc.obj
+ 0001:00000050       _BG_LegalizedForcePowers   40001050 f   bg_misc.obj
+ 0001:000007f0       _vectoyaw                  400017f0 f   bg_misc.obj
+ 0001:000008c0       _BG_HasYsalamiri           400018c0 f   bg_misc.obj
+ 0001:00000900       _BG_CanUseFPNow            40001900 f   bg_misc.obj
+ 0001:00000a30       _BG_FindItemForPowerup     40001a30 f   bg_misc.obj
+ 0001:00000aa0       _BG_FindItemForHoldable    40001aa0 f   bg_misc.obj
+ 0001:00000b10       _BG_FindItemForWeapon      40001b10 f   bg_misc.obj
+ 0001:00000b70       _BG_FindItemForAmmo        40001b70 f   bg_misc.obj
+ 0001:00000bd0       _BG_FindItem               40001bd0 f   bg_misc.obj
+ 0001:00000c20       _BG_PlayerTouchesItem      40001c20 f   bg_misc.obj
+ 0001:00000cd0       _BG_ProperForceIndex       40001cd0 f   bg_misc.obj
+ 0001:00000d10       _BG_CycleForce             40001d10 f   bg_misc.obj
+ 0001:00000e70       _BG_GetItemIndexByTag      40001e70 f   bg_misc.obj
+ 0001:00000ec0       _BG_IsItemSelectable       40001ec0 f   bg_misc.obj
+ 0001:00000ee0       _BG_CycleInven             40001ee0 f   bg_misc.obj
+ 0001:00000fe0       _BG_CanItemBeGrabbed       40001fe0 f   bg_misc.obj
+ 0001:00001410       _BG_EvaluateTrajectory     40002410 f   bg_misc.obj
+ 0001:00001740       _BG_EvaluateTrajectoryDelta 40002740 f   bg_misc.obj
+ 0001:000019c0       _BG_AddPredictableEventToPlayerstate 400029c0 f   bg_misc.obj
+ 0001:00001a10       _BG_TouchJumpPad           40002a10 f   bg_misc.obj
+ 0001:00001ae0       _BG_EmplacedView           40002ae0 f   bg_misc.obj
+ 0001:00001bc0       _BG_IsValidCharacterModel  40002bc0 f   bg_misc.obj
+ 0001:00001c50       _BG_ValidateSkinForTeam    40002c50 f   bg_misc.obj
+ 0001:00001f80       _BG_PlayerStateToEntityState 40002f80 f   bg_misc.obj
+ 0001:000025c0       _BG_PlayerStateToEntityStateExtraPolate 400035c0 f   bg_misc.obj
+ 0001:00002b90       _BG_ModelCache             40003b90 f   bg_misc.obj
+ 0001:00002bc0       _BG_Alloc                  40003bc0 f   bg_misc.obj
+ 0001:00002c30       _BG_AllocUnaligned         40003c30 f   bg_misc.obj
+ 0001:00002c90       _BG_TempAlloc              40003c90 f   bg_misc.obj
+ 0001:00002cf0       _BG_TempFree               40003cf0 f   bg_misc.obj
+ 0001:00002d40       _BG_StringAlloc            40003d40 f   bg_misc.obj
+ 0001:00002d80       _BG_OutOfMemory            40003d80 f   bg_misc.obj
+ 0001:00002da0       _BG_SiegeStripTabs         40003da0 f   bg_saga.obj
+ 0001:00002e10       _BG_SiegeGetValueGroup     40003e10 f   bg_saga.obj
+ 0001:00003480       _BG_SiegeGetPairedValue    40004480 f   bg_saga.obj
+ 0001:00003990       _BG_SiegeTranslateForcePowers 40004990 f   bg_saga.obj
+ 0001:00003cc0       _BG_SiegeTranslateGenericTable 40004cc0 f   bg_saga.obj
+ 0001:00003eb0       _BG_SiegeParseClassFile    40004eb0 f   bg_saga.obj
+ 0001:000048a0       _BG_SiegeCountBaseClass    400058a0 f   bg_saga.obj
+ 0001:00004920       _BG_GetUIPortraitFile      40005920 f   bg_saga.obj
+ 0001:000049b0       _BG_GetUIPortrait          400059b0 f   bg_saga.obj
+ 0001:00004a50       _BG_GetClassOnBaseClass    40005a50 f   bg_saga.obj
+ 0001:00004ae0       _BG_SiegeLoadClasses       40005ae0 f   bg_saga.obj
+ 0001:00004bd0       _BG_SiegeFindClassByName   40005bd0 f   bg_saga.obj
+ 0001:00004c30       _BG_SiegeParseTeamFile     40005c30 f   bg_saga.obj
+ 0001:00004eb0       _BG_SiegeLoadTeams         40005eb0 f   bg_saga.obj
+ 0001:00004f70       _BG_SiegeFindThemeForTeam  40005f70 f   bg_saga.obj
+ 0001:00004fa0       _BG_SiegeCheckClassLegality 40005fa0 f   bg_saga.obj
+ 0001:00005050       _BG_SiegeFindTeamForTheme  40006050 f   bg_saga.obj
+ 0001:000050c0       _BG_SiegeSetTeamTheme      400060c0 f   bg_saga.obj
+ 0001:00005100       _BG_SiegeFindClassIndexByName 40006100 f   bg_saga.obj
+ 0001:00005150       _BG_ClearVehicleParseParms 40006150 f   bg_vehicleLoad.obj
+ 0001:00005170       _VEH_LoadVehWeapon         40006170 f   bg_vehicleLoad.obj
+ 0001:00005840       _VEH_VehWeaponIndexForName 40006840 f   bg_vehicleLoad.obj
+ 0001:00005910       _BG_SetSharedVehicleFunctions 40006910 f   bg_vehicleLoad.obj
+ 0001:00005920       _BG_VehicleSetDefaults     40006920 f   bg_vehicleLoad.obj
+ 0001:00005940       _BG_VehicleClampData       40006940 f   bg_vehicleLoad.obj
+ 0001:000059f0       _VEH_LoadVehicle           400069f0 f   bg_vehicleLoad.obj
+ 0001:00006810       _VEH_VehicleIndexForName   40007810 f   bg_vehicleLoad.obj
+ 0001:000068e0       _BG_VehWeaponLoadParms     400078e0 f   bg_vehicleLoad.obj
+ 0001:00006b00       _BG_VehicleLoadParms       40007b00 f   bg_vehicleLoad.obj
+ 0001:00006d60       _BG_VehicleGetIndex        40007d60 f   bg_vehicleLoad.obj
+ 0001:00006d80       _BG_GetVehicleModelName    40007d80 f   bg_vehicleLoad.obj
+ 0001:00006de0       _BG_GetVehicleSkinName     40007de0 f   bg_vehicleLoad.obj
+ 0001:00006e70       _Q_rand                    40007e70 f   q_math.obj
+ 0001:00006e90       _Q_random                  40007e90 f   q_math.obj
+ 0001:00006ec0       _Q_crandom                 40007ec0 f   q_math.obj
+ 0001:00006ee0       _ClampChar                 40007ee0 f   q_math.obj
+ 0001:00006f00       _ClampShort                40007f00 f   q_math.obj
+ 0001:00006f30       _DirToByte                 40007f30 f   q_math.obj
+ 0001:00006fd0       _ByteToDir                 40007fd0 f   q_math.obj
+ 0001:00007040       _ColorBytes3               40008040 f   q_math.obj
+ 0001:00007080       _ColorBytes4               40008080 f   q_math.obj
+ 0001:000070d0       _NormalizeColor            400080d0 f   q_math.obj
+ 0001:00007180       _PlaneFromPoints           40008180 f   q_math.obj
+ 0001:000072b0       _RotatePointAroundVector   400082b0 f   q_math.obj
+ 0001:000074f0       _RotateAroundDirection     400084f0 f   q_math.obj
+ 0001:00007570       _vectoangles               40008570 f   q_math.obj
+ 0001:000076e0       _AnglesToAxis              400086e0 f   q_math.obj
+ 0001:00007740       _AxisClear                 40008740 f   q_math.obj
+ 0001:000077a0       _AxisCopy                  400087a0 f   q_math.obj
+ 0001:00007810       _ProjectPointOnPlane       40008810 f   q_math.obj
+ 0001:000078e0       _MakeNormalVectors         400088e0 f   q_math.obj
+ 0001:000079a0       _VectorRotate              400089a0 f   q_math.obj
+ 0001:00007a30       _Q_rsqrt                   40008a30 f   q_math.obj
+ 0001:00007a80       _Q_fabs                    40008a80 f   q_math.obj
+ 0001:00007aa0       _LerpAngle                 40008aa0 f   q_math.obj
+ 0001:00007b00       _AngleSubtract             40008b00 f   q_math.obj
+ 0001:00007b70       _AnglesSubtract            40008b70 f   q_math.obj
+ 0001:00007bd0       _AngleMod                  40008bd0 f   q_math.obj
+ 0001:00007c00       _AngleNormalize360         40008c00 f   q_math.obj
+ 0001:00007c30       _AngleNormalize180         40008c30 f   q_math.obj
+ 0001:00007c60       _AngleDelta                40008c60 f   q_math.obj
+ 0001:00007c80       _SetPlaneSignbits          40008c80 f   q_math.obj
+ 0001:00007ce0       _BoxOnPlaneSide            40008ce0 f   q_math.obj
+ 0001:00007f20       _RadiusFromBounds          40008f20 f   q_math.obj
+ 0001:00007ff0       _ClearBounds               40008ff0 f   q_math.obj
+ 0001:00008030       _DistanceHorizontal        40009030 f   q_math.obj
+ 0001:00008090       _DistanceHorizontalSquared 40009090 f   q_math.obj
+ 0001:000080e0       _AddPointToBounds          400090e0 f   q_math.obj
+ 0001:000081a0       _VectorNormalize           400091a0 f   q_math.obj
+ 0001:00008230       _VectorNormalize2          40009230 f   q_math.obj
+ 0001:000082e0       __VectorMA                 400092e0 f   q_math.obj
+ 0001:00008330       __DotProduct               40009330 f   q_math.obj
+ 0001:00008360       __VectorSubtract           40009360 f   q_math.obj
+ 0001:000083a0       __VectorAdd                400093a0 f   q_math.obj
+ 0001:000083e0       __VectorCopy               400093e0 f   q_math.obj
+ 0001:00008410       __VectorScale              40009410 f   q_math.obj
+ 0001:00008440       _Vector4Scale              40009440 f   q_math.obj
+ 0001:00008480       _Q_log2                    40009480 f   q_math.obj
+ 0001:000084b0       _MatrixMultiply            400094b0 f   q_math.obj
+ 0001:00008650       _AngleVectors              40009650 f   q_math.obj
+ 0001:00008830       _PerpendicularVector       40009830 f   q_math.obj
+ 0001:000088f0       _NormalToLatLong           400098f0 f   q_math.obj
+ 0001:000089f0       _Rand_Init                 400099f0 f   q_math.obj
+ 0001:00008a00       _flrand                    40009a00 f   q_math.obj
+ 0001:00008a50       _Q_flrand                  40009a50 f   q_math.obj
+ 0001:00008a70       _irand                     40009a70 f   q_math.obj
+ 0001:00008ac0       _Q_irand                   40009ac0 f   q_math.obj
+ 0001:00008ae0       _powf                      40009ae0 f   q_math.obj
+ 0001:00008b20       _DotProductNormalize       40009b20 f   q_math.obj
+ 0001:00008b70       _G_FindClosestPointOnLineSegment 40009b70 f   q_math.obj
+ 0001:00008e70       _G_PointDistFromLineSegment 40009e70 f   q_math.obj
+ 0001:000090d0       _GetIDForString            4000a0d0 f   q_shared.obj
+ 0001:00009130       _GetStringForID            4000a130 f   q_shared.obj
+ 0001:00009190       _Com_Clampi                4000a190 f   q_shared.obj
+ 0001:000091c0       _Com_Clamp                 4000a1c0 f   q_shared.obj
+ 0001:000091f0       _COM_SkipPath              4000a1f0 f   q_shared.obj
+ 0001:00009230       _COM_StripExtension        4000a230 f   q_shared.obj
+ 0001:00009270       _COM_DefaultExtension      4000a270 f   q_shared.obj
+ 0001:000092f0       _ShortSwap                 4000a2f0 f   q_shared.obj
+ 0001:00009330       _ShortNoSwap               4000a330 f   q_shared.obj
+ 0001:00009340       _LongSwap                  4000a340 f   q_shared.obj
+ 0001:000093a0       _LongNoSwap                4000a3a0 f   q_shared.obj
+ 0001:000093b0       _Long64Swap                4000a3b0 f   q_shared.obj
+ 0001:000093f0       _Long64NoSwap              4000a3f0 f   q_shared.obj
+ 0001:00009400       _FloatSwap                 4000a400 f   q_shared.obj
+ 0001:00009430       _FloatNoSwap               4000a430 f   q_shared.obj
+ 0001:00009440       _COM_BeginParseSession     4000a440 f   q_shared.obj
+ 0001:00009470       _COM_GetCurrentParseLine   4000a470 f   q_shared.obj
+ 0001:00009480       _COM_Parse                 4000a480 f   q_shared.obj
+ 0001:000094a0       _COM_ParseError            4000a4a0 f   q_shared.obj
+ 0001:000094f0       _COM_ParseWarning          4000a4f0 f   q_shared.obj
+ 0001:00009540       _SkipWhitespace            4000a540 f   q_shared.obj
+ 0001:00009590       _COM_Compress              4000a590 f   q_shared.obj
+ 0001:00009790       _COM_ParseExt              4000a790 f   q_shared.obj
+ 0001:000099c0       _COM_ParseString           4000a9c0 f   q_shared.obj
+ 0001:00009a00       _COM_ParseInt              4000aa00 f   q_shared.obj
+ 0001:00009a50       _COM_ParseFloat            4000aa50 f   q_shared.obj
+ 0001:00009aa0       _COM_ParseVec4             4000aaa0 f   q_shared.obj
+ 0001:00009af0       _COM_MatchToken            4000aaf0 f   q_shared.obj
+ 0001:00009b40       _SkipBracedSection         4000ab40 f   q_shared.obj
+ 0001:00009bb0       _SkipRestOfLine            4000abb0 f   q_shared.obj
+ 0001:00009c00       _Parse1DMatrix             4000ac00 f   q_shared.obj
+ 0001:00009c70       _Parse2DMatrix             4000ac70 f   q_shared.obj
+ 0001:00009ce0       _Parse3DMatrix             4000ace0 f   q_shared.obj
+ 0001:00009d50       _Q_isprint                 4000ad50 f   q_shared.obj
+ 0001:00009d70       _Q_islower                 4000ad70 f   q_shared.obj
+ 0001:00009d90       _Q_isupper                 4000ad90 f   q_shared.obj
+ 0001:00009db0       _Q_isalpha                 4000adb0 f   q_shared.obj
+ 0001:00009de0       _Q_strrchr                 4000ade0 f   q_shared.obj
+ 0001:00009e40       _Q_strncpyz                4000ae40 f   q_shared.obj
+ 0001:00009eb0       _Q_stricmpn                4000aeb0 f   q_shared.obj
+ 0001:00009f80       _Q_strncmp                 4000af80 f   q_shared.obj
+ 0001:00009ff0       _Q_stricmp                 4000aff0 f   q_shared.obj
+ 0001:0000a030       _Q_strlwr                  4000b030 f   q_shared.obj
+ 0001:0000a070       _Q_strupr                  4000b070 f   q_shared.obj
+ 0001:0000a0b0       _Q_strcat                  4000b0b0 f   q_shared.obj
+ 0001:0000a100       _Q_PrintStrlen             4000b100 f   q_shared.obj
+ 0001:0000a190       _Q_CleanStr                4000b190 f   q_shared.obj
+ 0001:0000a240       _Com_sprintf               4000b240 f   q_shared.obj
+ 0001:0000a2d0       _va                        4000b2d0 f   q_shared.obj
+ 0001:0000a330       _Info_ValueForKey          4000b330 f   q_shared.obj
+ 0001:0000a4b0       _Info_NextPair             4000b4b0 f   q_shared.obj
+ 0001:0000a590       _Info_RemoveKey            4000b590 f   q_shared.obj
+ 0001:0000a700       _Info_RemoveKey_Big        4000b700 f   q_shared.obj
+ 0001:0000a870       _Info_Validate             4000b870 f   q_shared.obj
+ 0001:0000a8b0       _Info_SetValueForKey       4000b8b0 f   q_shared.obj
+ 0001:0000aa30       _Info_SetValueForKey_Big   4000ba30 f   q_shared.obj
+ 0001:0000aba0       _Com_Error                 4000bba0 f   ui_atoms.obj
+ 0001:0000ac00       _Com_Printf                4000bc00 f   ui_atoms.obj
+ 0001:0000ac60       _UI_ClampCvar              4000bc60 f   ui_atoms.obj
+ 0001:0000ac90       _UI_StartDemoLoop          4000bc90 f   ui_atoms.obj
+ 0001:0000acb0       _UI_Argv                   4000bcb0 f   ui_atoms.obj
+ 0001:0000acd0       _UI_Cvar_VariableString    4000bcd0 f   ui_atoms.obj
+ 0001:0000acf0       _UI_SetBestScores          4000bcf0 f   ui_atoms.obj
+ 0001:0000b140       _UI_LoadBestScores         4000c140 f   ui_atoms.obj
+ 0001:0000b260       _UI_ClearScores            4000c260 f   ui_atoms.obj
+ 0001:0000b3b0       _UI_ConsoleCommand         4000c3b0 f   ui_atoms.obj
+ 0001:0000baa0       _UI_Shutdown               4000caa0 f   ui_atoms.obj
+ 0001:0000bab0       _UI_DrawNamedPic           4000cab0 f   ui_atoms.obj
+ 0001:0000bb00       _UI_DrawHandlePic          4000cb00 f   ui_atoms.obj
+ 0001:0000bbb0       _UI_FillRect               4000cbb0 f   ui_atoms.obj
+ 0001:0000bc00       _UI_DrawSides              4000cc00 f   ui_atoms.obj
+ 0001:0000bc60       _UI_DrawTopBottom          4000cc60 f   ui_atoms.obj
+ 0001:0000bcc0       _UI_DrawRect               4000ccc0 f   ui_atoms.obj
+ 0001:0000bd10       _UI_SetColor               4000cd10 f   ui_atoms.obj
+ 0001:0000bd30       _UI_UpdateScreen           4000cd30 f   ui_atoms.obj
+ 0001:0000bd40       _UI_DrawTextBox            4000cd40 f   ui_atoms.obj
+ 0001:0000bdf0       _UI_CursorInRect           4000cdf0 f   ui_atoms.obj
+ 0001:0000be30       _UI_InitForceShaders       4000ce30 f   ui_force.obj
+ 0001:0000bff0       _UI_DrawForceStars         4000cff0 f   ui_force.obj
+ 0001:0000c140       _UI_UpdateClientForcePowers 4000d140 f   ui_force.obj
+ 0001:0000c240       _UI_TranslateFCFIndex      4000d240 f   ui_force.obj
+ 0001:0000c270       _UI_SaveForceTemplate      4000d270 f   ui_force.obj
+ 0001:0000c4b0       _UpdateForceUsed           4000d4b0 f   ui_force.obj
+ 0001:0000c920       _UI_ReadLegalForce         4000d920 f   ui_force.obj
+ 0001:0000ce30       _UI_UpdateForcePowers      4000de30 f   ui_force.obj
+ 0001:0000d250       _UI_SkinColor_HandleKey    4000e250 f   ui_force.obj
+ 0001:0000d2f0       _UI_ForceSide_HandleKey    4000e2f0 f   ui_force.obj
+ 0001:0000d490       _UI_JediNonJedi_HandleKey  4000e490 f   ui_force.obj
+ 0001:0000d620       _UI_ForceMaxRank_HandleKey 4000e620 f   ui_force.obj
+ 0001:0000d6e0       _UI_ForcePowerRank_HandleKey 4000e6e0 f   ui_force.obj
+ 0001:0000d910       _UI_ForceConfigHandle      4000e910 f   ui_force.obj
+ 0001:0000df70       _UI_ParseInfos             4000ef70 f   ui_gameinfo.obj
+ 0001:0000e140       _UI_LoadArenas             4000f140 f   ui_gameinfo.obj
+ 0001:0000e670       _UI_LoadBots               4000f670 f   ui_gameinfo.obj
+ 0001:0000e8f0       _UI_GetBotInfoByNumber     4000f8f0 f   ui_gameinfo.obj
+ 0001:0000e930       _UI_GetBotInfoByName       4000f930 f   ui_gameinfo.obj
+ 0001:0000e9a0       _UI_GetNumBots             4000f9a0 f   ui_gameinfo.obj
+ 0001:0000e9b0       _UI_GetBotNameByNumber     4000f9b0 f   ui_gameinfo.obj
+ 0001:0000e9f0       _vmMain                    4000f9f0 f   ui_main.obj
+ 0001:0000eaf0       _UI_AnimsetAlloc           4000faf0 f   ui_main.obj
+ 0001:0000eb20       _UI_ParseAnimationFile     4000fb20 f   ui_main.obj
+ 0001:0000eef0       _UI_TeamName               4000fef0 f   ui_main.obj
+ 0001:0000ef30       _AssetCache                4000ff30 f   ui_main.obj
+ 0001:0000f110       __UI_DrawSides             40010110 f   ui_main.obj
+ 0001:0000f180       __UI_DrawTopBottom         40010180 f   ui_main.obj
+ 0001:0000f1f0       __UI_DrawRect              400101f0 f   ui_main.obj
+ 0001:0000f250       _MenuFontToHandle          40010250 f   ui_main.obj
+ 0001:0000f2b0       _Text_Width                400102b0 f   ui_main.obj
+ 0001:0000f2e0       _Text_Height               400102e0 f   ui_main.obj
+ 0001:0000f310       _Text_Paint                40010310 f   ui_main.obj
+ 0001:0000f3f0       _Text_PaintWithCursor      400103f0 f   ui_main.obj
+ 0001:0000f570       _UI_ShowPostGame           40010570 f   ui_main.obj
+ 0001:0000f5c0       _UI_DrawCenteredPic        400105c0 f   ui_main.obj
+ 0001:0000f620       _UI_GetStringEdString      40010620 f   ui_main.obj
+ 0001:0000f660       __UI_Refresh               40010660 f   ui_main.obj
+ 0001:0000f900       __UI_Shutdown              40010900 f   ui_main.obj
+ 0001:0000f910       _GetMenuBuffer             40010910 f   ui_main.obj
+ 0001:0000f9d0       _Asset_Parse               400109d0 f   ui_main.obj
+ 0001:00010240       _UI_Report                 40011240 f   ui_main.obj
+ 0001:00010250       _UI_ParseMenu              40011250 f   ui_main.obj
+ 0001:00010340       _Load_Menu                 40011340 f   ui_main.obj
+ 0001:000103e0       _UI_LoadMenus              400113e0 f   ui_main.obj
+ 0001:00010510       _UI_Load                   40011510 f   ui_main.obj
+ 0001:000105e0       _UI_HasSetSaberOnly        400115e0 f   ui_main.obj
+ 0001:000106d0       _UI_TrueJediEnabled        400116d0 f   ui_main.obj
+ 0001:00010810       _UpdateBotButtons          40011810 f   ui_main.obj
+ 0001:00010890       _UpdateForceStatus         40011890 f   ui_main.obj
+ 0001:00010d90       _UI_ServersSort            40011d90 f   ui_main.obj
+ 0001:00010e00       _UI_UpdateVideoSetup       40011e00 f   ui_main.obj
+ 0001:00010fc0       _UI_GetVideoSetup          40011fc0 f   ui_main.obj
+ 0001:00011320       _UI_SetSiegeObjectiveGraphicPos 40012320 f   ui_main.obj
+ 0001:00011480       _UI_FindCurrentSiegeTeamClass 40012480 f   ui_main.obj
+ 0001:000115e0       _UI_UpdateSiegeObjectiveGraphics 400125e0 f   ui_main.obj
+ 0001:000117d0       _UI_UpdateCharacterSkin    400127d0 f   ui_main.obj
+ 0001:000118d0       _UI_ClampMaxPlayers        400128d0 f   ui_main.obj
+ 0001:000119a0       _UI_UpdateSiegeStatusIcons 400129a0 f   ui_main.obj
+ 0001:00011af0       _UI_hasSkinForBase         40012af0 f   ui_main.obj
+ 0001:00012930       _UI_SiegeClassNum          40013930 f   ui_main.obj
+ 0001:00012970       _UI_SetSiegeTeams          40013970 f   ui_main.obj
+ 0001:00012cd0       _UI_SiegeSetCvarsForClass  40013cd0 f   ui_main.obj
+ 0001:00013220       _UI_UpdateCvarsForClass    40014220 f   ui_main.obj
+ 0001:00013350       _UI_FeederSelection        40014350 f   ui_main.obj
+ 0001:00014550       _UI_LoadForceConfig_List   40015550 f   ui_main.obj
+ 0001:00014710       _UI_SiegeInit              40015710 f   ui_main.obj
+ 0001:00014760       __UI_Init                  40015760 f   ui_main.obj
+ 0001:00022930       __UI_KeyEvent              40023930 f   ui_main.obj
+ 0001:000229b0       __UI_MouseEvent            400239b0 f   ui_main.obj
+ 0001:00022a40       _UI_LoadNonIngame          40023a40 f   ui_main.obj
+ 0001:00022a90       __UI_SetActiveMenu         40023a90 f   ui_main.obj
+ 0001:00022d40       __UI_IsFullscreen          40023d40 f   ui_main.obj
+ 0001:00022d50       _Text_PaintCenter          40023d50 f   ui_main.obj
+ 0001:00022db0       _UI_DrawConnectScreen      40023db0 f   ui_main.obj
+ 0001:00023aa0       _UI_RegisterCvars          40024aa0 f   ui_main.obj
+ 0001:00023b00       _UI_UpdateCvars            40024b00 f   ui_main.obj
+ 0001:00023eb0       _UI_CacheSaberGlowGraphics 40024eb0 f   ui_saber.obj
+ 0001:00023f90       _UI_ParseLiteral           40024f90 f   ui_saber.obj
+ 0001:00024000       _UI_ParseLiteralSilent     40025000 f   ui_saber.obj
+ 0001:00024050       _UI_SaberParseParm         40025050 f   ui_saber.obj
+ 0001:000241b0       _UI_SaberModelForSaber     400251b0 f   ui_saber.obj
+ 0001:000241d0       _UI_SaberSkinForSaber      400251d0 f   ui_saber.obj
+ 0001:000241f0       _UI_SaberTypeForSaber      400251f0 f   ui_saber.obj
+ 0001:00024210       _UI_SaberNumBladesForSaber 40025210 f   ui_saber.obj
+ 0001:00024270       _UI_SaberShouldDrawBlade   40025270 f   ui_saber.obj
+ 0001:00024360       _UI_IsSaberTwoHanded       40025360 f   ui_saber.obj
+ 0001:000243c0       _UI_SaberBladeLengthForSaber 400253c0 f   ui_saber.obj
+ 0001:00024480       _UI_SaberBladeRadiusForSaber 40025480 f   ui_saber.obj
+ 0001:00024540       _UI_SaberProperNameForSaber 40025540 f   ui_saber.obj
+ 0001:000245c0       _UI_SaberValidForPlayerInMP 400255c0 f   ui_saber.obj
+ 0001:00024620       _UI_SaberLoadParms         40025620 f   ui_saber.obj
+ 0001:00024870       _UI_DoSaber                40025870 f   ui_saber.obj
+ 0001:00024ca0       _SaberColorToString        40025ca0 f   ui_saber.obj
+ 0001:00024d00       _TranslateSaberColor       40025d00 f   ui_saber.obj
+ 0001:00024de0       _TranslateSaberType        40025de0 f   ui_saber.obj
+ 0001:00024f50       _UI_SaberDrawBlade         40025f50 f   ui_saber.obj
+ 0001:00025f00       _UI_GetSaberForMenu        40026f00 f   ui_saber.obj
+ 0001:00026080       _UI_SaberDrawBlades        40027080 f   ui_saber.obj
+ 0001:000262a0       _UI_SaberAttachToChar      400272a0 f   ui_saber.obj
+ 0001:00026490       _UI_SaberGetHiltInfo       40027490 f   ui_saber.obj
+ 0001:000265d0       _UI_Alloc                  400275d0 f   ui_shared.obj
+ 0001:00026640       _UI_InitMemory             40027640 f   ui_shared.obj
+ 0001:00026660       _UI_OutOfMemory            40027660 f   ui_shared.obj
+ 0001:00026670       _String_Alloc              40027670 f   ui_shared.obj
+ 0001:00026830       _String_Report             40027830 f   ui_shared.obj
+ 0001:000268d0       _String_Init               400278d0 f   ui_shared.obj
+ 0001:00026960       _PC_SourceWarning          40027960 f   ui_shared.obj
+ 0001:000269e0       _PC_SourceError            400279e0 f   ui_shared.obj
+ 0001:00026a60       _LerpColor                 40027a60 f   ui_shared.obj
+ 0001:00026b00       _Float_Parse               40027b00 f   ui_shared.obj
+ 0001:00026b50       _PC_Float_Parse            40027b50 f   ui_shared.obj
+ 0001:00026c00       _Color_Parse               40027c00 f   ui_shared.obj
+ 0001:00026c50       _PC_Color_Parse            40027c50 f   ui_shared.obj
+ 0001:00026ca0       _Int_Parse                 40027ca0 f   ui_shared.obj
+ 0001:00026cf0       _PC_Int_Parse              40027cf0 f   ui_shared.obj
+ 0001:00026da0       _Rect_Parse                40027da0 f   ui_shared.obj
+ 0001:00026e10       _PC_Rect_Parse             40027e10 f   ui_shared.obj
+ 0001:00026e80       _String_Parse              40027e80 f   ui_shared.obj
+ 0001:00026ed0       _PC_String_Parse           40027ed0 f   ui_shared.obj
+ 0001:00026f40       _PC_Script_Parse           40027f40 f   ui_shared.obj
+ 0001:00027060       _Init_Display              40028060 f   ui_shared.obj
+ 0001:00027070       _GradientBar_Paint         40028070 f   ui_shared.obj
+ 0001:000270d0       _Window_Init               400280d0 f   ui_shared.obj
+ 0001:00027130       _Fade                      40028130 f   ui_shared.obj
+ 0001:000271f0       _Window_Paint              400281f0 f   ui_shared.obj
+ 0001:00027730       _Item_SetScreenCoords      40028730 f   ui_shared.obj
+ 0001:00027800       _Item_UpdatePosition       40028800 f   ui_shared.obj
+ 0001:00027870       _Menu_UpdatePosition       40028870 f   ui_shared.obj
+ 0001:00027900       _Menu_PostParse            40028900 f   ui_shared.obj
+ 0001:00027950       _Menu_ClearFocus           40028950 f   ui_shared.obj
+ 0001:00027a30       _IsVisible                 40028a30 f   ui_shared.obj
+ 0001:00027a60       _Rect_ContainsPoint        40028a60 f   ui_shared.obj
+ 0001:00027ac0       _Menu_ItemsMatchingGroup   40028ac0 f   ui_shared.obj
+ 0001:00027b90       _Menu_GetMatchingItemByNumber 40028b90 f   ui_shared.obj
+ 0001:00027c40       _Script_SetColor           40028c40 f   ui_shared.obj
+ 0001:00027d40       _Script_SetAsset           40028d40 f   ui_shared.obj
+ 0001:00027d60       _Script_SetBackground      40028d60 f   ui_shared.obj
+ 0001:00027da0       _Script_SetItemRectCvar    40028da0 f   ui_shared.obj
+ 0001:00027fb0       _Script_SetItemBackground  40028fb0 f   ui_shared.obj
+ 0001:00028010       _Script_SetItemText        40029010 f   ui_shared.obj
+ 0001:00028070       _Menu_FindItemByName       40029070 f   ui_shared.obj
+ 0001:000280e0       _Script_SetTeamColor       400290e0 f   ui_shared.obj
+ 0001:00028140       _Script_SetItemColor       40029140 f   ui_shared.obj
+ 0001:00028310       _Script_SetItemColorCvar   40029310 f   ui_shared.obj
+ 0001:00028620       _Script_SetItemRect        40029620 f   ui_shared.obj
+ 0001:00028700       _Menu_ShowGroup            40029700 f   ui_shared.obj
+ 0001:00028780       _Menu_ShowItemByName       40029780 f   ui_shared.obj
+ 0001:00028830       _Menu_FadeItemByName       40029830 f   ui_shared.obj
+ 0001:000288d0       _Menus_FindByName          400298d0 f   ui_shared.obj
+ 0001:00028930       _Menus_ShowByName          40029930 f   ui_shared.obj
+ 0001:00028960       _Menus_OpenByName          40029960 f   ui_shared.obj
+ 0001:00028980       _Menus_CloseByName         40029980 f   ui_shared.obj
+ 0001:00028a70       _Menus_CloseAll            40029a70 f   ui_shared.obj
+ 0001:00028af0       _Script_Show               40029af0 f   ui_shared.obj
+ 0001:00028b30       _Script_Hide               40029b30 f   ui_shared.obj
+ 0001:00028b70       _Script_FadeIn             40029b70 f   ui_shared.obj
+ 0001:00028bb0       _Script_FadeOut            40029bb0 f   ui_shared.obj
+ 0001:00028bf0       _Script_Open               40029bf0 f   ui_shared.obj
+ 0001:00028c20       _Script_Close              40029c20 f   ui_shared.obj
+ 0001:00028c70       _Menu_TransitionItemByName 40029c70 f   ui_shared.obj
+ 0001:00028dd0       _Menu_Transition3ItemByName 40029dd0 f   ui_shared.obj
+ 0001:00029000       _Script_Defer              4002a000 f   ui_shared.obj
+ 0001:00029050       _Script_RunDeferred        4002a050 f   ui_shared.obj
+ 0001:00029090       _Script_Transition         4002a090 f   ui_shared.obj
+ 0001:00029130       _Menu_OrbitItemByName      4002a130 f   ui_shared.obj
+ 0001:000291e0       _Menu_ItemDisable          4002a1e0 f   ui_shared.obj
+ 0001:00029260       _Script_Disable            4002a260 f   ui_shared.obj
+ 0001:000292f0       _Script_Scale              4002a2f0 f   ui_shared.obj
+ 0001:00029440       _Script_Orbit              4002a440 f   ui_shared.obj
+ 0001:00029500       _Script_SetFocus           4002a500 f   ui_shared.obj
+ 0001:000295d0       _Script_SetPlayerModel     4002a5d0 f   ui_shared.obj
+ 0001:00029610       _ParseRect                 4002a610 f   ui_shared.obj
+ 0001:00029680       _Script_Transition2        4002a680 f   ui_shared.obj
+ 0001:00029720       _Script_Transition3        4002a720 f   ui_shared.obj
+ 0001:00029920       _Script_SetCvar            4002a920 f   ui_shared.obj
+ 0001:00029970       _Script_SetCvarToCvar      4002a970 f   ui_shared.obj
+ 0001:000299e0       _Script_Exec               4002a9e0 f   ui_shared.obj
+ 0001:00029a30       _Script_Play               4002aa30 f   ui_shared.obj
+ 0001:00029a80       _Script_playLooped         4002aa80 f   ui_shared.obj
+ 0001:00029ad0       _Menu_SetItemBackground    4002aad0 f   ui_shared.obj
+ 0001:00029b50       _Menu_SetItemText          4002ab50 f   ui_shared.obj
+ 0001:00029c70       _Item_RunScript            4002ac70 f   ui_shared.obj
+ 0001:00029da0       _Item_EnableShowViaCvar    4002ada0 f   ui_shared.obj
+ 0001:00029f10       _Item_SetFocus             4002af10 f   ui_shared.obj
+ 0001:0002a150       _Item_TextScroll_MaxScroll 4002b150 f   ui_shared.obj
+ 0001:0002a1a0       _Item_TextScroll_ThumbPosition 4002b1a0 f   ui_shared.obj
+ 0001:0002a230       _Item_TextScroll_ThumbDrawPosition 4002b230 f   ui_shared.obj
+ 0001:0002a2f0       _Item_TextScroll_OverLB    4002b2f0 f   ui_shared.obj
+ 0001:0002a440       _Item_TextScroll_MouseEnter 4002b440 f   ui_shared.obj
+ 0001:0002a480       _Item_TextScroll_HandleKey 4002b480 f   ui_shared.obj
+ 0001:0002a700       _Item_ListBox_MaxScroll    4002b700 f   ui_shared.obj
+ 0001:0002a790       _Item_ListBox_ThumbPosition 4002b790 f   ui_shared.obj
+ 0001:0002a890       _Item_ListBox_ThumbDrawPosition 4002b890 f   ui_shared.obj
+ 0001:0002aa10       _Item_Slider_ThumbPosition 4002ba10 f   ui_shared.obj
+ 0001:0002aaf0       _Item_Slider_OverSlider    4002baf0 f   ui_shared.obj
+ 0001:0002ab50       _Item_ListBox_OverLB       4002bb50 f   ui_shared.obj
+ 0001:0002aef0       _Item_ListBox_MouseEnter   4002bef0 f   ui_shared.obj
+ 0001:0002b120       _Item_MouseEnter           4002c120 f   ui_shared.obj
+ 0001:0002b2f0       _Item_MouseLeave           4002c2f0 f   ui_shared.obj
+ 0001:0002b360       _Menu_HitTest              4002c360 f   ui_shared.obj
+ 0001:0002b3c0       _Item_SetMouseOver         4002c3c0 f   ui_shared.obj
+ 0001:0002b400       _Item_OwnerDraw_HandleKey  4002c400 f   ui_shared.obj
+ 0001:0002b4c0       _Item_ListBox_HandleKey    4002c4c0 f   ui_shared.obj
+ 0001:0002bd10       _Item_YesNo_HandleKey      4002cd10 f   ui_shared.obj
+ 0001:0002be00       _Item_Multi_CountSettings  4002ce00 f   ui_shared.obj
+ 0001:0002be30       _Item_Multi_FindCvarByValue 4002ce30 f   ui_shared.obj
+ 0001:0002bf30       _Item_Multi_Setting        4002cf30 f   ui_shared.obj
+ 0001:0002c060       _Item_Multi_HandleKey      4002d060 f   ui_shared.obj
+ 0001:0002c250       _Leaving_EditField         4002d250 f   ui_shared.obj
+ 0001:0002c290       _Item_TextField_HandleKey  4002d290 f   ui_shared.obj
+ 0001:0002c920       _Item_StartCapture         4002d920 f   ui_shared.obj
+ 0001:0002d310       _Item_StopCapture          4002e310 f   ui_shared.obj
+ 0001:0002d320       _Item_Slider_HandleKey     4002e320 f   ui_shared.obj
+ 0001:0002d4e0       _Item_HandleKey            4002e4e0 f   ui_shared.obj
+ 0001:0002d6c0       _Item_HandleAccept         4002e6c0 f   ui_shared.obj
+ 0001:0002d6f0       _Item_Action               4002e6f0 f   ui_shared.obj
+ 0001:0002d720       _Menu_SetPrevCursorItem    4002e720 f   ui_shared.obj
+ 0001:0002d870       _Menu_SetNextCursorItem    4002e870 f   ui_shared.obj
+ 0001:0002d9c0       _Menus_Activate            4002e9c0 f   ui_shared.obj
+ 0001:0002db70       _Display_VisibleMenuCount  4002eb70 f   ui_shared.obj
+ 0001:0002dbd0       _Menus_HandleOOBClick      4002ebd0 f   ui_shared.obj
+ 0001:0002dd30       _Menu_HandleKey            4002ed30 f   ui_shared.obj
+ 0001:0002e390       _ToWindowCoords            4002f390 f   ui_shared.obj
+ 0001:0002e3e0       _Rect_ToWindowCoords       4002f3e0 f   ui_shared.obj
+ 0001:0002e400       _Item_SetTextExtents       4002f400 f   ui_shared.obj
+ 0001:0002e6e0       _Item_TextColor            4002f6e0 f   ui_shared.obj
+ 0001:0002e950       _Item_Text_AutoWrapped_Paint 4002f950 f   ui_shared.obj
+ 0001:0002ed00       _Item_Text_Wrapped_Paint   4002fd00 f   ui_shared.obj
+ 0001:0002ef60       _Item_Text_Paint           4002ff60 f   ui_shared.obj
+ 0001:0002f1b0       _Item_TextField_Paint      400301b0 f   ui_shared.obj
+ 0001:0002f4c0       _Item_YesNo_Paint          400304c0 f   ui_shared.obj
+ 0001:0002f710       _Item_Multi_Paint          40030710 f   ui_shared.obj
+ 0001:0002f960       _Controls_GetConfig        40030960 f   ui_shared.obj
+ 0001:0002fa80       _Controls_SetConfig        40030a80 f   ui_shared.obj
+ 0001:0002fb20       _BindingIDFromName         40030b20 f   ui_shared.obj
+ 0001:0002fb70       _BindingFromName           40030b70 f   ui_shared.obj
+ 0001:0002fc80       _Item_Slider_Paint         40030c80 f   ui_shared.obj
+ 0001:0002fe60       _Item_Bind_Paint           40030e60 f   ui_shared.obj
+ 0001:000301b0       _Display_KeyBindPending    400311b0 f   ui_shared.obj
+ 0001:000301c0       _Item_Bind_HandleKey       400311c0 f   ui_shared.obj
+ 0001:00030590       _UI_ScaleModelAxis         40031590 f   ui_shared.obj
+ 0001:00030700       _Item_Model_Paint          40031700 f   ui_shared.obj
+ 0001:000310b0       _Item_Image_Paint          400320b0 f   ui_shared.obj
+ 0001:00031120       _Item_TextScroll_Paint     40032120 f   ui_shared.obj
+ 0001:00031400       _Item_ListBox_Paint        40032400 f   ui_shared.obj
+ 0001:00032220       _Item_OwnerDraw_Paint      40033220 f   ui_shared.obj
+ 0001:00032710       _Item_Paint                40033710 f   ui_shared.obj
+ 0001:00033590       _Menu_Init                 40034590 f   ui_shared.obj
+ 0001:00033600       _Menu_GetFocusedItem       40034600 f   ui_shared.obj
+ 0001:00033660       _Menu_GetFocused           40034660 f   ui_shared.obj
+ 0001:000336d0       _Menu_ScrollFeeder         400346d0 f   ui_shared.obj
+ 0001:00033750       _Menu_SetFeederSelection   40034750 f   ui_shared.obj
+ 0001:00033860       _Menus_AnyFullScreenVisible 40034860 f   ui_shared.obj
+ 0001:000338c0       _Menus_ActivateByName      400348c0 f   ui_shared.obj
+ 0001:000339c0       _Item_Init                 400349c0 f   ui_shared.obj
+ 0001:00033a00       _Menu_HandleMouseMove      40034a00 f   ui_shared.obj
+ 0001:00033c40       _Menu_Paint                40034c40 f   ui_shared.obj
+ 0001:00033e40       _Item_ValidateTypeData     40034e40 f   ui_shared.obj
+ 0001:00033fc0       _KeywordHash_Key           40034fc0 f   ui_shared.obj
+ 0001:00034060       _KeywordHash_Add           40035060 f   ui_shared.obj
+ 0001:000340a0       _KeywordHash_Find          400350a0 f   ui_shared.obj
+ 0001:00034100       _ItemParse_name            40035100 f   ui_shared.obj
+ 0001:00034130       _ItemParse_focusSound      40035130 f   ui_shared.obj
+ 0001:00034180       _ItemParse_text            40035180 f   ui_shared.obj
+ 0001:000341b0       _ItemParse_descText        400351b0 f   ui_shared.obj
+ 0001:000341e0       _ItemParse_text2           400351e0 f   ui_shared.obj
+ 0001:00034210       _ItemParse_text2alignx     40035210 f   ui_shared.obj
+ 0001:00034240       _ItemParse_text2aligny     40035240 f   ui_shared.obj
+ 0001:00034270       _ItemParse_group           40035270 f   ui_shared.obj
+ 0001:000342a0       _UI_InsertG2Pointer        400352a0 f   ui_shared.obj
+ 0001:00034310       _UI_ClearG2Pointer         40035310 f   ui_shared.obj
+ 0001:00034350       _UI_CleanupGhoul2          40035350 f   ui_shared.obj
+ 0001:000343a0       _ItemParse_asset_model_go  400353a0 f   ui_shared.obj
+ 0001:00034650       _ItemParse_asset_model     40035650 f   ui_shared.obj
+ 0001:00034710       _ItemParse_asset_shader    40035710 f   ui_shared.obj
+ 0001:00034760       _ItemParse_model_origin    40035760 f   ui_shared.obj
+ 0001:000347d0       _ItemParse_model_fovx      400357d0 f   ui_shared.obj
+ 0001:00034810       _ItemParse_model_fovy      40035810 f   ui_shared.obj
+ 0001:00034850       _ItemParse_model_rotation  40035850 f   ui_shared.obj
+ 0001:00034890       _ItemParse_model_angle     40035890 f   ui_shared.obj
+ 0001:000348d0       _ItemParse_model_g2mins    400358d0 f   ui_shared.obj
+ 0001:00034940       _ItemParse_model_g2maxs    40035940 f   ui_shared.obj
+ 0001:000349b0       _ItemParse_model_g2scale   400359b0 f   ui_shared.obj
+ 0001:00034a20       _ItemParse_model_g2skin    40035a20 f   ui_shared.obj
+ 0001:00034aa0       _ItemParse_model_g2anim    40035aa0 f   ui_shared.obj
+ 0001:00034b60       _ItemParse_model_g2skin_go 40035b60 f   ui_shared.obj
+ 0001:00034c00       _ItemParse_model_g2anim_go 40035c00 f   ui_shared.obj
+ 0001:00034ca0       _ItemParse_rectcvar        40035ca0 f   ui_shared.obj
+ 0001:00034db0       _ItemParse_rect            40035db0 f   ui_shared.obj
+ 0001:00034de0       _ItemParse_flag            40035de0 f   ui_shared.obj
+ 0001:00034eb0       _ItemParse_style           40035eb0 f   ui_shared.obj
+ 0001:00034ef0       _ItemParse_decoration      40035ef0 f   ui_shared.obj
+ 0001:00034f10       _ItemParse_notselectable   40035f10 f   ui_shared.obj
+ 0001:00034f60       _ItemParse_scrollhidden    40035f60 f   ui_shared.obj
+ 0001:00034fb0       _ItemParse_wrapped         40035fb0 f   ui_shared.obj
+ 0001:00034fd0       _ItemParse_autowrapped     40035fd0 f   ui_shared.obj
+ 0001:00034ff0       _ItemParse_horizontalscroll 40035ff0 f   ui_shared.obj
+ 0001:00035010       _ItemParse_type            40036010 f   ui_shared.obj
+ 0001:00035050       _ItemParse_elementwidth    40036050 f   ui_shared.obj
+ 0001:00035090       _ItemParse_elementheight   40036090 f   ui_shared.obj
+ 0001:000350d0       _ItemParse_feeder          400360d0 f   ui_shared.obj
+ 0001:00035100       _ItemParse_elementtype     40036100 f   ui_shared.obj
+ 0001:00035150       _ItemParse_columns         40036150 f   ui_shared.obj
+ 0001:00035250       _ItemParse_border          40036250 f   ui_shared.obj
+ 0001:00035280       _ItemParse_bordersize      40036280 f   ui_shared.obj
+ 0001:000352b0       _ItemParse_visible         400362b0 f   ui_shared.obj
+ 0001:000352f0       _ItemParse_ownerdraw       400362f0 f   ui_shared.obj
+ 0001:00035330       _ItemParse_align           40036330 f   ui_shared.obj
+ 0001:00035360       _ItemParse_isCharacter     40036360 f   ui_shared.obj
+ 0001:000353c0       _ItemParse_textalign       400363c0 f   ui_shared.obj
+ 0001:00035400       _ItemParse_textalignx      40036400 f   ui_shared.obj
+ 0001:00035430       _ItemParse_textaligny      40036430 f   ui_shared.obj
+ 0001:00035460       _ItemParse_textscale       40036460 f   ui_shared.obj
+ 0001:00035490       _ItemParse_textstyle       40036490 f   ui_shared.obj
+ 0001:000354c0       _ItemParse_invertyesno     400364c0 f   ui_shared.obj
+ 0001:000354f0       _ItemParse_xoffset         400364f0 f   ui_shared.obj
+ 0001:00035520       _ItemParse_backcolor       40036520 f   ui_shared.obj
+ 0001:00035580       _ItemParse_forecolor       40036580 f   ui_shared.obj
+ 0001:00035610       _ItemParse_bordercolor     40036610 f   ui_shared.obj
+ 0001:00035670       _ItemParse_outlinecolor    40036670 f   ui_shared.obj
+ 0001:000356a0       _ItemParse_background      400366a0 f   ui_shared.obj
+ 0001:000356f0       _ItemParse_cinematic       400366f0 f   ui_shared.obj
+ 0001:00035720       _ItemParse_doubleClick     40036720 f   ui_shared.obj
+ 0001:00035780       _ItemParse_onFocus         40036780 f   ui_shared.obj
+ 0001:000357b0       _ItemParse_leaveFocus      400367b0 f   ui_shared.obj
+ 0001:000357e0       _ItemParse_mouseEnter      400367e0 f   ui_shared.obj
+ 0001:00035810       _ItemParse_mouseExit       40036810 f   ui_shared.obj
+ 0001:00035840       _ItemParse_mouseEnterText  40036840 f   ui_shared.obj
+ 0001:00035870       _ItemParse_mouseExitText   40036870 f   ui_shared.obj
+ 0001:000358a0       _ItemParse_action          400368a0 f   ui_shared.obj
+ 0001:000358d0       _ItemParse_special         400368d0 f   ui_shared.obj
+ 0001:00035900       _ItemParse_cvarTest        40036900 f   ui_shared.obj
+ 0001:00035930       _ItemParse_cvar            40036930 f   ui_shared.obj
+ 0001:000359e0       _ItemParse_font            400369e0 f   ui_shared.obj
+ 0001:00035a20       _ItemParse_maxChars        40036a20 f   ui_shared.obj
+ 0001:00035a80       _ItemParse_maxPaintChars   40036a80 f   ui_shared.obj
+ 0001:00035ae0       _ItemParse_maxLineChars    40036ae0 f   ui_shared.obj
+ 0001:00035b40       _ItemParse_lineHeight      40036b40 f   ui_shared.obj
+ 0001:00035ba0       _ItemParse_cvarFloat       40036ba0 f   ui_shared.obj
+ 0001:00035c40       _ItemParse_cvarStrList     40036c40 f   ui_shared.obj
+ 0001:00036000       _ItemParse_cvarFloatList   40037000 f   ui_shared.obj
+ 0001:00036190       _ItemParse_addColorRange   40037190 f   ui_shared.obj
+ 0001:00036230       _ItemParse_ownerdrawFlag   40037230 f   ui_shared.obj
+ 0001:00036270       _ItemParse_enableCvar      40037270 f   ui_shared.obj
+ 0001:000362b0       _ItemParse_disableCvar     400372b0 f   ui_shared.obj
+ 0001:000362f0       _ItemParse_showCvar        400372f0 f   ui_shared.obj
+ 0001:00036330       _ItemParse_hideCvar        40037330 f   ui_shared.obj
+ 0001:00036370       _ItemParse_Appearance_slot 40037370 f   ui_shared.obj
+ 0001:000363a0       _ItemParse_isSaber         400373a0 f   ui_shared.obj
+ 0001:00036410       _ItemParse_isSaber2        40037410 f   ui_shared.obj
+ 0001:00036480       _Item_SetupKeywordHash     40037480 f   ui_shared.obj
+ 0001:000364e0       _Item_Parse                400374e0 f   ui_shared.obj
+ 0001:000369b0       _Item_InitControls         400379b0 f   ui_shared.obj
+ 0001:00036a20       _MenuParse_font            40037a20 f   ui_shared.obj
+ 0001:00036a90       _MenuParse_name            40037a90 f   ui_shared.obj
+ 0001:00036ae0       _MenuParse_fullscreen      40037ae0 f   ui_shared.obj
+ 0001:00036b20       _MenuParse_rect            40037b20 f   ui_shared.obj
+ 0001:00036b50       _MenuParse_style           40037b50 f   ui_shared.obj
+ 0001:00036b90       _MenuParse_visible         40037b90 f   ui_shared.obj
+ 0001:00036be0       _MenuParse_onOpen          40037be0 f   ui_shared.obj
+ 0001:00036c20       _MenuParse_onClose         40037c20 f   ui_shared.obj
+ 0001:00036c60       _MenuParse_onAccept        40037c60 f   ui_shared.obj
+ 0001:00036ca0       _MenuParse_onESC           40037ca0 f   ui_shared.obj
+ 0001:00036ce0       _MenuParse_border          40037ce0 f   ui_shared.obj
+ 0001:00036d10       _MenuParse_borderSize      40037d10 f   ui_shared.obj
+ 0001:00036d40       _MenuParse_backcolor       40037d40 f   ui_shared.obj
+ 0001:00036da0       _MenuParse_descAlignment   40037da0 f   ui_shared.obj
+ 0001:00036de0       _MenuParse_descX           40037de0 f   ui_shared.obj
+ 0001:00036e20       _MenuParse_descY           40037e20 f   ui_shared.obj
+ 0001:00036e60       _MenuParse_descScale       40037e60 f   ui_shared.obj
+ 0001:00036ea0       _MenuParse_descColor       40037ea0 f   ui_shared.obj
+ 0001:00036f00       _MenuParse_forecolor       40037f00 f   ui_shared.obj
+ 0001:00036f90       _MenuParse_bordercolor     40037f90 f   ui_shared.obj
+ 0001:00036ff0       _MenuParse_focuscolor      40037ff0 f   ui_shared.obj
+ 0001:00037050       _MenuParse_disablecolor    40038050 f   ui_shared.obj
+ 0001:000370b0       _MenuParse_outlinecolor    400380b0 f   ui_shared.obj
+ 0001:000370f0       _MenuParse_background      400380f0 f   ui_shared.obj
+ 0001:00037150       _MenuParse_cinematic       40038150 f   ui_shared.obj
+ 0001:00037180       _MenuParse_ownerdrawFlag   40038180 f   ui_shared.obj
+ 0001:000371c0       _MenuParse_ownerdraw       400381c0 f   ui_shared.obj
+ 0001:000371f0       _MenuParse_popup           400381f0 f   ui_shared.obj
+ 0001:00037220       _MenuParse_outOfBounds     40038220 f   ui_shared.obj
+ 0001:00037250       _MenuParse_soundLoop       40038250 f   ui_shared.obj
+ 0001:00037290       _MenuParse_fadeClamp       40038290 f   ui_shared.obj
+ 0001:000372d0       _MenuParse_fadeAmount      400382d0 f   ui_shared.obj
+ 0001:00037310       _MenuParse_fadeCycle       40038310 f   ui_shared.obj
+ 0001:00037350       _MenuParse_itemDef         40038350 f   ui_shared.obj
+ 0001:00037430       _MenuParse_appearanceIncrement 40038430 f   ui_shared.obj
+ 0001:00037470       _Menu_SetupKeywordHash     40038470 f   ui_shared.obj
+ 0001:000374d0       _Menu_Parse                400384d0 f   ui_shared.obj
+ 0001:000375e0       _Menu_New                  400385e0 f   ui_shared.obj
+ 0001:00037640       _Menu_Count                40038640 f   ui_shared.obj
+ 0001:00037650       _Menu_PaintAll             40038650 f   ui_shared.obj
+ 0001:00037770       _Menu_Reset                40038770 f   ui_shared.obj
+ 0001:00037780       _Display_GetContext        40038780 f   ui_shared.obj
+ 0001:00037790       _Display_CaptureItem       40038790 f   ui_shared.obj
+ 0001:00037800       _Display_MouseMove         40038800 f   ui_shared.obj
+ 0001:000378d0       _Display_CursorType        400388d0 f   ui_shared.obj
+ 0001:00037960       _Display_HandleKey         40038960 f   ui_shared.obj
+ 0001:000379b0       _Display_CacheAll          400389b0 f   ui_shared.obj
+ 0001:00037c10       _dllEntry                  40038c10 f   ui_syscalls.obj
+ 0001:00037c20       _PASSFLOAT                 40038c20 f   ui_syscalls.obj
+ 0001:00037c40       _trap_Print                40038c40 f   ui_syscalls.obj
+ 0001:00037c60       _trap_Error                40038c60 f   ui_syscalls.obj
+ 0001:00037c80       _trap_Milliseconds         40038c80 f   ui_syscalls.obj
+ 0001:00037c90       _trap_Cvar_Register        40038c90 f   ui_syscalls.obj
+ 0001:00037cb0       _trap_Cvar_Update          40038cb0 f   ui_syscalls.obj
+ 0001:00037cd0       _trap_Cvar_Set             40038cd0 f   ui_syscalls.obj
+ 0001:00037cf0       _trap_Cvar_VariableValue   40038cf0 f   ui_syscalls.obj
+ 0001:00037d10       _trap_Cvar_VariableStringBuffer 40038d10 f   ui_syscalls.obj
+ 0001:00037d30       _trap_Cvar_SetValue        40038d30 f   ui_syscalls.obj
+ 0001:00037d60       _trap_Cvar_Reset           40038d60 f   ui_syscalls.obj
+ 0001:00037d80       _trap_Cvar_Create          40038d80 f   ui_syscalls.obj
+ 0001:00037da0       _trap_Cvar_InfoStringBuffer 40038da0 f   ui_syscalls.obj
+ 0001:00037dc0       _trap_Argc                 40038dc0 f   ui_syscalls.obj
+ 0001:00037dd0       _trap_Argv                 40038dd0 f   ui_syscalls.obj
+ 0001:00037df0       _trap_Cmd_ExecuteText      40038df0 f   ui_syscalls.obj
+ 0001:00037e10       _trap_FS_FOpenFile         40038e10 f   ui_syscalls.obj
+ 0001:00037e30       _trap_FS_Read              40038e30 f   ui_syscalls.obj
+ 0001:00037e50       _trap_FS_Write             40038e50 f   ui_syscalls.obj
+ 0001:00037e70       _trap_FS_FCloseFile        40038e70 f   ui_syscalls.obj
+ 0001:00037e90       _trap_FS_GetFileList       40038e90 f   ui_syscalls.obj
+ 0001:00037eb0       _trap_R_RegisterModel      40038eb0 f   ui_syscalls.obj
+ 0001:00037ed0       _trap_R_RegisterSkin       40038ed0 f   ui_syscalls.obj
+ 0001:00037ef0       _trap_R_RegisterFont       40038ef0 f   ui_syscalls.obj
+ 0001:00037f10       _trap_R_Font_StrLenPixels  40038f10 f   ui_syscalls.obj
+ 0001:00037f40       _trap_R_Font_StrLenChars   40038f40 f   ui_syscalls.obj
+ 0001:00037f60       _trap_R_Font_HeightPixels  40038f60 f   ui_syscalls.obj
+ 0001:00037f90       _trap_R_Font_DrawString    40038f90 f   ui_syscalls.obj
+ 0001:00037fd0       _trap_Language_IsAsian     40038fd0 f   ui_syscalls.obj
+ 0001:00037fe0       _trap_Language_UsesSpaces  40038fe0 f   ui_syscalls.obj
+ 0001:00037ff0       _trap_AnyLanguage_ReadCharFromString 40038ff0 f   ui_syscalls.obj
+ 0001:00038010       _trap_R_RegisterShaderNoMip 40039010 f   ui_syscalls.obj
+ 0001:00038080       _trap_R_ShaderNameFromIndex 40039080 f   ui_syscalls.obj
+ 0001:000380a0       _trap_R_ClearScene         400390a0 f   ui_syscalls.obj
+ 0001:000380b0       _trap_R_AddRefEntityToScene 400390b0 f   ui_syscalls.obj
+ 0001:000380d0       _trap_R_AddPolyToScene     400390d0 f   ui_syscalls.obj
+ 0001:000380f0       _trap_R_AddLightToScene    400390f0 f   ui_syscalls.obj
+ 0001:00038140       _trap_R_RenderScene        40039140 f   ui_syscalls.obj
+ 0001:00038160       _trap_R_SetColor           40039160 f   ui_syscalls.obj
+ 0001:00038180       _trap_R_DrawStretchPic     40039180 f   ui_syscalls.obj
+ 0001:00038200       _trap_R_ModelBounds        40039200 f   ui_syscalls.obj
+ 0001:00038220       _trap_UpdateScreen         40039220 f   ui_syscalls.obj
+ 0001:00038230       _trap_CM_LerpTag           40039230 f   ui_syscalls.obj
+ 0001:00038270       _trap_S_StartLocalSound    40039270 f   ui_syscalls.obj
+ 0001:00038290       _trap_S_RegisterSound      40039290 f   ui_syscalls.obj
+ 0001:000382b0       _trap_Key_KeynumToStringBuf 400392b0 f   ui_syscalls.obj
+ 0001:000382d0       _trap_Key_GetBindingBuf    400392d0 f   ui_syscalls.obj
+ 0001:000382f0       _trap_Key_SetBinding       400392f0 f   ui_syscalls.obj
+ 0001:00038310       _trap_Key_IsDown           40039310 f   ui_syscalls.obj
+ 0001:00038330       _trap_Key_GetOverstrikeMode 40039330 f   ui_syscalls.obj
+ 0001:00038340       _trap_Key_SetOverstrikeMode 40039340 f   ui_syscalls.obj
+ 0001:00038360       _trap_Key_ClearStates      40039360 f   ui_syscalls.obj
+ 0001:00038370       _trap_Key_GetCatcher       40039370 f   ui_syscalls.obj
+ 0001:00038380       _trap_Key_SetCatcher       40039380 f   ui_syscalls.obj
+ 0001:000383a0       _trap_GetClipboardData     400393a0 f   ui_syscalls.obj
+ 0001:000383c0       _trap_GetClientState       400393c0 f   ui_syscalls.obj
+ 0001:000383e0       _trap_GetGlconfig          400393e0 f   ui_syscalls.obj
+ 0001:00038400       _trap_GetConfigString      40039400 f   ui_syscalls.obj
+ 0001:00038420       _trap_LAN_GetServerCount   40039420 f   ui_syscalls.obj
+ 0001:00038440       _trap_LAN_GetServerAddressString 40039440 f   ui_syscalls.obj
+ 0001:00038460       _trap_LAN_GetServerInfo    40039460 f   ui_syscalls.obj
+ 0001:00038480       _trap_LAN_GetServerPing    40039480 f   ui_syscalls.obj
+ 0001:000384a0       _trap_LAN_GetPingQueueCount 400394a0 f   ui_syscalls.obj
+ 0001:000384b0       _trap_LAN_ServerStatus     400394b0 f   ui_syscalls.obj
+ 0001:000384d0       _trap_LAN_SaveCachedServers 400394d0 f   ui_syscalls.obj
+ 0001:000384e0       _trap_LAN_LoadCachedServers 400394e0 f   ui_syscalls.obj
+ 0001:000384f0       _trap_LAN_ResetPings       400394f0 f   ui_syscalls.obj
+ 0001:00038510       _trap_LAN_ClearPing        40039510 f   ui_syscalls.obj
+ 0001:00038530       _trap_LAN_GetPing          40039530 f   ui_syscalls.obj
+ 0001:00038550       _trap_LAN_GetPingInfo      40039550 f   ui_syscalls.obj
+ 0001:00038570       _trap_LAN_MarkServerVisible 40039570 f   ui_syscalls.obj
+ 0001:00038590       _trap_LAN_ServerIsVisible  40039590 f   ui_syscalls.obj
+ 0001:000385b0       _trap_LAN_UpdateVisiblePings 400395b0 f   ui_syscalls.obj
+ 0001:000385d0       _trap_LAN_AddServer        400395d0 f   ui_syscalls.obj
+ 0001:000385f0       _trap_LAN_RemoveServer     400395f0 f   ui_syscalls.obj
+ 0001:00038610       _trap_LAN_CompareServers   40039610 f   ui_syscalls.obj
+ 0001:00038640       _trap_MemoryRemaining      40039640 f   ui_syscalls.obj
+ 0001:00038650       _trap_PC_AddGlobalDefine   40039650 f   ui_syscalls.obj
+ 0001:00038670       _trap_PC_LoadSource        40039670 f   ui_syscalls.obj
+ 0001:00038690       _trap_PC_FreeSource        40039690 f   ui_syscalls.obj
+ 0001:000386b0       _trap_PC_ReadToken         400396b0 f   ui_syscalls.obj
+ 0001:000386d0       _trap_PC_SourceFileAndLine 400396d0 f   ui_syscalls.obj
+ 0001:000386f0       _trap_PC_LoadGlobalDefines 400396f0 f   ui_syscalls.obj
+ 0001:00038710       _trap_PC_RemoveAllGlobalDefines 40039710 f   ui_syscalls.obj
+ 0001:00038720       _trap_S_StopBackgroundTrack 40039720 f   ui_syscalls.obj
+ 0001:00038730       _trap_S_StartBackgroundTrack 40039730 f   ui_syscalls.obj
+ 0001:00038750       _trap_RealTime             40039750 f   ui_syscalls.obj
+ 0001:00038770       _trap_CIN_PlayCinematic    40039770 f   ui_syscalls.obj
+ 0001:000387a0       _trap_CIN_StopCinematic    400397a0 f   ui_syscalls.obj
+ 0001:000387c0       _trap_CIN_RunCinematic     400397c0 f   ui_syscalls.obj
+ 0001:000387e0       _trap_CIN_DrawCinematic    400397e0 f   ui_syscalls.obj
+ 0001:00038800       _trap_CIN_SetExtents       40039800 f   ui_syscalls.obj
+ 0001:00038830       _trap_R_RemapShader        40039830 f   ui_syscalls.obj
+ 0001:00038850       _trap_SP_GetNumLanguages   40039850 f   ui_syscalls.obj
+ 0001:00038860       _trap_GetLanguageName      40039860 f   ui_syscalls.obj
+ 0001:00038880       _trap_SP_GetStringTextString 40039880 f   ui_syscalls.obj
+ 0001:000388a0       _trap_G2_ListModelSurfaces 400398a0 f   ui_syscalls.obj
+ 0001:000388c0       _trap_G2_ListModelBones    400398c0 f   ui_syscalls.obj
+ 0001:000388e0       _trap_G2_SetGhoul2ModelIndexes 400398e0 f   ui_syscalls.obj
+ 0001:00038900       _trap_G2_HaveWeGhoul2Models 40039900 f   ui_syscalls.obj
+ 0001:00038920       _trap_G2API_GetBoltMatrix  40039920 f   ui_syscalls.obj
+ 0001:00038960       _trap_G2API_GetBoltMatrix_NoReconstruct 40039960 f   ui_syscalls.obj
+ 0001:000389a0       _trap_G2API_GetBoltMatrix_NoRecNoRot 400399a0 f   ui_syscalls.obj
+ 0001:000389e0       _trap_G2API_InitGhoul2Model 400399e0 f   ui_syscalls.obj
+ 0001:00038a10       _trap_G2API_SetSkin        40039a10 f   ui_syscalls.obj
+ 0001:00038a40       _trap_G2API_CollisionDetect 40039a40 f   ui_syscalls.obj
+ 0001:00038a90       _trap_G2API_CollisionDetectCache 40039a90 f   ui_syscalls.obj
+ 0001:00038ae0       _trap_G2API_CleanGhoul2Models 40039ae0 f   ui_syscalls.obj
+ 0001:00038b00       _trap_G2API_SetBoneAngles  40039b00 f   ui_syscalls.obj
+ 0001:00038b40       _trap_G2API_SetBoneAnim    40039b40 f   ui_syscalls.obj
+ 0001:00038b90       _trap_G2API_GetBoneAnim    40039b90 f   ui_syscalls.obj
+ 0001:00038bd0       _trap_G2API_GetBoneFrame   40039bd0 f   ui_syscalls.obj
+ 0001:00038c00       _trap_G2API_GetGLAName     40039c00 f   ui_syscalls.obj
+ 0001:00038c20       _trap_G2API_CopyGhoul2Instance 40039c20 f   ui_syscalls.obj
+ 0001:00038c40       _trap_G2API_CopySpecificGhoul2Model 40039c40 f   ui_syscalls.obj
+ 0001:00038c70       _trap_G2API_DuplicateGhoul2Instance 40039c70 f   ui_syscalls.obj
+ 0001:00038c90       _trap_G2API_HasGhoul2ModelOnIndex 40039c90 f   ui_syscalls.obj
+ 0001:00038cb0       _trap_G2API_RemoveGhoul2Model 40039cb0 f   ui_syscalls.obj
+ 0001:00038cd0       _trap_G2API_AddBolt        40039cd0 f   ui_syscalls.obj
+ 0001:00038cf0       _trap_G2API_SetBoltInfo    40039cf0 f   ui_syscalls.obj
+ 0001:00038d10       _trap_G2API_SetRootSurface 40039d10 f   ui_syscalls.obj
+ 0001:00038d30       _trap_G2API_SetSurfaceOnOff 40039d30 f   ui_syscalls.obj
+ 0001:00038d50       _trap_G2API_SetNewOrigin   40039d50 f   ui_syscalls.obj
+ 0001:00038d70       _trap_G2API_GetTime        40039d70 f   ui_syscalls.obj
+ 0001:00038d90       _trap_G2API_SetTime        40039d90 f   ui_syscalls.obj
+ 0001:00038db0       _trap_G2API_SetRagDoll     40039db0 f   ui_syscalls.obj
+ 0001:00038dd0       _trap_G2API_AnimateG2Models 40039dd0 f   ui_syscalls.obj
+ 0001:00038df0       _trap_G2API_SetBoneIKState 40039df0 f   ui_syscalls.obj
+ 0001:00038e20       _trap_G2API_IKMove         40039e20 f   ui_syscalls.obj
+ 0001:00038e40       _trap_G2API_GetSurfaceName 40039e40 f   ui_syscalls.obj
+ 0001:00038e70       _trap_G2API_AttachG2Model  40039e70 f   ui_syscalls.obj
+ 0001:00038e97       _atol                      40039e97 f   LIBC:atox.obj
+ 0001:00038eef       _atoi                      40039eef f   LIBC:atox.obj
+ 0001:00038f00       _strcpy                    40039f00 f   LIBC:strcat.obj
+ 0001:00038f10       _strcat                    40039f10 f   LIBC:strcat.obj
+ 0001:00039000       _strlen                    4003a000 f   LIBC:strlen.obj
+ 0001:00039090       _atan2                     4003a090 f   LIBC:87ctriga.obj
+ 0001:0003909a       __CIatan2                  4003a09a f   LIBC:87ctriga.obj
+ 0001:000390a4       __fpclear                  4003a0a4 f   LIBC:fpinit.obj
+ 0001:000390a5       __cfltcvt_init             4003a0a5 f   LIBC:fpinit.obj
+ 0001:000390dd       __fpmath                   4003a0dd f   LIBC:fpinit.obj
+ 0001:00039100       __CIcos                    4003a100 f   LIBC:cos.obj
+ 0001:00039114       _cos                       4003a114     LIBC:cos.obj
+ 0001:000391b0       __CIsin                    4003a1b0 f   LIBC:sin.obj
+ 0001:000391c4       _sin                       4003a1c4     LIBC:sin.obj
+ 0001:0003925e       _fabs                      4003a25e f   LIBC:fabs.obj
+ 0001:00039320       _strchr                    4003a320 f   LIBC:strchr.obj
+ 0001:00039326       ___from_strstr_to_strchr   4003a326     LIBC:strchr.obj
+ 0001:000393e0       __alloca_probe             4003a3e0     LIBC:chkstk.obj
+ 0001:000393e0       __chkstk                   4003a3e0 f   LIBC:chkstk.obj
+ 0001:00039420       _strcmp                    4003a420 f   LIBC:strcmp.obj
+ 0001:000394b0       _memcpy                    4003a4b0 f   LIBC:memcpy.obj
+ 0001:000397ed       _atof                      4003a7ed f   LIBC:atof.obj
+ 0001:00039838       _sscanf                    4003a838 f   LIBC:sscanf.obj
+ 0001:00039870       _memset                    4003a870 f   LIBC:memset.obj
+ 0001:000398d0       __ftol2                    4003a8d0 f   LIBC:ftol2.obj
+ 0001:00039950       __CIsqrt                   4003a950 f   LIBC:sqrt.obj
+ 0001:00039964       _sqrt                      4003a964     LIBC:sqrt.obj
+ 0001:00039a10       _fmod                      4003aa10 f   LIBC:87fmod.obj
+ 0001:00039a1a       __CIfmod                   4003aa1a f   LIBC:87fmod.obj
+ 0001:00039a50       __CIacos                   4003aa50 f   LIBC:acos.obj
+ 0001:00039a64       _acos                      4003aa64     LIBC:acos.obj
+ 0001:00039b1b       _vsprintf                  4003ab1b f   LIBC:vsprintf.obj
+ 0001:00039b80       _strncpy                   4003ab80 f   LIBC:strncpy.obj
+ 0001:00039ca4       _tolower                   4003aca4 f   LIBC:tolower.obj
+ 0001:00039d79       _toupper                   4003ad79 f   LIBC:toupper.obj
+ 0001:00039e50       _strstr                    4003ae50 f   LIBC:strstr.obj
+ 0001:00039ee0       _ceil                      4003aee0 f   LIBC:ceil_pentium4.obj
+ 0001:00039f20       __ceil_pentium4            4003af20 f   LIBC:ceil_pentium4.obj
+ 0001:0003a000       _floor                     4003b000 f   LIBC:floor_pentium4.obj
+ 0001:0003a040       __floor_pentium4           4003b040 f   LIBC:floor_pentium4.obj
+ 0001:0003a1a0       _qsort                     4003b1a0 f   LIBC:qsort.obj
+ 0001:0003a423       _sprintf                   4003b423 f   LIBC:sprintf.obj
+ 0001:0003a480       _strrchr                   4003b480 f   LIBC:strrchr.obj
+ 0001:0003a4ad       _abs                       4003b4ad f   LIBC:abs.obj
+ 0001:0003a4b8       _rand                      4003b4b8 f   LIBC:rand.obj
+ 0001:0003a4e0       _memmove                   4003b4e0 f   LIBC:memmove.obj
+ 0001:0003a820       __CItan                    4003b820 f   LIBC:tan.obj
+ 0001:0003a834       _tan                       4003b834     LIBC:tan.obj
+ 0001:0003a8d2       __CRT_INIT@12              4003b8d2 f   LIBC:dllcrt0.obj
+ 0001:0003a9dd       __DllMainCRTStartup@12     4003b9dd f   LIBC:dllcrt0.obj
+ 0001:0003aac1       __amsg_exit                4003bac1 f   LIBC:dllcrt0.obj
+ 0001:0003aaf4       __ismbcspace               4003baf4 f   LIBC:ismbspc.obj
+ 0001:0003ab90       __allmul                   4003bb90 f   LIBC:llmul.obj
+ 0001:0003abec       __fFATN2                   4003bbec     LIBC:87triga.obj
+ 0001:0003ac3c       __rtpiby2                  4003bc3c     LIBC:87triga.obj
+ 0001:0003ac80       __cintrindisp2             4003bc80 f   LIBC:87cdisp.obj
+ 0001:0003acbe       __cintrindisp1             4003bcbe f   LIBC:87cdisp.obj
+ 0001:0003acf4       __ctrandisp2               4003bcf4 f   LIBC:87cdisp.obj
+ 0001:0003ae7a       __ctrandisp1               4003be7a f   LIBC:87cdisp.obj
+ 0001:0003aea6       __fload                    4003bea6 f   LIBC:87cdisp.obj
+ 0001:0003aee2       __forcdecpt                4003bee2 f   LIBC:cvt.obj
+ 0001:0003af3a       __cropzeros                4003bf3a f   LIBC:cvt.obj
+ 0001:0003af85       __positive                 4003bf85 f   LIBC:cvt.obj
+ 0001:0003af9f       __fassign                  4003bf9f f   LIBC:cvt.obj
+ 0001:0003affa       __cftoe                    4003bffa f   LIBC:cvt.obj
+ 0001:0003b0eb       __cftof                    4003c0eb f   LIBC:cvt.obj
+ 0001:0003b1c8       __cftog                    4003c1c8 f   LIBC:cvt.obj
+ 0001:0003b272       __cfltcvt                  4003c272 f   LIBC:cvt.obj
+ 0001:0003b2c3       __setdefaultprecision      4003c2c3 f   LIBC:fp8.obj
+ 0001:0003b2d5       __ms_p5_test_fdiv          4003c2d5 f   LIBC:testfdiv.obj
+ 0001:0003b315       __ms_p5_mp_test_fdiv       4003c315 f   LIBC:testfdiv.obj
+ 0001:0003b340       __trandisp1                4003c340 f   LIBC:87disp.obj
+ 0001:0003b3a7       __trandisp2                4003c3a7 f   LIBC:87disp.obj
+ 0001:0003b433       __rttospopde               4003c433     LIBC:87disp.obj
+ 0001:0003b438       __rttospop                 4003c438     LIBC:87disp.obj
+ 0001:0003b43a       __rtnospop                 4003c43a     LIBC:87disp.obj
+ 0001:0003b43c       __rttosnpop                4003c43c     LIBC:87disp.obj
+ 0001:0003b43d       __rtnospopde               4003c43d     LIBC:87disp.obj
+ 0001:0003b444       __rtzeropop                4003c444     LIBC:87disp.obj
+ 0001:0003b446       __rtzeronpop               4003c446     LIBC:87disp.obj
+ 0001:0003b44b       __rtonepop                 4003c44b     LIBC:87disp.obj
+ 0001:0003b44d       __rtonenpop                4003c44d     LIBC:87disp.obj
+ 0001:0003b452       __tosnan1                  4003c452     LIBC:87disp.obj
+ 0001:0003b47d       __nosnan2                  4003c47d     LIBC:87disp.obj
+ 0001:0003b47f       __tosnan2                  4003c47f     LIBC:87disp.obj
+ 0001:0003b4a7       __nan2                     4003c4a7     LIBC:87disp.obj
+ 0001:0003b4e6       __rtindfpop                4003c4e6     LIBC:87disp.obj
+ 0001:0003b4e8       __rtindfnpop               4003c4e8     LIBC:87disp.obj
+ 0001:0003b4f9       __rttosnpopde              4003c4f9     LIBC:87disp.obj
+ 0001:0003b503       __rtchsifneg               4003c503     LIBC:87disp.obj
+ 0001:0003b510       __twoToTOS                 4003c510 f   LIBC:common.obj
+ 0001:0003b525       __load_CW                  4003c525 f   LIBC:common.obj
+ 0001:0003b53c       __convertTOStoQNaN         4003c53c f   LIBC:common.obj
+ 0001:0003b555       __fload_withFB             4003c555 f   LIBC:common.obj
+ 0001:0003b598       __checkTOS_withFB          4003c598 f   LIBC:common.obj
+ 0001:0003b5ae       __fast_exit                4003c5ae f   LIBC:common.obj
+ 0001:0003b5bb       __math_exit                4003c5bb f   LIBC:common.obj
+ 0001:0003b5e5       __check_overflow_exit      4003c5e5 f   LIBC:common.obj
+ 0001:0003b5f9       __check_range_exit         4003c5f9 f   LIBC:common.obj
+ 0001:0003b6a0       __startTwoArgErrorHandling 4003c6a0 f   LIBC:genexcep.obj
+ 0001:0003b6b7       __startOneArgErrorHandling 4003c6b7 f   LIBC:genexcep.obj
+ 0001:0003b6f3       __raise_exc                4003c6f3 f   LIBC:fpexcept.obj
+ 0001:0003b998       __handle_exc               4003c998 f   LIBC:fpexcept.obj
+ 0001:0003bbbc       __set_errno                4003cbbc f   LIBC:fpexcept.obj
+ 0001:0003bbe2       __errcode                  4003cbe2 f   LIBC:fpexcept.obj
+ 0001:0003bc0f       __umatherr                 4003cc0f f   LIBC:fpexcept.obj
+ 0001:0003bcaf       __handle_qnan1             4003ccaf f   LIBC:fpexcept.obj
+ 0001:0003bd01       __except1                  4003cd01 f   LIBC:fpexcept.obj
+ 0001:0003bdb9       __set_exp                  4003cdb9 f   LIBC:util.obj
+ 0001:0003bde3       __sptype                   4003cde3 f   LIBC:util.obj
+ 0001:0003be3e       __decomp                   4003ce3e f   LIBC:util.obj
+ 0001:0003befa       __statfp                   4003cefa f   LIBC:fpctrl.obj
+ 0001:0003bf05       __clrfp                    4003cf05 f   LIBC:fpctrl.obj
+ 0001:0003bf11       __ctrlfp                   4003cf11 f   LIBC:fpctrl.obj
+ 0001:0003bf35       __set_statfp               4003cf35 f   LIBC:fpctrl.obj
+ 0001:0003bf8b       __fltin                    4003cf8b f   LIBC:cfin.obj
+ 0001:0003c022       __isctype                  4003d022 f   LIBC:isctype.obj
+ 0001:0003c0e8       __input                    4003d0e8 f   LIBC:input.obj
+ 0001:0003cf50       _fdiv_main_routine         4003df50 f   LIBC:adj_fdiv.obj
+ 0001:0003d067       __adj_fdiv_r               4003e067 f   LIBC:adj_fdiv.obj
+ 0001:0003d506       __fdivp_sti_st             4003e506 f   LIBC:adj_fdiv.obj
+ 0001:0003d519       __fdivrp_sti_st            4003e519 f   LIBC:adj_fdiv.obj
+ 0001:0003d52c       __adj_fdiv_m32             4003e52c f   LIBC:adj_fdiv.obj
+ 0001:0003d578       __adj_fdiv_m64             4003e578 f   LIBC:adj_fdiv.obj
+ 0001:0003d5c4       __adj_fdiv_m16i            4003e5c4 f   LIBC:adj_fdiv.obj
+ 0001:0003d5f8       __adj_fdiv_m32i            4003e5f8 f   LIBC:adj_fdiv.obj
+ 0001:0003d62c       __adj_fdivr_m32            4003e62c f   LIBC:adj_fdiv.obj
+ 0001:0003d678       __adj_fdivr_m64            4003e678 f   LIBC:adj_fdiv.obj
+ 0001:0003d6c4       __adj_fdivr_m16i           4003e6c4 f   LIBC:adj_fdiv.obj
+ 0001:0003d6f8       __adj_fdivr_m32i           4003e6f8 f   LIBC:adj_fdiv.obj
+ 0001:0003d72c       __safe_fdiv                4003e72c f   LIBC:adj_fdiv.obj
+ 0001:0003d741       __safe_fdivr               4003e741 f   LIBC:adj_fdiv.obj
+ 0001:0003d756       __fprem_common             4003e756 f   LIBC:adj_fdiv.obj
+ 0001:0003d95c       __adj_fprem                4003e95c f   LIBC:adj_fdiv.obj
+ 0001:0003da0e       __fprem1_common            4003ea0e f   LIBC:adj_fdiv.obj
+ 0001:0003dc14       __adj_fprem1               4003ec14 f   LIBC:adj_fdiv.obj
+ 0001:0003dcc9       __safe_fprem               4003ecc9 f   LIBC:adj_fdiv.obj
+ 0001:0003dccf       __safe_fprem1              4003eccf f   LIBC:adj_fdiv.obj
+ 0001:0003dcd5       __adj_fpatan               4003ecd5 f   LIBC:adj_fdiv.obj
+ 0001:0003dcd8       __adj_fptan                4003ecd8 f   LIBC:adj_fdiv.obj
+ 0001:0003dcdb       __flsbuf                   4003ecdb f   LIBC:_flsbuf.obj
+ 0001:0003de7f       __output                   4003ee7f f   LIBC:output.obj
+ 0001:0003e679       ___crtLCMapStringA         4003f679 f   LIBC:a_map.obj
+ 0001:0003ea35       ___libm_error_support      4003fa35 f   LIBC:libm_error.obj
+ 0001:0003ecf6       ___sse2_available_init     4003fcf6 f   LIBC:cpu_disp.obj
+ 0001:0003edc4       __ceil_default             4003fdc4 f   LIBC:ceil.obj
+ 0001:0003ee97       __floor_default            4003fe97 f   LIBC:floor.obj
+ 0001:0003ef6a       ___crtExitProcess          4003ff6a f   LIBC:crt0dat.obj
+ 0001:0003ef9a       __cinit                    4003ff9a f   LIBC:crt0dat.obj
+ 0001:0003f0c5       __exit                     400400c5 f   LIBC:crt0dat.obj
+ 0001:0003f0d6       __cexit                    400400d6 f   LIBC:crt0dat.obj
+ 0001:0003f0e5       __ioinit                   400400e5 f   LIBC:ioinit.obj
+ 0001:0003f290       __ioterm                   40040290 f   LIBC:ioinit.obj
+ 0001:0003f2b3       __setenvp                  400402b3 f   LIBC:stdenvp.obj
+ 0001:0003f4e6       __setargv                  400404e6 f   LIBC:stdargv.obj
+ 0001:0003f588       ___heap_select             40040588 f   LIBC:heapinit.obj
+ 0001:0003f5a2       __heap_init                400405a2 f   LIBC:heapinit.obj
+ 0001:0003f5f3       __heap_term                400405f3 f   LIBC:heapinit.obj
+ 0001:0003f672       ___crtGetEnvironmentStringsA 40040672 f   LIBC:a_env.obj
+ 0001:0003f794       __RTC_Initialize           40040794 f   LIBC:initsect.obj
+ 0001:0003f7d8       __RTC_Terminate            400407d8 f   LIBC:initsect.obj
+ 0001:0003f81c       __XcptFilter               4004081c f   LIBC:winxfltr.obj
+ 0001:0003f98d       ___CppXcptFilter           4004098d f   LIBC:winxfltr.obj
+ 0001:0003f9a8       _DllMain@12                400409a8 f   LIBC:dllmain.obj
+ 0001:0003f9c8       __SEH_prolog               400409c8 f   LIBC:sehprolg.obj
+ 0001:0003fa03       __SEH_epilog               40040a03 f   LIBC:sehprolg.obj
+ 0001:0003fa1c       __except_handler3          40040a1c f   LIBC:exsup3.obj
+ 0001:0003fb02       __seh_longjmp_unwind@4     40040b02 f   LIBC:exsup3.obj
+ 0001:0003fb1d       __NMSG_WRITE               40040b1d f   LIBC:crt0msg.obj
+ 0001:0003fc94       __FF_MSGBANNER             40040c94 f   LIBC:crt0msg.obj
+ 0001:0003fccd       ___crtGetStringTypeA       40040ccd f   LIBC:a_str.obj
+ 0001:0004006b       __setmbcp                  4004106b f   LIBC:mbctype.obj
+ 0001:00040251       ___initmbctable            40041251 f   LIBC:mbctype.obj
+ 0001:0004026f       __87except                 4004126f f   LIBC:87except.obj
+ 0001:00040367       __ZeroTail                 40041367 f   LIBC:intrncvt.obj
+ 0001:00040399       __IncMan                   40041399 f   LIBC:intrncvt.obj
+ 0001:000403e6       __RoundMan                 400413e6 f   LIBC:intrncvt.obj
+ 0001:00040458       __CopyMan                  40041458 f   LIBC:intrncvt.obj
+ 0001:00040473       __IsZeroMan                40041473 f   LIBC:intrncvt.obj
+ 0001:0004048c       __ShrMan                   4004148c f   LIBC:intrncvt.obj
+ 0001:00040507       __ld12cvt                  40041507 f   LIBC:intrncvt.obj
+ 0001:0004065f       __ld12tod                  4004165f f   LIBC:intrncvt.obj
+ 0001:00040675       __ld12tof                  40041675 f   LIBC:intrncvt.obj
+ 0001:0004068b       __atodbl                   4004168b f   LIBC:intrncvt.obj
+ 0001:000406c8       __atoflt                   400416c8 f   LIBC:intrncvt.obj
+ 0001:00040705       __fptostr                  40041705 f   LIBC:_fptostr.obj
+ 0001:0004077c       ___dtold                   4004177c f   LIBC:cfout.obj
+ 0001:00040836       __fltout                   40041836 f   LIBC:cfout.obj
+ 0001:000408aa       __fptrap                   400418aa f   LIBC:crt0fp.obj
+ 0001:000409d3       __control87                400419d3 f   LIBC:ieee87.obj
+ 0001:00040a05       __controlfp                40041a05 f   LIBC:ieee87.obj
+ 0001:00040a1b       __matherr                  40041a1b f   LIBC:matherr.obj
+ 0001:00040a4f       @__security_check_cookie@4 40041a4f f   LIBC:secchk.obj
+ 0001:00040a5d       ___strgtold12              40041a5d f   LIBC:strgtold.obj
+ 0001:00040ee4       __filbuf                   40041ee4 f   LIBC:_filbuf.obj
+ 0001:00040fc2       _ungetc                    40041fc2 f   LIBC:ungetc.obj
+ 0001:0004102e       _isspace                   4004202e f   LIBC:_ctype.obj
+ 0001:00041057       _free                      40042057 f   LIBC:free.obj
+ 0001:0004108f       _mbtowc                    4004208f f   LIBC:mbtowc.obj
+ 0001:00041157       __heap_alloc               40042157 f   LIBC:malloc.obj
+ 0001:0004119d       __nh_malloc                4004219d f   LIBC:malloc.obj
+ 0001:000411c9       _malloc                    400421c9 f   LIBC:malloc.obj
+ 0001:000411db       __resetstkoflw             400421db f   LIBC:resetstk.obj
+ 0001:000412be       __lseek                    400422be f   LIBC:lseek.obj
+ 0001:0004134a       __write                    4004234a f   LIBC:write.obj
+ 0001:0004153a       __getbuf                   4004253a f   LIBC:_getbuf.obj
+ 0001:0004157e       __isatty                   4004257e f   LIBC:isatty.obj
+ 0001:000415a5       ___initstdio               400425a5 f   LIBC:_file.obj
+ 0001:0004164b       ___endstdio                4004264b f   LIBC:_file.obj
+ 0001:0004165f       _wctomb                    4004265f f   LIBC:wctomb.obj
+ 0001:000416d0       __aulldvrm                 400426d0 f   LIBC:ulldvrm.obj
+ 0001:00041765       ___ansicp                  40042765 f   LIBC:convrtcp.obj
+ 0001:000417a8       ___convertcp               400427a8 f   LIBC:convrtcp.obj
+ 0001:00041980       _strncmp                   40042980 f   LIBC:strncmp.obj
+ 0001:000419b9       __frnd                     400429b9 f   LIBC:frnd.obj
+ 0001:000419ca       __onexit                   400429ca f   LIBC:onexit.obj
+ 0001:00041a4c       _atexit                    40042a4c f   LIBC:onexit.obj
+ 0001:00041a5e       ___onexitinit              40042a5e f   LIBC:onexit.obj
+ 0001:00041a86       ___sbh_heap_init           40042a86 f   LIBC:sbheap.obj
+ 0001:00041ace       ___sbh_find_block          40042ace f   LIBC:sbheap.obj
+ 0001:00041af9       ___sbh_free_block          40042af9 f   LIBC:sbheap.obj
+ 0001:00041e11       ___sbh_alloc_new_region    40042e11 f   LIBC:sbheap.obj
+ 0001:00041ec8       ___sbh_alloc_new_group     40042ec8 f   LIBC:sbheap.obj
+ 0001:00041fce       ___sbh_resize_block        40042fce f   LIBC:sbheap.obj
+ 0001:000422ad       ___sbh_alloc_block         400432ad f   LIBC:sbheap.obj
+ 0001:000425ac       __global_unwind2           400435ac f   LIBC:exsup.obj
+ 0001:000425ee       __local_unwind2            400435ee f   LIBC:exsup.obj
+ 0001:00042646       __NLG_Return2              40043646     LIBC:exsup.obj
+ 0001:00042656       __abnormal_termination     40043656 f   LIBC:exsup.obj
+ 0001:00042679       __NLG_Notify1              40043679 f   LIBC:exsup.obj
+ 0001:00042682       __NLG_Notify               40043682 f   LIBC:exsup.obj
+ 0001:00042695       __NLG_Dispatch             40043695     LIBC:exsup.obj
+ 0001:0004269a       __ValidateEH3RN            4004369a f   LIBC:eh3valid.obj
+ 0001:000428c3       ___crtMessageBoxA          400438c3 f   LIBC:crtmbox.obj
+ 0001:000429bc       _calloc                    400439bc f   LIBC:calloc.obj
+ 0001:00042a37       ___addl                    40043a37 f   LIBC:mantold.obj
+ 0001:00042a58       ___add_12                  40043a58 f   LIBC:mantold.obj
+ 0001:00042ab6       ___shl_12                  40043ab6 f   LIBC:mantold.obj
+ 0001:00042ae4       ___shr_12                  40043ae4 f   LIBC:mantold.obj
+ 0001:00042b11       ___mtold12                 40043b11 f   LIBC:mantold.obj
+ 0001:00042bef       _$I10_OUTPUT               40043bef f   LIBC:x10fout.obj
+ 0001:00042e7d       ___security_init_cookie    40043e7d f   LIBC:seccinit.obj
+ 0001:00042ee3       ___security_error_handler  40043ee3 f   LIBC:secfail.obj
+ 0001:0004302b       ___ld12mul                 4004402b f   LIBC:tenpow.obj
+ 0001:0004325d       ___multtenpow12            4004425d f   LIBC:tenpow.obj
+ 0001:000432e3       __read                     400442e3 f   LIBC:read.obj
+ 0001:000434d1       __callnewh                 400444d1 f   LIBC:handler.obj
+ 0001:000434ec       __dosmaperr                400444ec f   LIBC:dosmap.obj
+ 0001:0004354b       __free_osfhnd              4004454b f   LIBC:osfinfo.obj
+ 0001:000435c5       __get_osfhandle            400445c5 f   LIBC:osfinfo.obj
+ 0001:00043601       __lseeki64                 40044601 f   LIBC:lseeki64.obj
+ 0001:000436a0       __fcloseall                400446a0 f   LIBC:closeall.obj
+ 0001:000436f8       __flush                    400446f8 f   LIBC:fflush.obj
+ 0001:00043755       _fflush                    40044755 f   LIBC:fflush.obj
+ 0001:000437fd       __flushall                 400447fd f   LIBC:fflush.obj
+ 0001:00043806       _realloc                   40044806 f   LIBC:realloc.obj
+ 0001:00043968       __msize                    40044968 f   LIBC:msize.obj
+ 0001:000439a0       _fclose                    400449a0 f   LIBC:fclose.obj
+ 0001:000439f6       __commit                   400449f6 f   LIBC:commit.obj
+ 0001:00043a4d       __close                    40044a4d f   LIBC:close.obj
+ 0001:00043b00       __freebuf                  40044b00 f   LIBC:_freebuf.obj
+ 0001:00043b2c       _RtlUnwind@16              40044b2c f   kernel32:KERNEL32.dll
+ 0001:00043b32       __stricmp                  40044b32 f   LIBC:stricmp.obj
+ 0001:00043b32       _stricmp                   40044b32 f   LIBC:stricmp.obj
+ 0001:00043b75       __strnicmp                 40044b75 f   LIBC:strnicmp.obj
+ 0001:00043b75       _strnicmp                  40044b75 f   LIBC:strnicmp.obj
+ 0001:00043bca       _strupr                    40044bca f   LIBC:strupr.obj
+ 0001:00043bca       __strupr                   40044bca f   LIBC:strupr.obj
+ 0001:00043cd0       ___ascii_stricmp           40044cd0 f   LIBC:_stricmp.obj
+ 0001:00043d20       ___ascii_strnicmp          40044d20 f   LIBC:_strnicm.obj
+ 0002:00000000       __imp__GetCommandLineA@0   40045000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetVersionExA@4     40045004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetProcAddress@8    40045008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetModuleHandleA@4  4004500c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__RaiseException@16   40045010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__LCMapStringA@24     40045014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__WideCharToMultiByte@32 40045018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__MultiByteToWideChar@24 4004501c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetLastError@0      40045020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__LCMapStringW@24     40045024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__ExitProcess@4       40045028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__TerminateProcess@8  4004502c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__GetCurrentProcess@0 40045030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__SetHandleCount@4    40045034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetStdHandle@4      40045038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__GetFileType@4       4004503c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__GetStartupInfoA@4   40045040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__GetModuleFileNameA@12 40045044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__HeapDestroy@4       40045048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__HeapCreate@12       4004504c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__VirtualFree@12      40045050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__HeapFree@12         40045054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__FreeEnvironmentStringsA@4 40045058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__GetEnvironmentStrings@0 4004505c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__FreeEnvironmentStringsW@4 40045060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__GetEnvironmentStringsW@0 40045064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__UnhandledExceptionFilter@4 40045068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__DisableThreadLibraryCalls@4 4004506c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__WriteFile@20        40045070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__GetStringTypeA@20   40045074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__GetStringTypeW@16   40045078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GetACP@0            4004507c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__GetOEMCP@0          40045080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__GetCPInfo@8         40045084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__HeapAlloc@12        40045088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__VirtualProtect@16   4004508c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__VirtualAlloc@16     40045090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__GetSystemInfo@4     40045094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__VirtualQuery@12     40045098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__SetFilePointer@16   4004509c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__GetLocaleInfoA@16   400450a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__HeapReAlloc@16      400450a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__RtlUnwind@16        400450a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__InterlockedExchange@8 400450ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__LoadLibraryA@4      400450b0     kernel32:KERNEL32.dll
+ 0002:000000b4       __imp__QueryPerformanceCounter@4 400450b4     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp__GetTickCount@0      400450b8     kernel32:KERNEL32.dll
+ 0002:000000bc       __imp__GetCurrentThreadId@0 400450bc     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp__GetCurrentProcessId@0 400450c0     kernel32:KERNEL32.dll
+ 0002:000000c4       __imp__GetSystemTimeAsFileTime@4 400450c4     kernel32:KERNEL32.dll
+ 0002:000000c8       __imp__ReadFile@20         400450c8     kernel32:KERNEL32.dll
+ 0002:000000cc       __imp__SetStdHandle@8      400450cc     kernel32:KERNEL32.dll
+ 0002:000000d0       __imp__HeapSize@12         400450d0     kernel32:KERNEL32.dll
+ 0002:000000d4       __imp__FlushFileBuffers@4  400450d4     kernel32:KERNEL32.dll
+ 0002:000000d8       __imp__CloseHandle@4       400450d8     kernel32:KERNEL32.dll
+ 0002:000000dc       \177KERNEL32_NULL_THUNK_DATA 400450dc     kernel32:KERNEL32.dll
+ 0002:000000e0       _bgToggleableSurfaceDebris 400450e0     bg_misc.obj
+ 0002:0000015c       __real@43b40000            4004515c     bg_misc.obj
+ 0002:00000160       __real@400921fb60000000    40045160     bg_misc.obj
+ 0002:00000168       __real@4066800000000000    40045168     bg_misc.obj
+ 0002:00000170       __real@00000000            40045170     bg_misc.obj
+ 0002:00000170       ??_C@_13NOLLCAOD@?$AA?$AA?$AA?$AA@ 40045170     LIBC:a_map.obj
+ 0002:00000174       __real@c2100000            40045174     bg_misc.obj
+ 0002:00000178       __real@42100000            40045178     bg_misc.obj
+ 0002:0000017c       __real@c2480000            4004517c     bg_misc.obj
+ 0002:00000180       __real@42300000            40045180     bg_misc.obj
+ 0002:00000188       __real@4079000000000000    40045188     bg_misc.obj
+ 0002:00000190       __real@43340000            40045190     bg_misc.obj
+ 0002:00000194       __real@42b40000            40045194     bg_misc.obj
+ 0002:00000198       __real@3a83126f            40045198     bg_misc.obj
+ 0002:0000019c       __real@40490fdb            4004519c     bg_misc.obj
+ 0002:000001a0       __real@3f50624dd2f1a9fc    400451a0     bg_misc.obj
+ 0002:000001a8       __real@44480000            400451a8     bg_misc.obj
+ 0002:000001b0       __real@3fe0000000000000    400451b0     bg_misc.obj
+ 0002:000001b8       __real@42340000            400451b8     bg_misc.obj
+ 0002:000001bc       __real@bf800000            400451bc     bg_misc.obj
+ 0002:000001c0       __real@3f800000            400451c0     bg_misc.obj
+ 0002:000001c8       __real@0000000000000000    400451c8     bg_vehicleLoad.obj
+ 0002:000001d0       __real@47800000            400451d0     q_math.obj
+ 0002:000001d4       __real@437f0000            400451d4     q_math.obj
+ 0002:000001d8       __real@3f000000            400451d8     q_math.obj
+ 0002:000001dc       __real@c3340000            400451dc     q_math.obj
+ 0002:000001e0       __real@4076800000000000    400451e0     q_math.obj
+ 0002:000001e8       __real@3f76800000000000    400451e8     q_math.obj
+ 0002:000001f0       __real@4066c16c16c16c17    400451f0     q_math.obj
+ 0002:000001f8       __real@3c8efa35            400451f8     q_math.obj
+ 0002:000001fc       __real@3f355555            400451fc     q_math.obj
+ 0002:00000200       __real@47000000            40045200     q_math.obj
+ 0002:00000204       __real@40e00000            40045204     ui_atoms.obj
+ 0002:00000208       __real@447a0000            40045208     ui_atoms.obj
+ 0002:0000020c       __real@40c00000            4004520c     ui_force.obj
+ 0002:00000230       __real@42000000            40045230     ui_main.obj
+ 0002:00000234       __real@40400000            40045234     ui_main.obj
+ 0002:00000238       __real@40000000            40045238     ui_main.obj
+ 0002:00000240       __real@3ff5555555555555    40045240     ui_main.obj
+ 0002:00000248       __real@3f5999999999999a    40045248     ui_main.obj
+ 0002:00000250       __real@3f61111111111111    40045250     ui_main.obj
+ 0002:00000258       __real@3fe999999999999a    40045258     ui_main.obj
+ 0002:00000260       __real@41300000            40045260     ui_main.obj
+ 0002:00000264       __real@41f00000            40045264     ui_main.obj
+ 0002:00000268       __real@41700000            40045268     ui_main.obj
+ 0002:0000026c       __real@40800000            4004526c     ui_main.obj
+ 0002:00000270       __real@457a0000            40045270     ui_main.obj
+ 0002:00000274       __real@459c4000            40045274     ui_main.obj
+ 0002:00000278       __real@42a00000            40045278     ui_main.obj
+ 0002:0000027c       __real@43300000            4004527c     ui_main.obj
+ 0002:00000280       __real@42400000            40045280     ui_main.obj
+ 0002:00000284       __real@43880000            40045284     ui_main.obj
+ 0002:00000288       __real@43200000            40045288     ui_main.obj
+ 0002:0000028c       __real@43580000            4004528c     ui_main.obj
+ 0002:00000290       __real@43080000            40045290     ui_main.obj
+ 0002:00000294       __real@43780000            40045294     ui_main.obj
+ 0002:00000298       __real@43400000            40045298     ui_main.obj
+ 0002:0000029c       __real@42e00000            4004529c     ui_main.obj
+ 0002:000002a0       __real@46fffe00            400452a0     ui_saber.obj
+ 0002:000002a4       __real@3d99999a            400452a4     ui_saber.obj
+ 0002:000002a8       __real@3ff0000000000000    400452a8     ui_saber.obj
+ 0002:000002b0       __real@4000000000000000    400452b0     ui_saber.obj
+ 0002:000002b8       __real@c2000000            400452b8     ui_saber.obj
+ 0002:000002bc       __real@c0c00000            400452bc     ui_saber.obj
+ 0002:000002c0       __real@41c00000            400452c0     ui_saber.obj
+ 0002:000002c4       __real@bf2b851f            400452c4     ui_saber.obj
+ 0002:000002c8       __real@bea8f5c3            400452c8     ui_saber.obj
+ 0002:000002cc       __real@3f2b851f            400452cc     ui_saber.obj
+ 0002:000002d0       __real@3ea8f5c3            400452d0     ui_saber.obj
+ 0002:000002d4       __real@c0000000            400452d4     ui_saber.obj
+ 0002:000002d8       __real@bf400000            400452d8     ui_saber.obj
+ 0002:000002dc       __real@c1800000            400452dc     ui_saber.obj
+ 0002:000002e0       __real@be800000            400452e0     ui_saber.obj
+ 0002:000002e4       __real@c1000000            400452e4     ui_saber.obj
+ 0002:000002e8       __real@3e800000            400452e8     ui_saber.obj
+ 0002:000002ec       __real@3f400000            400452ec     ui_saber.obj
+ 0002:000002f0       __real@41000000            400452f0     ui_saber.obj
+ 0002:000002f4       __real@c0400000            400452f4     ui_saber.obj
+ 0002:000002f8       __real@41400000            400452f8     ui_saber.obj
+ 0002:00000320       __real@4a000000            40045320     ui_shared.obj
+ 0002:00000324       __real@42c80000            40045324     ui_shared.obj
+ 0002:00000328       __real@48c00000            40045328     ui_shared.obj
+ 0002:00000330       __real@4030000000000000    40045330     ui_shared.obj
+ 0002:00000338       __real@4040000000000000    40045338     ui_shared.obj
+ 0002:00000340       __real@4020000000000000    40045340     ui_shared.obj
+ 0002:00000348       __real@4058000000000000    40045348     ui_shared.obj
+ 0002:00000350       __real@4018000000000000    40045350     ui_shared.obj
+ 0002:00000358       __real@3d4ccccd            40045358     ui_shared.obj
+ 0002:0000035c       __real@44200000            4004535c     ui_shared.obj
+ 0002:00000360       __real@3f4ccccd            40045360     ui_shared.obj
+ 0002:00000368       __real@405ca5dc0d03cf26    40045368     ui_shared.obj
+ 0002:00000370       __real@3fd126e978d4fdf4    40045370     ui_shared.obj
+ 0002:00000378       __real@bfe0000000000000    40045378     ui_shared.obj
+ 0002:00000380       __real@402e000000000000    40045380     ui_shared.obj
+ 0002:00000388       __real@4010000000000000    40045388     ui_shared.obj
+ 0002:00000390       __real@42480000            40045390     ui_shared.obj
+ 0002:00000394       __real@42200000            40045394     ui_shared.obj
+ 0002:00000398       __real@41980000            40045398     ui_shared.obj
+ 0002:000003a0       __real@4024000000000000    400453a0     ui_shared.obj
+ 0002:00000490       ??_C@_05KLBDPFGC@e?$CL000?$AA@ 40045490     LIBC:cvt.obj
+ 0002:00000498       __real@4150017ec0000000    40045498     LIBC:testfdiv.obj
+ 0002:000004a0       __real@4147ffff80000000    400454a0     LIBC:testfdiv.obj
+ 0002:000004a8       ??_C@_0BK@NHEOCAHP@IsProcessorFeaturePresent?$AA@ 400454a8     LIBC:testfdiv.obj
+ 0002:000004c4       ??_C@_08CPNIBGIE@KERNEL32?$AA@ 400454c4     LIBC:testfdiv.obj
+ 0002:000004d8       __DEFAULT_CW_in_mem        400454d8     LIBC:common.obj
+ 0002:000004da       __pi_by_2_to_61            400454da     LIBC:common.obj
+ 0002:00000514       ??_C@_0L@KDOEJCKC@_nextafter?$AA@ 40045514     LIBC:fpexcept.obj
+ 0002:00000520       ??_C@_05JGDBENOH@_logb?$AA@ 40045520     LIBC:fpexcept.obj
+ 0002:00000528       ??_C@_03ONILCKOB@_yn?$AA@  40045528     LIBC:fpexcept.obj
+ 0002:0000052c       ??_C@_03NAKIGLHK@_y1?$AA@  4004552c     LIBC:fpexcept.obj
+ 0002:00000530       ??_C@_03MJLDFKDL@_y0?$AA@  40045530     LIBC:fpexcept.obj
+ 0002:00000534       ??_C@_05GKKHEGJL@frexp?$AA@ 40045534     LIBC:fpexcept.obj
+ 0002:0000053c       ??_C@_04KEPJIHGP@fmod?$AA@ 4004553c     LIBC:fpexcept.obj
+ 0002:00000544       ??_C@_06MEIMCGCF@_hypot?$AA@ 40045544     LIBC:fpexcept.obj
+ 0002:0000054c       ??_C@_05KBKMEMPO@_cabs?$AA@ 4004554c     LIBC:fpexcept.obj
+ 0002:00000554       ??_C@_05CEJMAHNP@ldexp?$AA@ 40045554     LIBC:fpexcept.obj
+ 0002:0000055c       ??_C@_04EHEDPDJG@modf?$AA@ 4004555c     LIBC:fpexcept.obj
+ 0002:00000564       ??_C@_04ODHECPBC@fabs?$AA@ 40045564     LIBC:fpexcept.obj
+ 0002:0000056c       ??_C@_05PBJFFIGL@floor?$AA@ 4004556c     LIBC:fpexcept.obj
+ 0002:00000574       ??_C@_04GFPJNGEK@ceil?$AA@ 40045574     LIBC:fpexcept.obj
+ 0002:0000057c       ??_C@_03IIINPABG@tan?$AA@  4004557c     LIBC:fpexcept.obj
+ 0002:00000580       ??_C@_03LALBNOCG@cos?$AA@  40045580     LIBC:fpexcept.obj
+ 0002:00000584       ??_C@_03BLEJJJBH@sin?$AA@  40045584     LIBC:fpexcept.obj
+ 0002:00000588       ??_C@_04EIAKFFMI@sqrt?$AA@ 40045588     LIBC:fpexcept.obj
+ 0002:00000590       ??_C@_05KNGEOGJB@atan2?$AA@ 40045590     LIBC:fpexcept.obj
+ 0002:00000598       ??_C@_04MLLJIGOK@atan?$AA@ 40045598     LIBC:fpexcept.obj
+ 0002:000005a0       ??_C@_04PDIFKINK@acos?$AA@ 400455a0     LIBC:fpexcept.obj
+ 0002:000005a8       ??_C@_04FIHNOPOL@asin?$AA@ 400455a8     LIBC:fpexcept.obj
+ 0002:000005b0       ??_C@_04FJHINJAO@tanh?$AA@ 400455b0     LIBC:fpexcept.obj
+ 0002:000005b8       ??_C@_04HPJJNFIM@cosh?$AA@ 400455b8     LIBC:fpexcept.obj
+ 0002:000005c0       ??_C@_04COOMCNPB@sinh?$AA@ 400455c0     LIBC:fpexcept.obj
+ 0002:000005c8       ??_C@_05HGHHAHAP@log10?$AA@ 400455c8     LIBC:fpexcept.obj
+ 0002:000005d0       ??_C@_03MGHMBJCF@log?$AA@  400455d0     LIBC:fpexcept.obj
+ 0002:000005d4       ??_C@_03JGHBODFD@pow?$AA@  400455d4     LIBC:fpexcept.obj
+ 0002:000005d8       ??_C@_03KHJOGHMM@exp?$AA@  400455d8     LIBC:fpexcept.obj
+ 0002:000005e0       ___newctype                400455e0     LIBC:ctype.obj
+ 0002:000008e0       __wctype                   400458e0     LIBC:ctype.obj
+ 0002:00000af8       ___lookuptable             40045af8     LIBC:output.obj
+ 0002:00000b54       ??_C@_1O@CEDCILHN@?$AA?$CI?$AAn?$AAu?$AAl?$AAl?$AA?$CJ?$AA?$AA@ 40045b54     LIBC:output.obj
+ 0002:00000b64       ??_C@_06OJHGLDPL@?$CInull?$CJ?$AA@ 40045b64     LIBC:output.obj
+ 0002:00000c00       ??_C@_04HPAFEEIN@exp2?$AA@ 40045c00     LIBC:libm_error.obj
+ 0002:00000c08       ??_C@_05EOHGHCHD@exp10?$AA@ 40045c08     LIBC:libm_error.obj
+ 0002:00000c10       ??_C@_04KGLCPMCP@log2?$AA@ 40045c10     LIBC:libm_error.obj
+ 0002:00000c24       ??_C@_0N@FFJGBINN@AuthenticAMD?$AA@ 40045c24     LIBC:cpu_disp.obj
+ 0002:00000c34       ??_C@_0P@MIGLKIOC@CorExitProcess?$AA@ 40045c34     LIBC:crt0dat.obj
+ 0002:00000c44       ??_C@_0M@MBOPBNBK@mscoree?4dll?$AA@ 40045c44     LIBC:crt0dat.obj
+ 0002:00000c6c       ??_C@_0P@GGKDKEEG@runtime?5error?5?$AA@ 40045c6c     LIBC:crt0msg.obj
+ 0002:00000c7c       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 40045c7c     LIBC:crt0msg.obj
+ 0002:00000c80       ??_C@_0O@MJNIPGOH@TLOSS?5error?$AN?6?$AA@ 40045c80     LIBC:crt0msg.obj
+ 0002:00000c90       ??_C@_0N@BONNPDHF@SING?5error?$AN?6?$AA@ 40045c90     LIBC:crt0msg.obj
+ 0002:00000ca0       ??_C@_0P@MBDAJNE@DOMAIN?5error?$AN?6?$AA@ 40045ca0     LIBC:crt0msg.obj
+ 0002:00000cb0       ??_C@_0KC@BDDGGBEJ@R6029?$AN?6?9?5This?5application?5cannot@ 40045cb0     LIBC:crt0msg.obj
+ 0002:00000d54       ??_C@_0CF@KJDAIALP@R6028?$AN?6?9?5unable?5to?5initialize?5he@ 40045d54     LIBC:crt0msg.obj
+ 0002:00000d7c       ??_C@_0DF@GAKBPDFP@R6027?$AN?6?9?5not?5enough?5space?5for?5lo@ 40045d7c     LIBC:crt0msg.obj
+ 0002:00000db4       ??_C@_0DF@IBLNNAIG@R6026?$AN?6?9?5not?5enough?5space?5for?5st@ 40045db4     LIBC:crt0msg.obj
+ 0002:00000dec       ??_C@_0CG@IOHKGFNJ@R6025?$AN?6?9?5pure?5virtual?5function?5c@ 40045dec     LIBC:crt0msg.obj
+ 0002:00000e14       ??_C@_0DF@JIJJFJDC@R6024?$AN?6?9?5not?5enough?5space?5for?5_o@ 40045e14     LIBC:crt0msg.obj
+ 0002:00000e4c       ??_C@_0CJ@EGEJHFME@R6019?$AN?6?9?5unable?5to?5open?5console?5@ 40045e4c     LIBC:crt0msg.obj
+ 0002:00000e78       ??_C@_0CB@GNHNIELH@R6018?$AN?6?9?5unexpected?5heap?5error?$AN?6@ 40045e78     LIBC:crt0msg.obj
+ 0002:00000e9c       ??_C@_0CN@FOLDKNG@R6017?$AN?6?9?5unexpected?5multithread?5@ 40045e9c     LIBC:crt0msg.obj
+ 0002:00000ecc       ??_C@_0CM@FAHFJNHO@R6016?$AN?6?9?5not?5enough?5space?5for?5th@ 40045ecc     LIBC:crt0msg.obj
+ 0002:00000ef8       ??_C@_0JG@LBKMGKLD@?$AN?6This?5application?5has?5requested@ 40045ef8     LIBC:crt0msg.obj
+ 0002:00000f90       ??_C@_0CM@FLCNIPKK@R6009?$AN?6?9?5not?5enough?5space?5for?5en@ 40045f90     LIBC:crt0msg.obj
+ 0002:00000fbc       ??_C@_0CK@KMMJOAPP@R6008?$AN?6?9?5not?5enough?5space?5for?5ar@ 40045fbc     LIBC:crt0msg.obj
+ 0002:00000fe8       ??_C@_0CF@HOHMHDEK@R6002?$AN?6?9?5floating?5point?5not?5load@ 40045fe8     LIBC:crt0msg.obj
+ 0002:00001010       ??_C@_0CF@GOGNBNAK@Microsoft?5Visual?5C?$CL?$CL?5Runtime?5Lib@ 40046010     LIBC:crt0msg.obj
+ 0002:00001038       ??_C@_02PHMGELLB@?6?6?$AA@ 40046038     LIBC:crt0msg.obj
+ 0002:0000103c       ??_C@_0BK@OFGJDLJJ@Runtime?5Error?$CB?6?6Program?3?5?$AA@ 4004603c     LIBC:crt0msg.obj
+ 0002:00001058       ??_C@_03KHICJKCI@?4?4?4?$AA@ 40046058     LIBC:crt0msg.obj
+ 0002:0000105c       ??_C@_0BH@DNAGHKFM@?$DMprogram?5name?5unknown?$DO?$AA@ 4004605c     LIBC:crt0msg.obj
+ 0002:000010a4       ??_C@_0BI@DFKBFLJE@GetProcessWindowStation?$AA@ 400460a4     LIBC:crtmbox.obj
+ 0002:000010bc       ??_C@_0BK@CIDNPOGP@GetUserObjectInformationA?$AA@ 400460bc     LIBC:crtmbox.obj
+ 0002:000010d8       ??_C@_0BD@HHGDFDBJ@GetLastActivePopup?$AA@ 400460d8     LIBC:crtmbox.obj
+ 0002:000010ec       ??_C@_0BA@HNOPNCHB@GetActiveWindow?$AA@ 400460ec     LIBC:crtmbox.obj
+ 0002:000010fc       ??_C@_0M@CHKKJDAI@MessageBoxA?$AA@ 400460fc     LIBC:crtmbox.obj
+ 0002:00001108       ??_C@_0L@GMPLCCII@user32?4dll?$AA@ 40046108     LIBC:crtmbox.obj
+ 0002:00001114       ??_C@_06IMKFLFPG@1?$CDQNAN?$AA@ 40046114     LIBC:x10fout.obj
+ 0002:0000111c       ??_C@_05DNEBIAHO@1?$CDINF?$AA@ 4004611c     LIBC:x10fout.obj
+ 0002:00001124       ??_C@_05PHHOCPM@1?$CDIND?$AA@ 40046124     LIBC:x10fout.obj
+ 0002:0000112c       ??_C@_06PGGFOGJG@1?$CDSNAN?$AA@ 4004612c     LIBC:x10fout.obj
+ 0002:00001134       ??_C@_09KLGCKDOD@Program?3?5?$AA@ 40046134     LIBC:secfail.obj
+ 0002:00001140       ??_C@_0KA@JEHFIFGP@A?5buffer?5overrun?5has?5been?5detect@ 40046140     LIBC:secfail.obj
+ 0002:000011e0       ??_C@_0BJ@MDEKIEOJ@Buffer?5overrun?5detected?$CB?$AA@ 400461e0     LIBC:secfail.obj
+ 0002:00001200       ??_C@_0LB@BPLHHLFD@A?5security?5error?5of?5unknown?5caus@ 40046200     LIBC:secfail.obj
+ 0002:000012b4       ??_C@_0CD@GMKACBEK@Unknown?5security?5failure?5detecte@ 400462b4     LIBC:secfail.obj
+ 0002:000012f8       __load_config_used         400462f8     LIBC:loadcfg.obj
+ 0002:00001340       ___safe_se_handler_table   40046340     <linker-defined>
+ 0002:00001348       ___rtc_iaa                 40046348     LIBC:initsect.obj
+ 0002:0000134c       ___rtc_izz                 4004634c     LIBC:initsect.obj
+ 0002:00001350       ___rtc_taa                 40046350     LIBC:initsect.obj
+ 0002:00001354       ___rtc_tzz                 40046354     LIBC:initsect.obj
+ 0002:00001358       __IMPORT_DESCRIPTOR_KERNEL32 40046358     kernel32:KERNEL32.dll
+ 0002:0000136c       __NULL_IMPORT_DESCRIPTOR   4004636c     kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    40047000     LIBC:crt0init.obj
+ 0003:00000008       ___xc_z                    40047008     LIBC:crt0init.obj
+ 0003:0000000c       ___xi_a                    4004700c     LIBC:crt0init.obj
+ 0003:00000020       ___xi_z                    40047020     LIBC:crt0init.obj
+ 0003:00000024       ___xp_a                    40047024     LIBC:crt0init.obj
+ 0003:0000002c       ___xp_z                    4004702c     LIBC:crt0init.obj
+ 0003:00000030       ___xt_a                    40047030     LIBC:crt0init.obj
+ 0003:00000034       ___xt_z                    40047034     LIBC:crt0init.obj
+ 0003:000001a0       _bgToggleableSurfaces      400471a0     bg_misc.obj
+ 0003:000003a0       _bg_customSiegeSoundNames  400473a0     bg_misc.obj
+ 0003:00000478       _forceMasteryLevels        40047478     bg_misc.obj
+ 0003:00000498       _forceMasteryPoints        40047498     bg_misc.obj
+ 0003:000004b8       _bgForcePowerCost          400474b8     bg_misc.obj
+ 0003:000005d8       _forcePowerSorted          400475d8     bg_misc.obj
+ 0003:00000620       _forcePowerDarkLight       40047620     bg_misc.obj
+ 0003:00000668       _WeaponReadyAnim           40047668     bg_misc.obj
+ 0003:000006b8       _WeaponReadyLegsAnim       400476b8     bg_misc.obj
+ 0003:00000708       _WeaponAttackAnim          40047708     bg_misc.obj
+ 0003:00002520       _bg_itemlist               40049520     bg_misc.obj
+ 0003:00003080       _bg_numItems               4004a080     bg_misc.obj
+ 0003:00003948       _eventnames                4004a948     bg_misc.obj
+ 0003:00003d60       _bgSiegeClassFlagNames     4004ad60     bg_saga.obj
+ 0003:00003e00       _StanceTable               4004ae00     bg_saga.obj
+ 0003:00003f70       _WPTable                   4004af70     bg_saga.obj
+ 0003:00004108       _FPTable                   4004b108     bg_saga.obj
+ 0003:00004238       _HoldableTable             4004b238     bg_saga.obj
+ 0003:00004390       _PowerupTable              4004b390     bg_saga.obj
+ 0003:00004864       _classTitles               4004b864     bg_saga.obj
+ 0003:00004b48       _numVehicleWeapons         4004bb48     bg_vehicleLoad.obj
+ 0003:00004c68       _vehWeaponFields           4004bc68     bg_vehicleLoad.obj
+ 0003:000059d0       _vehicleFields             4004c9d0     bg_vehicleLoad.obj
+ 0003:00006248       _VehicleTable              4004d248     bg_vehicleLoad.obj
+ 0003:000066d0       _WP_MuzzlePoint            4004d6d0     bg_weapons.obj
+ 0003:000067b8       _weaponData                4004d7b8     bg_weapons.obj
+ 0003:00006be0       _ammoData                  4004dbe0     bg_weapons.obj
+ 0003:00006c08       _axisDefault               4004dc08     q_math.obj
+ 0003:00006c2c       _colorBlack                4004dc2c     q_math.obj
+ 0003:00006c3c       _colorRed                  4004dc3c     q_math.obj
+ 0003:00006c4c       _colorGreen                4004dc4c     q_math.obj
+ 0003:00006c5c       _colorBlue                 4004dc5c     q_math.obj
+ 0003:00006c6c       _colorYellow               4004dc6c     q_math.obj
+ 0003:00006c7c       _colorMagenta              4004dc7c     q_math.obj
+ 0003:00006c8c       _colorCyan                 4004dc8c     q_math.obj
+ 0003:00006c9c       _colorWhite                4004dc9c     q_math.obj
+ 0003:00006cac       _colorLtGrey               4004dcac     q_math.obj
+ 0003:00006cbc       _colorMdGrey               4004dcbc     q_math.obj
+ 0003:00006ccc       _colorDkGrey               4004dccc     q_math.obj
+ 0003:00006cdc       _colorLtBlue               4004dcdc     q_math.obj
+ 0003:00006cec       _colorDkBlue               4004dcec     q_math.obj
+ 0003:00006d00       _g_color_table             4004dd00     q_math.obj
+ 0003:00006d80       _bytedirs                  4004dd80     q_math.obj
+ 0003:00007d68       _uiForceSide               4004ed68     ui_force.obj
+ 0003:00007d6c       _uiJediNonJedi             4004ed6c     ui_force.obj
+ 0003:00007d70       _uiForceRank               4004ed70     ui_force.obj
+ 0003:00007d74       _uiMaxRank                 4004ed74     ui_force.obj
+ 0003:00007d78       _uiMaxPoints               4004ed78     ui_force.obj
+ 0003:00007d80       _uiForcePowersRank         4004ed80     ui_force.obj
+ 0003:00007dc8       _uiForcePowerDarkLight     4004edc8     ui_force.obj
+ 0003:00008238       _gCustPowersRank           4004f238     ui_force.obj
+ 0003:0000ed90       _animTable                 40055d90     ui_main.obj
+ 0003:00011f90       _HolocronIcons             40058f90     ui_main.obj
+ 0003:00012238       _forcepowerDesc            40059238     ui_main.obj
+ 0003:00012300       _datapadMoveTitleData      40059300     ui_main.obj
+ 0003:00012390       _datapadMoveTitleBaseAnims 40059390     ui_main.obj
+ 0003:000136d8       _g_UIGloballySelectedSiegeClass 4005a6d8     ui_main.obj
+ 0003:000136dc       _uiNumAllAnims             4005a6dc     ui_main.obj
+ 0003:000179e8       _serverStatusCvars         4005e9e8     ui_main.obj
+ 0003:0001a328       _itemFlags                 40061328     ui_shared.obj
+ 0003:0001a3bc       _styles                    400613bc     ui_shared.obj
+ 0003:0001a410       _alignment                 40061410     ui_shared.obj
+ 0003:0001a540       _types                     40061540     ui_shared.obj
+ 0003:0001a950       _commandList               40061950     ui_shared.obj
+ 0003:0001aa40       _scriptCommandCount        40061a40     ui_shared.obj
+ 0003:0001be18       _itemParseKeywords         40062e18     ui_shared.obj
+ 0003:0001c450       _menuParseKeywords         40063450     ui_shared.obj
+ 0003:0001c670       __fltused                  40063670     LIBC:fpinit.obj
+ 0003:0001c674       __ldused                   40063674     LIBC:fpinit.obj
+ 0003:0001c678       __FPinit                   40063678     LIBC:fpinit.obj
+ 0003:0001c67c       __FPmtinit                 4006367c     LIBC:fpinit.obj
+ 0003:0001c680       __FPmtterm                 40063680     LIBC:fpinit.obj
+ 0003:0001c6c0       __OP_FMODjmptab            400636c0     LIBC:87fmod.obj
+ 0003:0001c734       __aexit_rtn                40063734     LIBC:dllcrt0.obj
+ 0003:0001c740       __OP_ATAN2jmptab           40063740     LIBC:87triga.obj
+ 0003:0001c790       __cfltcvt_tab              40063790     LIBC:cmiscdat.obj
+ 0003:0001c7b0       __indefinite               400637b0     LIBC:87disp.obj
+ 0003:0001c7ba       __piby2                    400637ba     LIBC:87disp.obj
+ 0003:0001c7cc       __cpower                   400637cc     LIBC:87disp.obj
+ 0003:0001c8c8       __d_inf                    400638c8     LIBC:util.obj
+ 0003:0001c8d0       __d_ind                    400638d0     LIBC:util.obj
+ 0003:0001c8d8       __d_max                    400638d8     LIBC:util.obj
+ 0003:0001c8e0       __d_min                    400638e0     LIBC:util.obj
+ 0003:0001c8e8       __d_mzero                  400638e8     LIBC:util.obj
+ 0003:0001c90c       __pctype                   4006390c     LIBC:ctype.obj
+ 0003:0001c910       __pwctype                  40063910     LIBC:ctype.obj
+ 0003:0001c914       ___mb_cur_max              40063914     LIBC:nlsdata1.obj
+ 0003:0001c918       ___decimal_point           40063918     LIBC:nlsdata1.obj
+ 0003:0001c91c       ___decimal_point_length    4006391c     LIBC:nlsdata1.obj
+ 0003:0001ca80       ___nullstring              40063a80     LIBC:output.obj
+ 0003:0001ca84       ___wnullstring             40063a84     LIBC:output.obj
+ 0003:0001ca88       ___lc_clike                40063a88     LIBC:nlsdata2.obj
+ 0003:0001ca8c       __pmatherr                 40063a8c     LIBC:libm_error.obj
+ 0003:0001ca98       ___badioinfo               40063a98     LIBC:ioinit.obj
+ 0003:0001caa0       __amblksiz                 40063aa0     LIBC:heapinit.obj
+ 0003:0001caa8       __XcptActTab               40063aa8     LIBC:winxfltr.obj
+ 0003:0001cb20       __First_FPE_Indx           40063b20     LIBC:winxfltr.obj
+ 0003:0001cb24       __Num_FPE                  40063b24     LIBC:winxfltr.obj
+ 0003:0001cb28       __XcptActTabCount          40063b28     LIBC:winxfltr.obj
+ 0003:0001cb2c       __fpecode                  40063b2c     LIBC:winxfltr.obj
+ 0003:0001ccf0       __matherr_flag             40063cf0     LIBC:matherr.obj
+ 0003:0001ccf4       ___security_cookie         40063cf4     LIBC:seccook.obj
+ 0003:0001ccf8       __iob                      40063cf8     LIBC:_file.obj
+ 0003:0001cf80       __NLG_Destination          40063f80     LIBC:exsup.obj
+ 0003:0001d0f8       __pow10pos                 400640f8     LIBC:constpow.obj
+ 0003:0001d258       __pow10neg                 40064258     LIBC:constpow.obj
+ 0003:0009a450       _siege_valid               400e1450     bg_saga.obj
+ 0003:0009a454       _team1Theme                400e1454     bg_saga.obj
+ 0003:0009a458       _team2Theme                400e1458     bg_saga.obj
+ 0003:0009a45c       _bgNumSiegeClasses         400e145c     bg_saga.obj
+ 0003:0009a460       _bgNumSiegeTeams           400e1460     bg_saga.obj
+ 0003:0009a474       _numVehicles               400e1474     bg_vehicleLoad.obj
+ 0003:0009a4bc       _vec3_origin               400e14bc     q_math.obj
+ 0003:000b0ef0       _newUI                     400f7ef0     ui_atoms.obj
+ 0003:000b0f00       _uiForceUsed               400f7f00     ui_force.obj
+ 0003:000b0f04       _uiForceAvailable          400f7f04     ui_force.obj
+ 0003:000b0f08       _gTouchedForce             400f7f08     ui_force.obj
+ 0003:000b0f10       _uiForcePowersDisabled     400f7f10     ui_force.obj
+ 0003:000b0f58       _gCustRank                 400f7f58     ui_force.obj
+ 0003:000b0f5c       _gCustSide                 400f7f5c     ui_force.obj
+ 0003:000cbb48       _siegeTeam1                40112b48     ui_main.obj
+ 0003:000cbb4c       _siegeTeam2                40112b4c     ui_main.obj
+ 0003:000cbb50       _UIPAFtextLoaded           40112b50     ui_main.obj
+ 0003:000cbb58       _holdSPString              40112b58     ui_main.obj
+ 0003:000cbf58       _holdSPString2             40112f58     ui_main.obj
+ 0003:000cc358       _uiSkinColor               40113358     ui_main.obj
+ 0003:000cc35c       _uiHoldSkinColor           4011335c     ui_main.obj
+ 0003:000cc364       _frameCount                40113364     ui_main.obj
+ 0003:000cc768       _defaultMenu               40113768     ui_main.obj
+ 0003:000cc774       _gUISelectedMap            40113774     ui_main.obj
+ 0003:000cc798       _g_siegedFeederForcedSet   40113798     ui_main.obj
+ 0003:0014c7ec       _ui_saber_parms_parsed     401937ec     ui_saber.obj
+ 0003:003b082c       _DC                        403f782c     ui_shared.obj
+ 0003:003b0840       _menuCount                 403f7840     ui_shared.obj
+ 0003:003b0844       _openMenuCount             403f7844     ui_shared.obj
+ 0003:003b085c       _FPMessageTime             403f785c     ui_shared.obj
+ 0003:003b0860       _ui_deferredScriptItem     403f7860     ui_shared.obj
+ 0003:003b0874       _ui_G2PtrTracker           403f7874     ui_shared.obj
+ 0003:003b0878       ___fastflag                403f7878     LIBC:fpinit.obj
+ 0003:003b087c       __adjust_fdiv              403f787c     LIBC:fpinit.obj
+ 0003:003b0884       __aenvptr                  403f7884     LIBC:dllcrt0.obj
+ 0003:003b0888       __wenvptr                  403f7888     LIBC:dllcrt0.obj
+ 0003:003b088c       ___error_mode              403f788c     LIBC:dllcrt0.obj
+ 0003:003b0890       ___app_type                403f7890     LIBC:dllcrt0.obj
+ 0003:003b08dc       ___lc_handle               403f78dc     LIBC:nlsdata2.obj
+ 0003:003b08f4       ___lc_codepage             403f78f4     LIBC:nlsdata2.obj
+ 0003:003b08f8       ___lc_collate_cp           403f78f8     LIBC:nlsdata2.obj
+ 0003:003b08fc       _errno                     403f78fc     LIBC:crt0dat.obj
+ 0003:003b0900       __doserrno                 403f7900     LIBC:crt0dat.obj
+ 0003:003b0904       __umaskval                 403f7904     LIBC:crt0dat.obj
+ 0003:003b0908       __osplatform               403f7908     LIBC:crt0dat.obj
+ 0003:003b090c       __osver                    403f790c     LIBC:crt0dat.obj
+ 0003:003b0910       __winver                   403f7910     LIBC:crt0dat.obj
+ 0003:003b0914       __winmajor                 403f7914     LIBC:crt0dat.obj
+ 0003:003b0918       __winminor                 403f7918     LIBC:crt0dat.obj
+ 0003:003b091c       ___argc                    403f791c     LIBC:crt0dat.obj
+ 0003:003b0920       ___argv                    403f7920     LIBC:crt0dat.obj
+ 0003:003b0924       ___wargv                   403f7924     LIBC:crt0dat.obj
+ 0003:003b0928       __environ                  403f7928     LIBC:crt0dat.obj
+ 0003:003b092c       ___initenv                 403f792c     LIBC:crt0dat.obj
+ 0003:003b0930       __wenviron                 403f7930     LIBC:crt0dat.obj
+ 0003:003b0934       ___winitenv                403f7934     LIBC:crt0dat.obj
+ 0003:003b0938       __pgmptr                   403f7938     LIBC:crt0dat.obj
+ 0003:003b093c       __wpgmptr                  403f793c     LIBC:crt0dat.obj
+ 0003:003b0940       __exitflag                 403f7940     LIBC:crt0dat.obj
+ 0003:003b0944       __C_Termination_Done       403f7944     LIBC:crt0dat.obj
+ 0003:003b0948       __C_Exit_Done              403f7948     LIBC:crt0dat.obj
+ 0003:003b0a5c       __pxcptinfoptrs            403f7a5c     LIBC:winxfltr.obj
+ 0003:003b0a60       __adbgmsg                  403f7a60     LIBC:crt0msg.obj
+ 0003:003b0a98       __cflush                   403f7a98     LIBC:_file.obj
+ 0003:003b0b04       ?_pnhHeap@@3P6AHI@ZA       403f7b04     LIBC:handler.obj
+ 0003:003b0b08       __newmode                  403f7b08     LIBC:_newmode.obj
+ 0003:003b0b20       _itemParseKeywordHash      403f7b20     <common>
+ 0003:003b1320       _Menus                     403f8320     <common>
+ 0003:003c6020       _g_nameBind1               4040d020     <common>
+ 0003:003c6040       _currLanguage              4040d040     <common>
+ 0003:003c7040       _g_nameBind2               4040e040     <common>
+ 0003:003c7060       _menuParseKeywordHash      4040e060     <common>
+ 0003:003c7860       _menuStack                 4040e860     <common>
+ 0003:003c78a0       _ui_deferredScript         4040e8a0     <common>
+ 0003:003c80a0       _ui_ctf_capturelimit       4040f0a0     <common>
+ 0003:003c81c0       _ui_redteam4               4040f1c0     <common>
+ 0003:003c82e0       _ui_blueteam8              4040f2e0     <common>
+ 0003:003c8400       _ui_char_skin_head         4040f400     <common>
+ 0003:003c8520       _ui_redteam                4040f520     <common>
+ 0003:003c8640       _ui_saber_color            4040f640     <common>
+ 0003:003c8760       _ui_serverFilterType       4040f760     <common>
+ 0003:003c8880       _ui_spSkill                4040f880     <common>
+ 0003:003c89a0       _ui_ffa_timelimit          4040f9a0     <common>
+ 0003:003c8ac0       _ui_opponentName           4040fac0     <common>
+ 0003:003c8be0       _ui_blueteam6              4040fbe0     <common>
+ 0003:003c8d00       _ui_browserGameType        4040fd00     <common>
+ 0003:003c8e20       _ui_selectedPlayerName     4040fe20     <common>
+ 0003:003c8f40       _ui_saber2_color           4040ff40     <common>
+ 0003:003c9060       _g_UIClassDescriptions     40410060     <common>
+ 0003:00449060       _ui_char_color_green       40490060     <common>
+ 0003:00449180       _ui_initialized            40490180     <common>
+ 0003:004492a0       _ui_netSource              404902a0     <common>
+ 0003:004493c0       _ui_lastServerRefresh_3    404903c0     <common>
+ 0003:004494e0       _ui_marks                  404904e0     <common>
+ 0003:00449600       _ui_currentOpponent        40490600     <common>
+ 0003:00449720       _ui_scoreDefends           40490720     <common>
+ 0003:00449840       _ui_blueteam               40490840     <common>
+ 0003:00449960       _ui_gameType               40490960     <common>
+ 0003:00449a80       _saberSingleHiltInfo       40490a80     <common>
+ 0003:00449b80       _ui_blueteam2              40490b80     <common>
+ 0003:00449ca0       _ui_blueteam4              40490ca0     <common>
+ 0003:00449dc0       _ui_scoreAccuracy          40490dc0     <common>
+ 0003:00449ee0       _ui_selectedPlayer         40490ee0     <common>
+ 0003:0044a000       _ui_debug                  40491000     <common>
+ 0003:0044a120       _uiHumanoidAnimations      40491120     <common>
+ 0003:0044cb60       _ui_drawCrosshair          40493b60     <common>
+ 0003:0044cc80       _bgAllAnims                40493c80     <common>
+ 0003:0044d0c0       _ui_currentNetMap          404940c0     <common>
+ 0003:0044d1e0       _ui_char_color_blue        404941e0     <common>
+ 0003:0044d300       _ui_char_skin_legs         40494300     <common>
+ 0003:0044d420       _ui_mapIndex               40494420     <common>
+ 0003:0044d540       _ui_redteam2               40494540     <common>
+ 0003:0044d660       _ui_scoreExcellents        40494660     <common>
+ 0003:0044d780       _ui_lastServerRefresh_0    40494780     <common>
+ 0003:0044d8a0       _ui_redteam5               404948a0     <common>
+ 0003:0044d9c0       _ui_scoreTimeBonus         404949c0     <common>
+ 0003:0044dae0       _ui_blueteam5              40494ae0     <common>
+ 0003:0044dc00       _ui_char_color_red         40494c00     <common>
+ 0003:0044dd20       _ui_scoreBase              40494d20     <common>
+ 0003:0044de40       _ui_browserSortKey         40494e40     <common>
+ 0003:0044df60       _ui_team_timelimit         40494f60     <common>
+ 0003:0044e080       _ui_redteam7               40495080     <common>
+ 0003:0044e1a0       _ui_bypassMainMenuLoad     404951a0     <common>
+ 0003:0044e2c0       _ui_browserMaster          404952c0     <common>
+ 0003:0044e3e0       _ui_scoreCaptures          404953e0     <common>
+ 0003:0044e500       _ui_ffa_fraglimit          40495500     <common>
+ 0003:0044e620       _ui_realWarmUp             40495620     <common>
+ 0003:0044e740       _ui_scoreShutoutBonus      40495740     <common>
+ 0003:0044e860       _ui_currentMap             40495860     <common>
+ 0003:0044e980       _ui_PrecacheModels         40495980     <common>
+ 0003:0044eaa0       _saberStaffHiltInfo        40495aa0     <common>
+ 0003:0044eba0       _ui_scoreAssists           40495ba0     <common>
+ 0003:0044ecc0       _ui_netGameType            40495cc0     <common>
+ 0003:0044ede0       _ui_blueteam1              40495de0     <common>
+ 0003:0044ef00       _ui_saber_type             40495f00     <common>
+ 0003:0044f020       _ui_redteam6               40496020     <common>
+ 0003:0044f140       _ui_blueteam3              40496140     <common>
+ 0003:0044f260       _ui_saber2                 40496260     <common>
+ 0003:0044f380       _ui_rankChange             40496380     <common>
+ 0003:0044f4a0       _ui_captureLimit           404964a0     <common>
+ 0003:0044f5c0       _ui_findPlayer             404965c0     <common>
+ 0003:0044f6e0       _ui_joinGameType           404966e0     <common>
+ 0003:0044f800       _ui_browserShowEmpty       40496800     <common>
+ 0003:0044f920       _ui_team_friendly          40496920     <common>
+ 0003:0044fa40       _ui_ctf_friendly           40496a40     <common>
+ 0003:0044fb60       _ui_blueteam7              40496b60     <common>
+ 0003:0044fc80       _ui_redteam8               40496c80     <common>
+ 0003:0044fda0       _ui_scoreGauntlets         40496da0     <common>
+ 0003:0044fec0       _uiInfo                    40496ec0     <common>
+ 0003:004a0b00       _ui_lastServerRefresh_2    404e7b00     <common>
+ 0003:004a0c20       _ui_recordSPDemo           404e7c20     <common>
+ 0003:004a0d40       _ui_dedicated              404e7d40     <common>
+ 0003:004a0e60       _ui_char_anim              404e7e60     <common>
+ 0003:004a0f80       _ui_scoreSkillBonus        404e7f80     <common>
+ 0003:004a10a0       _ui_selectedModelIndex     404e80a0     <common>
+ 0003:004a11c0       _ui_actualNetGameType      404e81c0     <common>
+ 0003:004a12e0       _ui_char_skin_torso        404e82e0     <common>
+ 0003:004a1400       _ui_fragLimit              404e8400     <common>
+ 0003:004a1520       _ui_serverStatusTimeOut    404e8520     <common>
+ 0003:004a1640       _ui_redteam1               404e8640     <common>
+ 0003:004a1760       _se_language               404e8760     <common>
+ 0003:004a1880       _ui_browserShowFull        404e8880     <common>
+ 0003:004a19a0       _ui_singlePlayerActive     404e89a0     <common>
+ 0003:004a1ac0       _ui_saber                  404e8ac0     <common>
+ 0003:004a1be0       _ui_scoreTeam              404e8be0     <common>
+ 0003:004a1d00       _ui_menuFiles              404e8d00     <common>
+ 0003:004a1e20       _ui_realCaptureLimit       404e8e20     <common>
+ 0003:004a1f40       _ui_botsFile               404e8f40     <common>
+ 0003:004a2060       _ui_lastServerRefresh_1    404e9060     <common>
+ 0003:004a2180       _parsedFPMessage           404e9180     <common>
+ 0003:004a2580       _ui_scoreScore             404e9580     <common>
+ 0003:004a26a0       _ui_scoreImpressives       404e96a0     <common>
+ 0003:004a27c0       _ui_char_model             404e97c0     <common>
+ 0003:004a28e0       _ui_drawCrosshairNames     404e98e0     <common>
+ 0003:004a2a00       _ui_team_fraglimit         404e9a00     <common>
+ 0003:004a2b20       _ui_scorePerfect           404e9b20     <common>
+ 0003:004a2c40       _ui_redteam3               404e9c40     <common>
+ 0003:004a2d60       _ui_scoreTime              404e9d60     <common>
+ 0003:004a2e80       _ui_ctf_timelimit          404e9e80     <common>
+ 0003:004a2f90       _ui_numBots                404e9f90     <common>
+ 0003:004a2fa0       _ui_forcePowerDisable      404e9fa0     <common>
+ 0003:004a30c0       _ui_freeSaber              404ea0c0     <common>
+ 0003:004a31e0       _uiForceStarShaders        404ea1e0     <common>
+ 0003:004a3240       _uiSaberColorShaders       404ea240     <common>
+ 0003:004a3260       _VehicleParms              404ea260     <common>
+ 0003:004b3280       _VehWeaponParms            404fa280     <common>
+ 0003:004b72a0       _g_vehicleInfo             404fe2a0     <common>
+ 0003:004ba520       _g_vehWeaponInfo           40501520     <common>
+ 0003:004bab60       _bgSiegeClasses            40501b60     <common>
+ 0003:004eb160       _bgSiegeTeams              40532160     <common>
+ 0003:004ed5e0       _siege_info                405345e0     <common>
+ 0003:004f15e0       ___sbh_pHeaderDefer        405385e0     <common>
+ 0003:004f15e4       ___sbh_cntHeaderList       405385e4     <common>
+ 0003:004f15e8       ___sbh_pHeaderList         405385e8     <common>
+ 0003:004f15ec       ___sbh_threshold           405385ec     <common>
+ 0003:004f15f0       ___sbh_pHeaderScan         405385f0     <common>
+ 0003:004f15f4       ___sbh_sizeHeaderList      405385f4     <common>
+ 0003:004f15f8       ___sbh_indGroupDefer       405385f8     <common>
+ 0003:004f15fc       ___piob                    405385fc     <common>
+ 0003:004f1600       __bufin                    40538600     <common>
+ 0003:004f2600       __nstream                  40539600     <common>
+ 0003:004f2604       ___mblcid                  40539604     <common>
+ 0003:004f2608       ___ismbcodepage            40539608     <common>
+ 0003:004f2620       __mbctype                  40539620     <common>
+ 0003:004f2724       ___mbcodepage              40539724     <common>
+ 0003:004f2730       ___mbulinfo                40539730     <common>
+ 0003:004f2740       __mbcasemap                40539740     <common>
+ 0003:004f2840       __crtheap                  40539840     <common>
+ 0003:004f2844       ___active_heap             40539844     <common>
+ 0003:004f2848       __nhandle                  40539848     <common>
+ 0003:004f2860       ___pioinfo                 40539860     <common>
+ 0003:004f2960       ___env_initialized         40539960     <common>
+ 0003:004f2964       ___onexitend               40539964     <common>
+ 0003:004f2968       ___onexitbegin             40539968     <common>
+ 0003:004f296c       ___mbctype_initialized     4053996c     <common>
+ 0003:004f2970       ___use_sse2_mathfcns       40539970     <common>
+ 0003:004f2974       ___sse2_available          40539974     <common>
+ 0003:004f2978       __acmdln                   40539978     <common>
+ 0003:004f297c       __pRawDllMain              4053997c     <common>
+
+ entry point at        0001:0003a9dd
+
+ Static symbols
+
+ 0001:00002540       _SnapVector                40003540 f   bg_misc.obj
+ 0001:000053c0       _BG_ParseVehWeaponParm     400063c0 f   bg_vehicleLoad.obj
+ 0001:00006370       _BG_ParseVehicleParm       40007370 f   bg_vehicleLoad.obj
+ 0001:00007250       _CrossProduct              40008250 f   q_math.obj
+ 0001:00007fb0       _VectorLength              40008fb0 f   q_math.obj
+ 0001:00008e40       _VectorLengthSquared       40009e40 f   q_math.obj
+ 0001:00009080       _Distance                  4000a080 f   q_math.obj
+ 0001:0000b570       _UI_Cache_f                4000c570 f   ui_atoms.obj
+ 0001:0000b5d0       _UI_CalcPostGameStats      4000c5d0 f   ui_atoms.obj
+ 0001:0000e580       _UI_LoadArenasFromFile     4000f580 f   ui_gameinfo.obj
+ 0001:0000e790       _UI_LoadBotsFromFile       4000f790 f   ui_gameinfo.obj
+ 0001:000107c0       _UI_AllForceDisabled       400117c0 f   ui_main.obj
+ 0001:00010cc0       _UI_SetForceDisabled       40011cc0 f   ui_main.obj
+ 0001:00010dd0       _UI_ServersQsortCompare    40011dd0 f   ui_main.obj
+ 0001:00011ba0       _UI_BuildFindPlayerList    40012ba0 f   ui_main.obj
+ 0001:000121b0       _UI_GetServerStatusInfo    400131b0 f   ui_main.obj
+ 0001:00012670       _UI_SortServerStatusInfo   40013670 f   ui_main.obj
+ 0001:000127d0       _stristr                   400137d0 f   ui_main.obj
+ 0001:00012860       _UI_BuildServerStatus      40013860 f   ui_main.obj
+ 0001:00013ef0       _UI_SelectedMap            40014ef0 f   ui_main.obj
+ 0001:00013f70       _UI_SelectedTeamHead       40014f70 f   ui_main.obj
+ 0001:00014030       _UI_ParseGameInfo          40015030 f   ui_main.obj
+ 0001:00014140       _GameType_Parse            40015140 f   ui_main.obj
+ 0001:00014300       _MapList_Parse             40015300 f   ui_main.obj
+ 0001:00014cc0       _UI_OwnerDrawWidth         40015cc0 f   ui_main.obj
+ 0001:00015320       _GetNetSourceString        40016320 f   ui_main.obj
+ 0001:00015360       _GetCRDelineatedString     40016360 f   ui_main.obj
+ 0001:000153f0       _UI_TeamIndexFromName      400163f0 f   ui_main.obj
+ 0001:00015450       _UI_OwnerDraw              40016450 f   ui_main.obj
+ 0001:00015d50       _UI_DrawHandicap           40016d50 f   ui_main.obj
+ 0001:00015dd0       _UI_DrawClanName           40016dd0 f   ui_main.obj
+ 0001:00015e10       _UI_DrawGameType           40016e10 f   ui_main.obj
+ 0001:00015e60       _UI_GetGameTypeName        40016e60 f   ui_main.obj
+ 0001:00015f90       _UI_DrawNetGameType        40016f90 f   ui_main.obj
+ 0001:00016010       _UI_DrawAutoSwitch         40017010 f   ui_main.obj
+ 0001:000160c0       _UI_DrawJoinGameType       400170c0 f   ui_main.obj
+ 0001:00016130       _UI_DrawClanLogo           40017130 f   ui_main.obj
+ 0001:00016240       _UI_DrawClanCinematic      40017240 f   ui_main.obj
+ 0001:00016400       _UI_DrawPreviewCinematic   40017400 f   ui_main.obj
+ 0001:000164c0       _UI_DrawSkill              400174c0 f   ui_main.obj
+ 0001:00016540       _UI_DrawGenericNum         40017540 f   ui_main.obj
+ 0001:000165c0       _UI_DrawForceMastery       400175c0 f   ui_main.obj
+ 0001:00016640       _UI_DrawSkinColor          40017640 f   ui_main.obj
+ 0001:000166f0       _UI_DrawForceSide          400176f0 f   ui_main.obj
+ 0001:00016a00       _UI_DrawJediNonJedi        40017a00 f   ui_main.obj
+ 0001:00016ac0       _UI_DrawTeamName           40017ac0 f   ui_main.obj
+ 0001:00016b70       _UI_DrawTeamMember         40017b70 f   ui_main.obj
+ 0001:00016cf0       _UI_DrawEffects            40017cf0 f   ui_main.obj
+ 0001:00016d30       _UI_DrawMapPreview         40017d30 f   ui_main.obj
+ 0001:00016e60       _UI_DrawMapTimeToBeat      40017e60 f   ui_main.obj
+ 0001:00016f20       _UI_DrawMapCinematic       40017f20 f   ui_main.obj
+ 0001:000170b0       _UI_DrawNetSource          400180b0 f   ui_main.obj
+ 0001:00017140       _UI_DrawNetMapPreview      40018140 f   ui_main.obj
+ 0001:000171b0       _UI_DrawNetMapCinematic    400181b0 f   ui_main.obj
+ 0001:00017270       _UI_DrawNetFilter          40018270 f   ui_main.obj
+ 0001:00017310       _UI_DrawTier               40018310 f   ui_main.obj
+ 0001:00017390       _UI_DrawTierMap            40018390 f   ui_main.obj
+ 0001:00017450       _UI_DrawTierMapName        40018450 f   ui_main.obj
+ 0001:00017500       _UI_EnglishMapName         40018500 f   ui_main.obj
+ 0001:00017560       _UI_DrawTierGameType       40018560 f   ui_main.obj
+ 0001:00017600       _UI_DrawPlayerLogo         40018600 f   ui_main.obj
+ 0001:00017700       _UI_DrawPlayerLogoMetal    40018700 f   ui_main.obj
+ 0001:00017800       _UI_DrawPlayerLogoName     40018800 f   ui_main.obj
+ 0001:00017900       _UI_DrawOpponentLogo       40018900 f   ui_main.obj
+ 0001:00017a00       _UI_DrawOpponentLogoMetal  40018a00 f   ui_main.obj
+ 0001:00017b00       _UI_DrawOpponentLogoName   40018b00 f   ui_main.obj
+ 0001:00017c00       _UI_DrawAllMapsSelection   40018c00 f   ui_main.obj
+ 0001:00017c70       _UI_DrawOpponentName       40018c70 f   ui_main.obj
+ 0001:00017cb0       _UI_DrawBotName            40018cb0 f   ui_main.obj
+ 0001:00017d20       _UI_DrawBotSkill           40018d20 f   ui_main.obj
+ 0001:00017d80       _UI_DrawRedBlue            40018d80 f   ui_main.obj
+ 0001:00017df0       _UI_DrawCrosshair          40018df0 f   ui_main.obj
+ 0001:00017e60       _UI_DrawSelectedPlayer     40018e60 f   ui_main.obj
+ 0001:00017ec0       _UI_BuildPlayerList        40018ec0 f   ui_main.obj
+ 0001:000181f0       _UI_DrawServerRefreshDate  400191f0 f   ui_main.obj
+ 0001:00018370       _UI_DrawServerMOTD         40019370 f   ui_main.obj
+ 0001:000185f0       _Text_Paint_Limit          400195f0 f   ui_main.obj
+ 0001:000187d0       _UI_DrawKeyBindStatus      400197d0 f   ui_main.obj
+ 0001:00018820       _UI_DrawGLInfo             40019820 f   ui_main.obj
+ 0001:00018b80       _UI_Version                40019b80 f   ui_main.obj
+ 0001:00018be0       _UI_OwnerDrawVisible       40019be0 f   ui_main.obj
+ 0001:00018f20       _UI_OwnerDrawHandleKey     40019f20 f   ui_main.obj
+ 0001:000193b0       _UI_Handicap_HandleKey     4001a3b0 f   ui_main.obj
+ 0001:00019470       _UI_Effects_HandleKey      4001a470 f   ui_main.obj
+ 0001:00019540       _UI_Chat_Main_HandleKey    4001a540 f   ui_main.obj
+ 0001:00019660       _UI_Chat_Attack_HandleKey  4001a660 f   ui_main.obj
+ 0001:00019710       _UI_Chat_Defend_HandleKey  4001a710 f   ui_main.obj
+ 0001:000197e0       _UI_Chat_Request_HandleKey 4001a7e0 f   ui_main.obj
+ 0001:00019900       _UI_Chat_Reply_HandleKey   4001a900 f   ui_main.obj
+ 0001:00019a00       _UI_Chat_Spot_HandleKey    4001aa00 f   ui_main.obj
+ 0001:00019ad0       _UI_Chat_Tactical_HandleKey 4001aad0 f   ui_main.obj
+ 0001:00019bf0       _UI_GameType_HandleKey     4001abf0 f   ui_main.obj
+ 0001:00019d40       _UI_SetCapFragLimits       4001ad40 f   ui_main.obj
+ 0001:00019de0       _UI_NetGameType_HandleKey  4001ade0 f   ui_main.obj
+ 0001:00019f30       _UI_InSoloMenu             4001af30 f   ui_main.obj
+ 0001:00019f80       _UI_AutoSwitch_HandleKey   4001af80 f   ui_main.obj
+ 0001:0001a020       _UI_JoinGameType_HandleKey 4001b020 f   ui_main.obj
+ 0001:0001a0e0       _UI_Skill_HandleKey        4001b0e0 f   ui_main.obj
+ 0001:0001a190       _UI_TeamName_HandleKey     4001b190 f   ui_main.obj
+ 0001:0001a270       _UI_TeamMember_HandleKey   4001b270 f   ui_main.obj
+ 0001:0001a390       _UI_NetSource_HandleKey    4001b390 f   ui_main.obj
+ 0001:0001a460       _UI_NetFilter_HandleKey    4001b460 f   ui_main.obj
+ 0001:0001a4f0       _UI_OpponentName_HandleKey 4001b4f0 f   ui_main.obj
+ 0001:0001a540       _UI_NextOpponent           4001b540 f   ui_main.obj
+ 0001:0001a5e0       _UI_PriorOpponent          4001b5e0 f   ui_main.obj
+ 0001:0001a670       _UI_BotName_HandleKey      4001b670 f   ui_main.obj
+ 0001:0001a6f0       _UI_BotSkill_HandleKey     4001b6f0 f   ui_main.obj
+ 0001:0001a780       _UI_RedBlue_HandleKey      4001b780 f   ui_main.obj
+ 0001:0001a7c0       _UI_Crosshair_HandleKey    4001b7c0 f   ui_main.obj
+ 0001:0001a860       _UI_SelectedPlayer_HandleKey 4001b860 f   ui_main.obj
+ 0001:0001a950       _UI_GetValue               4001b950 f   ui_main.obj
+ 0001:0001a960       _UI_DeferMenuScript        4001b960 f   ui_main.obj
+ 0001:0001aa60       _UI_RunMenuScript          4001ba60 f   ui_main.obj
+ 0001:0001da80       _UI_LoadMods               4001ea80 f   ui_main.obj
+ 0001:0001db80       _UI_LoadMovies             4001eb80 f   ui_main.obj
+ 0001:0001dc80       _UI_LoadDemos              4001ec80 f   ui_main.obj
+ 0001:0001de20       _UI_StartSkirmish          4001ee20 f   ui_main.obj
+ 0001:0001e7b0       _UI_AIFromName             4001f7b0 f   ui_main.obj
+ 0001:0001e810       _UI_SetNextMap             4001f810 f   ui_main.obj
+ 0001:0001e870       _UI_Update                 4001f870 f   ui_main.obj
+ 0001:0001ee90       _UI_SetBotButton           4001fe90 f   ui_main.obj
+ 0001:0001ef20       _UI_UpdateCharacterCvars   4001ff20 f   ui_main.obj
+ 0001:0001f030       _UI_GetCharacterCvars      40020030 f   ui_main.obj
+ 0001:0001f2b0       _UI_UpdateSaberCvars       400202b0 f   ui_main.obj
+ 0001:0001f3a0       _UI_SetSaberBoxesandHilts  400203a0 f   ui_main.obj
+ 0001:0001f520       _UI_UpdateSaberType        40020520 f   ui_main.obj
+ 0001:0001f580       _UI_UpdateSaberHilt        40020580 f   ui_main.obj
+ 0001:0001f6c0       _UI_UpdateSaberColor       400206c0 f   ui_main.obj
+ 0001:0001f6d0       _UI_GetSaberCvars          400206d0 f   ui_main.obj
+ 0001:0001f7a0       _UI_ResetCharacterListBoxes 400207a0 f   ui_main.obj
+ 0001:0001f8d0       _UI_UpdateCharacter        400208d0 f   ui_main.obj
+ 0001:0001f9c0       _UI_GetTeamColor           400209c0 f   ui_main.obj
+ 0001:0001f9d0       _UI_SiegeClassCnt          400209d0 f   ui_main.obj
+ 0001:0001fae0       _UI_MapCountByGameType     40020ae0 f   ui_main.obj
+ 0001:0001fbd0       _UI_BuildServerDisplayList 40020bd0 f   ui_main.obj
+ 0001:0001ff30       _UI_RemoveServerFromDisplayList 40020f30 f   ui_main.obj
+ 0001:0001ffb0       _UI_BinaryServerInsertion  40020fb0 f   ui_main.obj
+ 0001:00020080       _UI_InsertServerIntoDisplayList 40021080 f   ui_main.obj
+ 0001:000200f0       _UI_CheckPassword          400210f0 f   ui_main.obj
+ 0001:00020170       _UI_JoinServer             40021170 f   ui_main.obj
+ 0001:00020220       _UI_CheckServerName        40021220 f   ui_main.obj
+ 0001:000202d0       _UI_FeederCount            400212d0 f   ui_main.obj
+ 0001:000207e0       _UI_HeadCountByColor       400217e0 f   ui_main.obj
+ 0001:00020880       _UI_GetIndexFromSelection  40021880 f   ui_main.obj
+ 0001:000208e0       _UI_FeederItemText         400218e0 f   ui_main.obj
+ 0001:00021310       _UI_FeederItemImage        40022310 f   ui_main.obj
+ 0001:00021b40       _UI_Pause                  40022b40 f   ui_main.obj
+ 0001:00021ba0       _UI_PlayCinematic          40022ba0 f   ui_main.obj
+ 0001:00021be0       _UI_StopCinematic          40022be0 f   ui_main.obj
+ 0001:00021cf0       _UI_DrawCinematic          40022cf0 f   ui_main.obj
+ 0001:00021d40       _UI_RunCinematicFrame      40022d40 f   ui_main.obj
+ 0001:00021d60       _UI_BuildQ3Model_List      40022d60 f   ui_main.obj
+ 0001:00022100       _bIsImageFile              40023100 f   ui_main.obj
+ 0001:000221c0       _UI_BuildPlayerModel_List  400231c0 f   ui_main.obj
+ 0001:000227d0       _UI_ParseColorData         400237d0 f   ui_main.obj
+ 0001:000231b0       _UI_DisplayDownloadInfo    400241b0 f   ui_main.obj
+ 0001:00023890       _UI_ReadableSize           40024890 f   ui_main.obj
+ 0001:000239f0       _UI_PrintTime              400249f0 f   ui_main.obj
+ 0001:00023b50       _UI_StopServerRefresh      40024b50 f   ui_main.obj
+ 0001:00023bd0       _UI_DoServerRefresh        40024bd0 f   ui_main.obj
+ 0001:00023c90       _UI_StartServerRefresh     40024c90 f   ui_main.obj
+ 0001:00023e40       _GetMonthAbbrevString      40024e40 f   ui_main.obj
+ 0001:00023e80       _UI_UpdatePendingPings     40024e80 f   ui_main.obj
+ 0001:00025da0       _BG_GiveMeVectorFromMatrix 40026da0 f   ui_saber.obj
+ 0001:000267c0       _hashForString             400277c0 f   ui_shared.obj
+ 0001:00028a20       _Menu_RunCloseScript       40029a20 f   ui_shared.obj
+ 0001:0002cc30       _Scroll_TextScroll_AutoFunc 4002dc30 f   ui_shared.obj
+ 0001:0002ccd0       _Scroll_TextScroll_ThumbFunc 4002dcd0 f   ui_shared.obj
+ 0001:0002ce60       _Scroll_ListBox_AutoFunc   4002de60 f   ui_shared.obj
+ 0001:0002cf00       _Scroll_ListBox_ThumbFunc  4002df00 f   ui_shared.obj
+ 0001:0002d210       _Scroll_Slider_ThumbFunc   4002e210 f   ui_shared.obj
+ 0001:0002da60       _Display_CloseCinematics   4002ea60 f   ui_shared.obj
+ 0001:0002daa0       _Menu_CloseCinematics      4002eaa0 f   ui_shared.obj
+ 0001:0002db30       _Window_CloseCinematic     4002eb30 f   ui_shared.obj
+ 0001:0002f9c0       _Controls_GetKeyAssignment 400309c0 f   ui_shared.obj
+ 0001:000365f0       _Item_TextScroll_BuildLines 400375f0 f   ui_shared.obj
+ 0001:000379f0       _Menu_CacheContents        400389f0 f   ui_shared.obj
+ 0001:00037a80       _Window_CacheContents      40038a80 f   ui_shared.obj
+ 0001:00037ad0       _Item_CacheContents        40038ad0 f   ui_shared.obj
+ 0001:00037af0       _Menu_OverActiveItem       40038af0 f   ui_shared.obj
+ 0001:00039310       _$$$00001                  4003a310 f   LIBC:strchr.obj
+ 0001:00039a24       _$$$00003                  4003aa24 f   LIBC:87fmod.obj
+ 0001:0003a130       _shortsort                 4003b130 f   LIBC:qsort.obj
+ 0001:0003abd0       _$$$00001                  4003bbd0 f   LIBC:87triga.obj
+ 0001:0003afdd       __shift                    4003bfdd f   LIBC:cvt.obj
+ 0001:0003b433       _$$$00003                  4003c433 f   LIBC:87disp.obj
+ 0001:0003c0a0       __hextodec                 4003d0a0 f   LIBC:input.obj
+ 0001:0003c0d2       __inc                      4003d0d2 f   LIBC:input.obj
+ 0001:0003ddf1       _write_char                4003edf1 f   LIBC:output.obj
+ 0001:0003de24       _write_multi_char          4003ee24 f   LIBC:output.obj
+ 0001:0003de48       _write_string              4003ee48 f   LIBC:output.obj
+ 0001:0003ecc1       _has_osfxsr_set            4003fcc1 f   LIBC:cpu_disp.obj
+ 0001:0003f004       _doexit                    40040004 f   LIBC:crt0dat.obj
+ 0001:0003f37a       _parse_cmdline             4004037a f   LIBC:stdargv.obj
+ 0001:0003fb1d       $$$00003                   40040b1d f   LIBC:exsup3.obj
+ 0001:0003fe87       _CPtoLCID                  40040e87 f   LIBC:mbctype.obj
+ 0001:0003feb6       _setSBCS                   40040eb6 f   LIBC:mbctype.obj
+ 0001:0003fedf       _setSBUpLow                40040edf f   LIBC:mbctype.obj
+ 0001:000408b3       __abstract_cw              400418b3 f   LIBC:ieee87.obj
+ 0001:00040945       __hw_cw                    40041945 f   LIBC:ieee87.obj
+ 0001:00040a1e       _report_failure            40041a1e f   LIBC:secchk.obj
+ 0001:000425ac       $$$00001                   400435ac f   LIBC:exsup.obj
+ 0001:000425cc       __unwind_handler           400435cc f   LIBC:exsup.obj
+ 0001:000425cc       $$$00003                   400435cc f   LIBC:exsup.obj
+ 0001:000425ee       $$$00005                   400435ee f   LIBC:exsup.obj
+ 0001:00042656       $$$00007                   40043656 f   LIBC:exsup.obj
+ 0001:0004269a       $$$00011                   4004369a f   LIBC:exsup.obj
+ 0001:00043790       _flsall                    40044790 f   LIBC:fflush.obj

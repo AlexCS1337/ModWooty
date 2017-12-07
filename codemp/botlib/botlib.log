@@ -1,0 +1,20 @@
+﻿Build started 12/20/2009 11:03:42 PM.
+     1>Project "C:\projects\Jedi_Academy_SDK(MP)\codemp\botlib\botlib.vcxproj" on node 9 (build target(s)).
+     1>_PrepareForBuild:
+         Touching "Debug(SH)\botlib.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1095,5): warning MSB8012: TargetPath(C:\projects\Jedi_Academy_SDK(MP)\codemp\botlib\Debug(SH)\botlib.lib) does not match the Library's OutputFile property value (C:\projects\Jedi_Academy_SDK(MP)\codemp\Debug\botlib.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\../Debug\botlib.lib" /NOLOGO .\../Debug/botlib/be_aas_bspq3.obj .\../Debug/botlib/be_aas_cluster.obj .\../Debug/botlib/be_aas_debug.obj .\../Debug/botlib/be_aas_entity.obj .\../Debug/botlib/be_aas_file.obj .\../Debug/botlib/be_aas_main.obj .\../Debug/botlib/be_aas_move.obj .\../Debug/botlib/be_aas_optimize.obj .\../Debug/botlib/be_aas_reach.obj .\../Debug/botlib/be_aas_route.obj .\../Debug/botlib/be_aas_routealt.obj .\../Debug/botlib/be_aas_sample.obj .\../Debug/botlib/be_ai_char.obj .\../Debug/botlib/be_ai_chat.obj .\../Debug/botlib/be_ai_gen.obj .\../Debug/botlib/be_ai_goal.obj .\../Debug/botlib/be_ai_move.obj .\../Debug/botlib/be_ai_weap.obj .\../Debug/botlib/be_ai_weight.obj .\../Debug/botlib/be_ea.obj .\../Debug/botlib/be_interface.obj .\../Debug/botlib/l_crc.obj .\../Debug/botlib/l_libvar.obj .\../Debug/botlib/l_log.obj .\../Debug/botlib/l_memory.obj .\../Debug/botlib/l_precomp.obj .\../Debug/botlib/l_script.obj .\../Debug/botlib/l_struct.obj
+         botlib.vcxproj -> C:\projects\Jedi_Academy_SDK(MP)\codemp\botlib\Debug(SH)\botlib.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"Debug(SH)\botlib.bsc" "Debug(SH)\be_aas_bspq3.sbr" "Debug(SH)\be_aas_cluster.sbr" "Debug(SH)\be_aas_debug.sbr" "Debug(SH)\be_aas_entity.sbr" "Debug(SH)\be_aas_file.sbr" "Debug(SH)\be_aas_main.sbr" "Debug(SH)\be_aas_move.sbr" "Debug(SH)\be_aas_optimize.sbr" "Debug(SH)\be_aas_reach.sbr" "Debug(SH)\be_aas_route.sbr" "Debug(SH)\be_aas_routealt.sbr" "Debug(SH)\be_aas_sample.sbr" "Debug(SH)\be_ai_char.sbr" "Debug(SH)\be_ai_chat.sbr" "Debug(SH)\be_ai_gen.sbr" "Debug(SH)\be_ai_goal.sbr" "Debug(SH)\be_ai_move.sbr" "Debug(SH)\be_ai_weap.sbr" "Debug(SH)\be_ai_weight.sbr" "Debug(SH)\be_ea.sbr" "Debug(SH)\be_interface.sbr" "Debug(SH)\l_crc.sbr" "Debug(SH)\l_libvar.sbr" "Debug(SH)\l_log.sbr" "Debug(SH)\l_memory.sbr" "Debug(SH)\l_precomp.sbr" "Debug(SH)\l_script.sbr" "Debug(SH)\l_struct.sbr"
+       _AfterBuild:
+         Deleting file "Debug(SH)\botlib.unsuccessfulbuild".
+         Touching "Debug(SH)\botlib.lastbuildstate".
+     1>Done Building Project "C:\projects\Jedi_Academy_SDK(MP)\codemp\botlib\botlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.80

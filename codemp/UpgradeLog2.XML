@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="JKA_mp(SDK)">
+</Property><Property Name="Solution File" Value="C:\projects\Jedi_Academy_SDK(MP)\codemp\JKA_mp(SDK).sln">
+</Property><Property Name="Date" Value="Wednesday, February 18, 2009">
+</Property><Property Name="Time" Value="2:54 AM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="JKA_mp(SDK).sln" Description="Error creating backup file: C:\projects\Jedi_Academy_SDK(MP)\codemp\JKA_mp(SDK).sln.old">
+</Event><Event ErrorLevel="0" Project="JK2_game" Source="game\JK2_game.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="JK2_game" Source="game\JK2_game.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="JK2_game" Source="game\JK2_game.vcproj" Description="Project file successfully backed up as 'C:\projects\Jedi_Academy_SDK(MP)\codemp\game\JK2_game.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="JK2_game" Source="game\JK2_game.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="JK2_game" Source="game\JK2_game.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="botlib" Source="botlib\botlib.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="botlib" Source="botlib\botlib.vcproj" Description="Project file successfully backed up as 'C:\projects\Jedi_Academy_SDK(MP)\codemp\botlib\botlib.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="botlib" Source="botlib\botlib.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="botlib" Source="botlib\botlib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ui" Source="ui\ui.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="ui" Source="ui\ui.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="ui" Source="ui\ui.vcproj" Description="Project file successfully backed up as 'C:\projects\Jedi_Academy_SDK(MP)\codemp\ui\ui.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="ui" Source="ui\ui.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="ui" Source="ui\ui.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="JK2_cgame" Source="cgame\JK2_cgame.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="JK2_cgame" Source="cgame\JK2_cgame.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="JK2_cgame" Source="cgame\JK2_cgame.vcproj" Description="Project file successfully backed up as 'C:\projects\Jedi_Academy_SDK(MP)\codemp\cgame\JK2_cgame.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="JK2_cgame" Source="cgame\JK2_cgame.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="JK2_cgame" Source="cgame\JK2_cgame.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="JKA_mp(SDK).sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="JKA_mp(SDK).sln" Description="Converted">
+</Event></UpgradeLog>

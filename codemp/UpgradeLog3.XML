@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="JKA_mp(SDK)">
+</Property><Property Name="Solution File" Value="C:\projects\Jedi_Academy_SDK(MP)\codemp\JKA_mp(SDK).sln">
+</Property><Property Name="Date" Value="Sunday, December 20, 2009">
+</Property><Property Name="Time" Value="22:48 PM">
+</Property><Property Name="Log Number" Value="3">
+</Property></Properties><Event ErrorLevel="0" Project="JK2_game" Source="game\JK2_game.vcproj" Description="Converting project file 'C:\projects\Jedi_Academy_SDK(MP)\codemp\game\JK2_game.vcproj'.">
+</Event><Event ErrorLevel="1" Project="JK2_game" Source="game\JK2_game.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="JK2_game" Source="game\JK2_game.vcproj" Description="VCConvertEngine could not convert attribute UseUnicodeResponseFiles = false under Tool VCCLCompilerTool.">
+</Event><Event ErrorLevel="1" Project="JK2_game" Source="game\JK2_game.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="JK2_game" Source="game\JK2_game.vcproj" Description="Done converting to new project file 'C:\projects\Jedi_Academy_SDK(MP)\codemp\game\JK2_game.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="JK2_game" Source="game\JK2_game.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="botlib" Source="botlib\botlib.vcproj" Description="Converting project file 'C:\projects\Jedi_Academy_SDK(MP)\codemp\botlib\botlib.vcproj'.">
+</Event><Event ErrorLevel="1" Project="botlib" Source="botlib\botlib.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="botlib" Source="botlib\botlib.vcproj" Description="Done converting to new project file 'C:\projects\Jedi_Academy_SDK(MP)\codemp\botlib\botlib.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="botlib" Source="botlib\botlib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ui" Source="ui\ui.vcproj" Description="Converting project file 'C:\projects\Jedi_Academy_SDK(MP)\codemp\ui\ui.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ui" Source="ui\ui.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ui" Source="ui\ui.vcproj" Description="Done converting to new project file 'C:\projects\Jedi_Academy_SDK(MP)\codemp\ui\ui.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ui" Source="ui\ui.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="JK2_cgame" Source="cgame\JK2_cgame.vcproj" Description="Converting project file 'C:\projects\Jedi_Academy_SDK(MP)\codemp\cgame\JK2_cgame.vcproj'.">
+</Event><Event ErrorLevel="1" Project="JK2_cgame" Source="cgame\JK2_cgame.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="JK2_cgame" Source="cgame\JK2_cgame.vcproj" Description="Done converting to new project file 'C:\projects\Jedi_Academy_SDK(MP)\codemp\cgame\JK2_cgame.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="JK2_cgame" Source="cgame\JK2_cgame.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="JKA_mp(SDK).sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="JKA_mp(SDK).sln" Description="Converted">
+</Event></UpgradeLog>
